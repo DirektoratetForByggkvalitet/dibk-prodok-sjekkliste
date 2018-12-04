@@ -7,14 +7,14 @@
 		{
 			"id": "prodok",
 			"type": "Page",
-			"heading": "prodok",
-			"lead": "Her kommer det en intro",
+			"heading": "Steg 1",
+			"lead": "Work in progress...",
 			"children": [
 				{
-					"id": "prodok.test",
-					"property": "apekatt",
+					"id": "test",
+					"property": "test",
+					"heading": "Spørsmål",
 					"type": "Input",
-					"heading": "prodok.test",
 					"text": "Testinnhold"
 				}
 			]
