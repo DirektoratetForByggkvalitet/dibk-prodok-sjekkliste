@@ -1,0 +1,23 @@
+{
+	"meta": {
+		"title": "Produktdokumentasjon",
+		"name": "produktdokumentasjon"
+	},
+	"schema": [
+		{
+			"id": "prodok",
+			"type": "Page",
+			"heading": "prodok",
+			"lead": "Her kommer det en intro",
+			"children": [
+				{
+					"id": "prodok.test",
+					"property": "apekatt",
+					"type": "Input",
+					"heading": "prodok.test",
+					"text": "Testinnhold"
+				}
+			]
+		}
+	]
+}
