@@ -35,7 +35,6 @@
         { "field": "produktType", "operator": "eq", "value": "styrkesortertKonstruksjonsvirke" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikerteStalkonstruksjoner" },
         { "field": "produktType", "operator": "eq", "value": "hulldekkeelementer" },
-        { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
         { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" }
       ]
     },
@@ -46,7 +45,8 @@
         { "field": "produktType", "operator": "eq", "value": "vindsperre" },
         { "field": "produktType", "operator": "eq", "value": "takbelegg" },
         { "field": "produktType", "operator": "eq", "value": "sandwichelementer" },
-        { "field": "produktType", "operator": "eq", "value": "pahengsfasader" }
+        { "field": "produktType", "operator": "eq", "value": "pahengsfasader" },
+        { "field": "produktType", "operator": "eq", "value": "laminertGlass" }
       ]
     },
     "iSystem4": {
@@ -278,7 +278,7 @@
               "heading": "Annet / vet ikke",
               "value": "annet",
               "image": {
-                "url": "/images/vindu_ce.png",
+                "url": "#",
                 "alt": "Annet / vet ikke"
               }
             }
@@ -286,17 +286,25 @@
         }
       ]
     },
+
     {
       "id": "byggevareOgProdukter",
       "type": "Page",
       "heading": "Er produktet en byggevare?",
-      "show": { "field": "produktType", "operator": "eq", "value": "annet" },
+      "show": {
+        "type": "or",
+        "clauses": [
+          { "field": "produktType", "operator": "eq", "value": "annet" },
+          { "field": "$computed.ceValgfri", "operator": "eq", "value": true }
+        ]
+      },
       "children": [
         {
           "id": "isProductByggevare",
           "property": "isProductByggevare",
           "type": "Radio",
           "heading": "Er produktet en byggevare?",
+          "hide": { "field": "$computed.ceValgfri", "operator": "eq", "value": true },
           "options": [
             {
               "id": "isProductByggevare.ja",
@@ -355,7 +363,7 @@
                   "property": "grunnleggendeEgenskaper",
                   "type": "Radio",
                   "heading": "Påvirker produktet byggverkets grunnleggende egenskaper?",
-                  "show": {"field": "varigDelAvByggverk", "operator": "required"},
+                  "show": { "field": "varigDelAvByggverk", "operator": "required" },
                   "options": [
                     {
                       "id": "grunnleggendeEgenskaper.ja",
@@ -437,7 +445,13 @@
           "property": "frivilligCE",
           "type": "Radio",
           "heading": "Er produktet frivillig CE-merket? Har produktet en ETA?",
-          "show": { "field": "dekketAvProduktStandard", "operator": "eq", "value": "nei" },
+          "show": {
+            "type": "or",
+            "clauses": [
+              { "field": "dekketAvProduktStandard", "operator": "eq", "value": "nei" },
+              { "field": "$computed.ceValgfri", "operator": "eq", "value": true }
+            ]
+          },
           "options": [
             {
               "id": "frivilligCE.ja",
@@ -514,31 +528,56 @@
               "id": "hvilketSystemDokumentasjon.1plus",
               "type": "Answer",
               "heading": "System 1+",
-              "value": "1plus"
+              "value": "1plus",
+              "disabled": {
+                "field": "$computed.iSystem1Plus",
+                "operator": "neq",
+                "value": true
+              }
             },
             {
               "id": "hvilketSystemDokumentasjon.1",
               "type": "Answer",
               "heading": "System 1",
-              "value": "1"
+              "value": "1",
+              "disabled": {
+                "field": "$computed.iSystem1",
+                "operator": "neq",
+                "value": true
+              }
             },
             {
               "id": "hvilketSystemDokumentasjon.2plus",
               "type": "Answer",
               "heading": "System 2+",
-              "value": "2plus"
+              "value": "2plus",
+              "disabled": {
+                "field": "$computed.iSystem2Plus",
+                "operator": "neq",
+                "value": true
+              }
             },
             {
               "id": "hvilketSystemDokumentasjon.3",
               "type": "Answer",
               "heading": "System 3",
-              "value": "3"
+              "value": "3",
+              "disabled": {
+                "field": "$computed.iSystem3",
+                "operator": "neq",
+                "value": true
+              }
             },
             {
               "id": "hvilketSystemDokumentasjon.4",
               "type": "Answer",
               "heading": "System 4",
-              "value": "4"
+              "value": "4",
+              "disabled": {
+                "field": "$computed.iSystem4",
+                "operator": "neq",
+                "value": true
+              }
             }
           ]
         },
@@ -619,7 +658,8 @@
             "type": "and",
             "clauses": [
               { "field": "produktType", "operator": "required" },
-              { "field": "produktType", "operator": "neq", "value": "annet" }
+              { "field": "produktType", "operator": "neq", "value": "annet" },
+              { "field": "$computed.ceValgfri", "operator": "neq", "value": true }
             ]
           }
         ]
@@ -677,31 +717,56 @@
               "id": "hvilketSystem.1plus",
               "type": "Answer",
               "heading": "System 1+",
-              "value": "1plus"
+              "value": "1plus",
+              "disabled": {
+                "field": "$computed.iSystem1Plus",
+                "operator": "eq",
+                "value": true
+              }
             },
             {
               "id": "hvilketSystem.1",
               "type": "Answer",
               "heading": "System 1",
-              "value": "1"
+              "value": "1",
+              "disabled": {
+                "field": "$computed.iSystem1",
+                "operator": "eq",
+                "value": true
+              }
             },
             {
               "id": "hvilketSystem.2plus",
               "type": "Answer",
               "heading": "System 2+",
-              "value": "2plus"
+              "value": "2plus",
+              "disabled": {
+                "field": "$computed.iSystem2Plus",
+                "operator": "eq",
+                "value": true
+              }
             },
             {
               "id": "hvilketSystem.3",
               "type": "Answer",
               "heading": "System 3",
-              "value": "3"
+              "value": "3",
+              "disabled": {
+                "field": "$computed.iSystem3",
+                "operator": "eq",
+                "value": true
+              }
             },
             {
               "id": "hvilketSystem.4",
               "type": "Answer",
               "heading": "System 4",
-              "value": "4"
+              "value": "4",
+              "disabled": {
+                "field": "$computed.iSystem4",
+                "operator": "eq",
+                "value": true
+              }
             }
           ]
         },
@@ -792,6 +857,7 @@
         }
       ]
     },
+
     {
       "id": "CE",
       "type": "Page",
@@ -890,6 +956,7 @@
         }
       ]
     },
+
     {
       "id": "bruksanvisning",
       "type": "Page",
