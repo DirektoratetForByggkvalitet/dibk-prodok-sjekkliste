@@ -1,23 +1,963 @@
 {
-	"meta": {
-		"title": "Produktdokumentasjon",
-		"name": "produktdokumentasjon"
-	},
-	"schema": [
-		{
-			"id": "prodok",
-			"type": "Page",
-			"heading": "Steg 1",
-			"lead": "Work in progress...",
-			"children": [
-				{
-					"id": "test",
-					"property": "test",
-					"heading": "Spørsmål",
-					"type": "Input",
-					"text": "Testinnhold"
-				}
-			]
-		}
-	]
+  "meta": {
+    "title": "Produktdokumentasjon",
+    "name": "produktdokumentasjon"
+  },
+  "computed": {
+    "ceValgfri": {
+      "type": "or",
+      "clauses": [
+        { "field": "produktType", "operator": "eq", "value": "radonmembran" },
+        { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikertBaderomsmodul" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerTre" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerStal" },
+        { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikertTrapp" }
+      ]
+    },
+    "iSystem1": {
+      "type": "or",
+      "clauses": [
+        { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
+        { "field": "produktType", "operator": "eq", "value": "laminertGlass" },
+        { "field": "produktType", "operator": "eq", "value": "radonmembran" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikertBaderomsmodul" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerTre" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerStal" }
+      ]
+    },
+    "iSystem2Plus": {
+      "type": "or",
+      "clauses": [
+        { "field": "produktType", "operator": "eq", "value": "veggelement" },
+        { "field": "produktType", "operator": "eq", "value": "takstoler" },
+        { "field": "produktType", "operator": "eq", "value": "styrkesortertKonstruksjonsvirke" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikerteStalkonstruksjoner" },
+        { "field": "produktType", "operator": "eq", "value": "hulldekkeelementer" },
+        { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
+        { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" }
+      ]
+    },
+    "iSystem3": {
+      "type": "or",
+      "clauses": [
+        { "field": "produktType", "operator": "eq", "value": "vindu" },
+        { "field": "produktType", "operator": "eq", "value": "vindsperre" },
+        { "field": "produktType", "operator": "eq", "value": "takbelegg" },
+        { "field": "produktType", "operator": "eq", "value": "sandwichelementer" },
+        { "field": "produktType", "operator": "eq", "value": "pahengsfasader" }
+      ]
+    },
+    "iSystem4": {
+      "type": "or",
+      "clauses": [
+        { "field": "produktType", "operator": "eq", "value": "fasadekledningMetall" },
+        { "field": "produktType", "operator": "eq", "value": "ror" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikertTrapp" }
+      ]
+    }
+  },
+  "schema": [
+    {
+      "id": "produkt",
+      "type": "Page",
+      "heading": "Produkt",
+      "children": [
+        {
+          "id": "produktType",
+          "property": "produktType",
+          "type": "Radio",
+          "grid": true,
+          "heading": "Hvilket produkt skal du føre tilsyn med?",
+          "text": "<p></p>",
+          "options": [
+            {
+              "id": "produktType.brannsikkerFugemasse",
+              "type": "Answer",
+              "heading": "Brannsikker fugemasse",
+              "value": "brannsikkerFugemasse",
+              "image": {
+                "url": "/images/brannfugemasse.png",
+                "alt": "Brannsikker fugemasse"
+              }
+            },
+            {
+              "id": "produktType.hulldekkeelementer",
+              "type": "Answer",
+              "heading": "Hulldekke-elementer",
+              "value": "hulldekkeelementer",
+              "image": {
+                "url": "/images/hulldekkemodul_ce.png",
+                "alt": "Hulldekke-element med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.laminertGlass",
+              "type": "Answer",
+              "heading": "Laminert glass",
+              "value": "laminertGlass",
+              "image": {
+                "url": "/images/laminert_glass_ce.png",
+                "alt": "Laminert glass med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.prefabrikertBaderomsmodul",
+              "type": "Answer",
+              "heading": "Prefabrikert baderomsmodul",
+              "value": "prefabrikertBaderomsmodul",
+              "image": {
+                "url": "/images/baderomsmodul.png",
+                "alt": "Baderomsmodul"
+              }
+            },
+            {
+              "id": "produktType.prefabrikertTrapp",
+              "type": "Answer",
+              "heading": "Prefabrikert trapp",
+              "value": "prefabrikertTrapp",
+              "image": {
+                "url": "/images/trapp.png",
+                "alt": "Trapp"
+              }
+            },
+            {
+              "id": "produktType.prefabrikerteByggmodulerTre",
+              "type": "Answer",
+              "heading": "Prefabrikerte byggmoduler i tre",
+              "value": "prefabrikerteByggmodulerTre",
+              "image": {
+                "url": "/images/prefabrikert_tre.png",
+                "alt": "Prefabrikert byggemodul i tre"
+              }
+            },
+            {
+              "id": "produktType.prefabrikerteStalkonstruksjoner",
+              "type": "Answer",
+              "heading": "Prefabrikerte stålkonstruksjoner",
+              "value": "prefabrikerteStalkonstruksjoner",
+              "image": {
+                "url": "/images/prefab_staalkonstruksjon_ce.png",
+                "alt": "Prefabrikert stålkonstruksjon med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.prefabrikerteByggmodulerStal",
+              "type": "Answer",
+              "heading": "Prefabrikerte byggmoduler i stål",
+              "value": "prefabrikerteByggmodulerStal",
+              "image": {
+                "url": "/images/prefabrikert_staal.png",
+                "alt": "Prefabrikert byggemodul i stål"
+              }
+            },
+            {
+              "id": "produktType.pahengsfasader",
+              "type": "Answer",
+              "heading": "Påhengsfasader",
+              "value": "pahengsfasader",
+              "image": {
+                "url": "/images/paahengsfasade_ce.png",
+                "alt": "Påhengsfasade med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.radonmembran",
+              "type": "Answer",
+              "heading": "Radonmembran",
+              "value": "radonmembran",
+              "image": {
+                "url": "/images/radonmembran.png",
+                "alt": "Radonmembran"
+              }
+            },
+            {
+              "id": "produktType.rekkverkAluStalGlass",
+              "type": "Answer",
+              "heading": "Rekkverk",
+              "value": "rekkverkAluStalGlass",
+              "image": {
+                "url": "/images/rekkverk.png",
+                "alt": "Rekkverk"
+              }
+            },
+            {
+              "id": "produktType.ror",
+              "type": "Answer",
+              "heading": "Rør og rørdeler i betong",
+              "value": "ror",
+              "image": {
+                "url": "/images/fibersementroer_ce.png",
+                "alt": "Rør med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.sandwichelementer",
+              "type": "Answer",
+              "heading": "Sandwichelementer",
+              "value": "sandwichelementer",
+              "image": {
+                "url": "/images/sandwhichpaneler_ce.png",
+                "alt": "Sandwichelement med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.styrkesortertKonstruksjonsvirke",
+              "type": "Answer",
+              "heading": "Styrkesortert konstruksjonsvirke",
+              "value": "styrkesortertKonstruksjonsvirke",
+              "image": {
+                "url": "/images/konstruksjonsvirke_ce.png",
+                "alt": "Konstruksjonsvirke med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.takbelegg",
+              "type": "Answer",
+              "heading": "Takbelegg med asfalt",
+              "value": "takbelegg",
+              "image": {
+                "url": "/images/takbelegg_bitumen_ce.png",
+                "alt": "Takbelegg med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.takstoler",
+              "type": "Answer",
+              "heading": "Takstoler",
+              "value": "takstoler",
+              "image": {
+                "url": "/images/takstoler_ce.png",
+                "alt": "Takstol med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.fasadekledningMetall",
+              "type": "Answer",
+              "heading": "Utvendig fasadekledning i metall",
+              "value": "fasadekledningMetall",
+              "image": {
+                "url": "/images/fasadekledning_metall_ce.png",
+                "alt": "Fasadekledning i metall med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.veggelement",
+              "type": "Answer",
+              "heading": "Veggelementer i betong",
+              "value": "veggelement",
+              "image": {
+                "url": "/images/veggelementer_betong_ce.png",
+                "alt": "Veggelementer i betong med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.vindsperre",
+              "type": "Answer",
+              "heading": "Vindsperre på rull",
+              "value": "vindsperre",
+              "image": {
+                "url": "/images/vindsperre_ce.png",
+                "alt": "Vindsperre med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.vindu",
+              "type": "Answer",
+              "heading": "Vindu",
+              "value": "vindu",
+              "image": {
+                "url": "/images/vindu_ce.png",
+                "alt": "Vindu med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.annet",
+              "type": "Answer",
+              "heading": "Annet / vet ikke",
+              "value": "annet",
+              "image": {
+                "url": "/images/vindu_ce.png",
+                "alt": "Annet / vet ikke"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "byggevareOgProdukter",
+      "type": "Page",
+      "heading": "Er produktet en byggevare?",
+      "show": { "field": "produktType", "operator": "eq", "value": "annet" },
+      "children": [
+        {
+          "id": "isProductByggevare",
+          "property": "isProductByggevare",
+          "type": "Radio",
+          "heading": "Er produktet en byggevare?",
+          "options": [
+            {
+              "id": "isProductByggevare.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": "ja"
+            },
+            {
+              "id": "isProductByggevare.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": "nei"
+            },
+            {
+              "id": "isProductByggevare.usikker",
+              "type": "Answer",
+              "heading": "Usikker",
+              "value": "usikker"
+            }
+          ]
+        },
+        {
+          "id": "ikkeProdukt",
+          "type": "Result",
+          "heading": "Dette er ikke et produkt",
+          "show": { "field": "isProductByggevare", "operator": "eq", "value": "nei" }
+        },
+        {
+          "type": "Branch",
+          "branches": [
+            {
+              "test": { "field": "isProductByggevare", "operator": "eq", "value": "usikker" },
+              "children": [
+                {
+                  "id": "varigDelAvByggverk",
+                  "property": "varigDelAvByggverk",
+                  "type": "Radio",
+                  "heading": "Bygges produktet inn som en varig del av et byggverk?",
+                  "options": [
+                    {
+                      "id": "varigDelAvByggverk.ja",
+                      "type": "Answer",
+                      "heading": "Ja",
+                      "value": true
+                    },
+                    {
+                      "id": "varigDelAvByggverk.nei",
+                      "type": "Answer",
+                      "heading": "Nei",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "id": "grunnleggendeEgenskaper",
+                  "property": "grunnleggendeEgenskaper",
+                  "type": "Radio",
+                  "heading": "Påvirker produktet byggverkets grunnleggende egenskaper?",
+                  "show": {"field": "varigDelAvByggverk", "operator": "required"},
+                  "options": [
+                    {
+                      "id": "grunnleggendeEgenskaper.ja",
+                      "type": "Answer",
+                      "heading": "Ja",
+                      "value": true
+                    },
+                    {
+                      "id": "grunnleggendeEgenskaper.nei",
+                      "type": "Answer",
+                      "heading": "Nei",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "id": "hellerIkkeProdukt",
+                  "type": "Result",
+                  "heading": "Dette er heller ikke et produkt",
+                  "show": {
+                    "type": "or",
+                    "clauses": [
+                      { "field": "varigDelAvByggverk", "operator": "eq", "value": false },
+                      { "field": "grunnleggendeEgenskaper", "operator": "eq", "value": false }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dekketAvProduktStandard",
+          "property": "dekketAvProduktStandard",
+          "type": "Radio",
+          "heading": "Er produktet dekket av en harmoniserende produktstandard?",
+          "show": {
+            "type": "or",
+            "clauses": [
+              { "field": "isProductByggevare", "operator": "eq", "value": "ja" },
+              {
+                "type": "and",
+                "clauses": [
+                  { "field": "varigDelAvByggverk", "operator": "eq", "value": true },
+                  { "field": "grunnleggendeEgenskaper", "operator": "eq", "value": true }
+                ]
+              }
+            ]
+          },
+          "options": [
+            {
+              "id": "dekketAvProduktStandard.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": "ja"
+            },
+            {
+              "id": "dekketAvProduktStandard.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": "nei"
+            },
+            {
+              "id": "dekketAvProduktStandard.usikker",
+              "type": "Answer",
+              "heading": "Usikker",
+              "value": "usikker"
+            }
+          ]
+        },
+        {
+          "id": "usikkerProduktStandard",
+          "type": "Result",
+          "heading": "Dette må du finne ut av",
+          "show": { "field": "dekketAvProduktStandard", "operator": "eq", "value": "usikker" }
+        },
+        {
+          "id": "frivilligCE",
+          "property": "frivilligCE",
+          "type": "Radio",
+          "heading": "Er produktet frivillig CE-merket? Har produktet en ETA?",
+          "show": { "field": "dekketAvProduktStandard", "operator": "eq", "value": "nei" },
+          "options": [
+            {
+              "id": "frivilligCE.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "frivilligCE.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "dokumentasjon",
+      "type": "Page",
+      "heading": "Dokumentasjon",
+      "show": { "field": "frivilligCE", "operator": "eq", "value": false },
+      "children": [
+        {
+          "id": "hasDokumentasjon",
+          "property": "hasDokumentasjon",
+          "type": "Radio",
+          "heading": "Har produktet dokumentasjon?",
+          "options": [
+            {
+              "id": "hasDokumentasjon.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "hasDokumentasjon.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "dokumentasjonSpraak",
+          "property": "dokumentasjonSpraak",
+          "type": "Radio",
+          "heading": "Er dokumentasjonen på norsk, svensk eller dansk?",
+          "show": { "field": "hasDokumentasjon", "operator": "eq", "value": true },
+          "options": [
+            {
+              "id": "dokumentasjonSpraak.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "dokumentasjonSpraak.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "hvilketSystemDokumentasjon",
+          "property": "hvilketSystemDokumentasjon",
+          "type": "Radio",
+          "heading": "Hvilket system gjelder for produktet?",
+          "show": { "field": "dokumentasjonSpraak", "operator": "required" },
+          "options": [
+            {
+              "id": "hvilketSystemDokumentasjon.1plus",
+              "type": "Answer",
+              "heading": "System 1+",
+              "value": "1plus"
+            },
+            {
+              "id": "hvilketSystemDokumentasjon.1",
+              "type": "Answer",
+              "heading": "System 1",
+              "value": "1"
+            },
+            {
+              "id": "hvilketSystemDokumentasjon.2plus",
+              "type": "Answer",
+              "heading": "System 2+",
+              "value": "2plus"
+            },
+            {
+              "id": "hvilketSystemDokumentasjon.3",
+              "type": "Answer",
+              "heading": "System 3",
+              "value": "3"
+            },
+            {
+              "id": "hvilketSystemDokumentasjon.4",
+              "type": "Answer",
+              "heading": "System 4",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "id": "sjekklisteDokumentasjon",
+          "property": "sjekklisteDokumentasjon",
+          "type": "Checkbox",
+          "heading": "Sjekkliste for innholdet",
+          "show": { "field": "hvilketSystemDokumentasjon", "operator": "required" },
+          "options": [
+            {
+              "id": "sjekklisteDokumentasjon.1",
+              "type": "Answer",
+              "heading": "Navn på produsent og navn på eventuell importør",
+              "value": "1"
+            },
+            {
+              "id": "sjekklisteDokumentasjon.2",
+              "type": "Answer",
+              "heading": "Produsentens kontaktdetaljer og kontaktdetaljer til eventuell importør",
+              "value": "2"
+            },
+            {
+              "id": "sjekklisteDokumentasjon.3",
+              "type": "Answer",
+              "heading": "Hvilke tekniske spesifikasjoner som er lagt til grunn",
+              "value": "3"
+            },
+            {
+              "id": "sjekklisteDokumentasjon.4",
+              "type": "Answer",
+              "heading": "System for produktet",
+              "value": "4"
+            },
+            {
+              "show": { "field": "hvilketSystemDokumentasjon", "operator": "neq", "value": "4" },
+              "id": "sjekklisteDokumentasjon.5",
+              "type": "Answer",
+              "heading": "Navnet på uavhengig tredjepartorgan",
+              "value": "5"
+            }
+          ]
+        },
+        {
+          "id": "egenskaperBeskrevetDokumentasjon",
+          "property": "egenskaperBeskrevetDokumentasjon",
+          "type": "Radio",
+          "heading": "Er de viktigste egenskapene beskrevet i erklæringen?",
+          "show": { "field": "hvilketSystemDokumentasjon", "operator": "required" },
+          "options": [
+            {
+              "id": "egenskaperBeskrevetDokumentasjon.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "egenskaperBeskrevetDokumentasjon.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "ytelseserklæring",
+      "type": "Page",
+      "heading": "Ytelsesærklæring",
+      "show": {
+        "type": "or",
+        "clauses": [
+          { "field": "dekketAvProduktStandard", "operator": "eq", "value": "ja" },
+          { "field": "frivilligCE", "operator": "eq", "value": true },
+          {
+            "type": "and",
+            "clauses": [
+              { "field": "produktType", "operator": "required" },
+              { "field": "produktType", "operator": "neq", "value": "annet" }
+            ]
+          }
+        ]
+      },
+      "children": [
+        {
+          "id": "hasYtelseserklaering",
+          "property": "hasYtelseserklaering",
+          "type": "Radio",
+          "heading": "Har produktet en ytelsesærklæring?",
+          "options": [
+            {
+              "id": "hasYtelseserklaering.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "hasYtelseserklaering.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "ytelseserklaeringSpraak",
+          "property": "ytelseserklaeringSpraak",
+          "type": "Radio",
+          "heading": "Er ytelseserklæringen på norsk, svensk eller dansk?",
+          "show": { "field": "hasYtelseserklaering", "operator": "eq", "value": true },
+          "options": [
+            {
+              "id": "ytelseserklaeringSpraak.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "ytelseserklaeringSpraak.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "hvilketSystem",
+          "property": "hvilketSystem",
+          "type": "Radio",
+          "heading": "Hvilket system gjelder for produktet?",
+          "show": { "field": "ytelseserklaeringSpraak", "operator": "required" },
+          "options": [
+            {
+              "id": "hvilketSystem.1plus",
+              "type": "Answer",
+              "heading": "System 1+",
+              "value": "1plus"
+            },
+            {
+              "id": "hvilketSystem.1",
+              "type": "Answer",
+              "heading": "System 1",
+              "value": "1"
+            },
+            {
+              "id": "hvilketSystem.2plus",
+              "type": "Answer",
+              "heading": "System 2+",
+              "value": "2plus"
+            },
+            {
+              "id": "hvilketSystem.3",
+              "type": "Answer",
+              "heading": "System 3",
+              "value": "3"
+            },
+            {
+              "id": "hvilketSystem.4",
+              "type": "Answer",
+              "heading": "System 4",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "id": "sjekklisteForInnholdet",
+          "property": "sjekklisteForInnholdet",
+          "type": "Checkbox",
+          "heading": "Sjekkliste for innholdet",
+          "show": { "field": "hvilketSystem", "operator": "required" },
+          "options": [
+            {
+              "id": "sjekklisteForInnholdet.1",
+              "type": "Answer",
+              "heading": "Produkttype",
+              "value": "1"
+            },
+            {
+              "id": "sjekklisteForInnholdet.2",
+              "type": "Answer",
+              "heading": "Vareidentifikasjon (type-, parti-, eller serienummer)",
+              "value": "2"
+            },
+            {
+              "id": "sjekklisteForInnholdet.3",
+              "type": "Answer",
+              "heading": "Tiltenkt bruk av byggevaren",
+              "value": "3"
+            },
+            {
+              "id": "sjekklisteForInnholdet.4",
+              "type": "Answer",
+              "heading": "Navn og adresse til produsent",
+              "value": "4"
+            },
+            {
+              "id": "sjekklisteForInnholdet.5",
+              "type": "Answer",
+              "heading": "Hvilket system for vurdering og verifikasjon av byggevarens ytelser som er valgt",
+              "value": "5"
+            },
+            {
+              "show": { "field": "hvilketSystem", "operator": "neq", "value": "4" },
+              "id": "sjekklisteForInnholdet.6",
+              "type": "Answer",
+              "heading": "Nummer til det tekniske kontrollorganet",
+              "value": "6"
+            },
+            {
+              "id": "sjekklisteForInnholdet.7",
+              "type": "Answer",
+              "heading": "Henvisningen til den relevante harmoniserte produktstandarden",
+              "value": "7"
+            },
+            {
+              "id": "sjekklisteForInnholdet.8",
+              "type": "Answer",
+              "heading": "Byggevarens ytelser",
+              "value": "8"
+            },
+            {
+              "id": "sjekklisteForInnholdet.9",
+              "type": "Answer",
+              "heading": "Underskrift av produsenten eller dennes representant",
+              "value": "9"
+            }
+          ]
+        },
+        {
+          "id": "egenskaperBeskrevet",
+          "property": "egenskaperBeskrevet",
+          "type": "Radio",
+          "heading": "Er de viktigste egenskapene beskrevet i erklæringen?",
+          "show": { "field": "hvilketSystem", "operator": "required" },
+          "options": [
+            {
+              "id": "egenskaperBeskrevet.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "egenskaperBeskrevet.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CE",
+      "type": "Page",
+      "heading": "CE-merke",
+      "show": {
+        "type": "or",
+        "clauses": [
+          { "field": "egenskaperBeskrevet", "operator": "required" },
+          { "field": "hasYtelseserklaering", "operator": "eq", "value": false }
+        ]
+      },
+      "children": [
+        {
+          "id": "hasCE",
+          "property": "hasCE",
+          "type": "Radio",
+          "heading": "Har produktet CE-merke?",
+          "options": [
+            {
+              "id": "hasCE.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "hasCE.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "CEsjekkliste",
+          "property": "CEsjekkliste",
+          "type": "Checkbox",
+          "heading": "Sjekkliste for innholdet i CE-merket",
+          "show": { "field": "hasCE", "operator": "eq", "value": true },
+          "options": [
+            {
+              "id": "CEsjekkliste.1",
+              "type": "Answer",
+              "heading": "CE-merket",
+              "value": "1"
+            },
+            {
+              "show": { "field": "hvilketSystem", "operator": "neq", "value": "4" },
+              "id": "CEsjekkliste.2",
+              "type": "Answer",
+              "heading": "Identifikasjonsnummer til det tekniske kontrollorganet",
+              "value": "2"
+            },
+            {
+              "id": "CEsjekkliste.3",
+              "type": "Answer",
+              "heading": "Produsentens navn og adresse",
+              "value": "3"
+            },
+            {
+              "id": "CEsjekkliste.4",
+              "type": "Answer",
+              "heading": "De to siste sifrene i årstallet CE-merkingen først ble gjort",
+              "value": "4"
+            },
+            {
+              "id": "CEsjekkliste.5",
+              "type": "Answer",
+              "heading": "Ytelseserklæringens referanser",
+              "value": "5"
+            },
+            {
+              "id": "CEsjekkliste.6",
+              "type": "Answer",
+              "heading": "Henvisning til den harmoniserte tekniske spesifikasjonen",
+              "value": "6"
+            },
+            {
+              "id": "CEsjekkliste.7",
+              "type": "Answer",
+              "heading": "Produktnavnet",
+              "value": "7"
+            },
+            {
+              "id": "CEsjekkliste.8",
+              "type": "Answer",
+              "heading": "Tilsiktet bruk som fastsatt i den harmoniserte tekniske spesifikasjonen",
+              "value": "8"
+            },
+            {
+              "id": "CEsjekkliste.9",
+              "type": "Answer",
+              "heading": "Byggevarens vesentlige egenskaper",
+              "value": "9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bruksanvisning",
+      "type": "Page",
+      "heading": "Bruksanvisning",
+      "show": {
+        "type": "or",
+        "clauses": [
+          { "field": "egenskaperBeskrevet", "operator": "required" },
+          { "field": "hasCE", "operator": "required" },
+          { "field": "egenskaperBeskrevetDokumentasjon", "operator": "required" },
+          { "field": "hasDokumentasjon", "operator": "eq", "value": false }
+        ]
+      },
+      "children": [
+        {
+          "id": "hasBruksanvisning",
+          "property": "hasBruksanvisning",
+          "type": "Radio",
+          "heading": "Har produktet en bruksanvisning?",
+          "options": [
+            {
+              "id": "hasBruksanvisning.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "hasBruksanvisning.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "bruksanvisningSpraak",
+          "property": "bruksanvisningSpraak",
+          "type": "Radio",
+          "heading": "Er bruksanvisningen på norsk, svensk eller dansk?",
+          "show": { "field": "hasBruksanvisning", "operator": "eq", "value": true },
+          "options": [
+            {
+              "id": "bruksanvisningSpraak.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "bruksanvisningSpraak.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "ferdigBruksanvisning",
+          "type": "Result",
+          "heading": "Ferdig",
+          "show": {
+            "type": "or",
+            "clauses": [
+              { "field": "hasBruksanvisning", "operator": "eq", "value": false },
+              { "field": "bruksanvisningSpraak", "operator": "required" }
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }
