@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Produktdokumentasjon",
+    "title": "Tilsyn med produktdokumentasjon",
     "name": "produktdokumentasjon"
   },
   "computed": {
@@ -16,6 +16,10 @@
         { "field": "produktType", "operator": "eq", "value": "prefabrikertTrapp" }
       ]
     },
+    "iSystem1Plus": {
+      "type": "or",
+      "clauses": [{ "field": "produktType", "operator": "eq", "value": "annet" }]
+    },
     "iSystem1": {
       "type": "or",
       "clauses": [
@@ -24,7 +28,8 @@
         { "field": "produktType", "operator": "eq", "value": "radonmembran" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikertBaderomsmodul" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerTre" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerStal" }
+        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerStal" },
+        { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
     "iSystem2Plus": {
@@ -35,7 +40,8 @@
         { "field": "produktType", "operator": "eq", "value": "styrkesortertKonstruksjonsvirke" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikerteStalkonstruksjoner" },
         { "field": "produktType", "operator": "eq", "value": "hulldekkeelementer" },
-        { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" }
+        { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
+        { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
     "iSystem3": {
@@ -46,7 +52,8 @@
         { "field": "produktType", "operator": "eq", "value": "takbelegg" },
         { "field": "produktType", "operator": "eq", "value": "sandwichelementer" },
         { "field": "produktType", "operator": "eq", "value": "pahengsfasader" },
-        { "field": "produktType", "operator": "eq", "value": "laminertGlass" }
+        { "field": "produktType", "operator": "eq", "value": "laminertGlass" },
+        { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
     "iSystem4": {
@@ -54,7 +61,8 @@
       "clauses": [
         { "field": "produktType", "operator": "eq", "value": "fasadekledningMetall" },
         { "field": "produktType", "operator": "eq", "value": "ror" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikertTrapp" }
+        { "field": "produktType", "operator": "eq", "value": "prefabrikertTrapp" },
+        { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     }
   },
@@ -62,7 +70,7 @@
     {
       "id": "produkt",
       "type": "Page",
-      "heading": "Produkt",
+      "heading": "Produktvelger",
       "children": [
         {
           "id": "produktType",
@@ -304,6 +312,7 @@
           "property": "isProductByggevare",
           "type": "Radio",
           "heading": "Er produktet en byggevare?",
+          "text": "<p>Byggevarer omfatter de aller fleste varer som skal bygges inn i bygninger og anlegg. Det kan være alt fra trevirke, betong, stål og isolasjonsprodukter til bjelker, dører, vinduer og VVS-produkter. Byggesett, som byggmoduler og prefabrikkerte våtrom, er også byggevarer. </p>",
           "hide": { "field": "$computed.ceValgfri", "operator": "eq", "value": true },
           "options": [
             {
@@ -342,7 +351,8 @@
                   "id": "varigDelAvByggverk",
                   "property": "varigDelAvByggverk",
                   "type": "Radio",
-                  "heading": "Bygges produktet inn som en varig del av et byggverk?",
+                  "heading": "Skal produktet bygges varig inn i et byggverk?",
+                  "text": "<p>De aller fleste produkter som skal bygges inn i et byggverk er byggevarer. F.eks. listverk og kjøkkeninnredning anses ikke som byggevarer ettersom de ikke bygges permanent inn i et byggverk. Det at produktet kan skiftes ut, f.eks. vinduer og dører, innebærer ikke at det ikke er en byggevare.</p>",
                   "options": [
                     {
                       "id": "varigDelAvByggverk.ja",
@@ -362,8 +372,9 @@
                   "id": "grunnleggendeEgenskaper",
                   "property": "grunnleggendeEgenskaper",
                   "type": "Radio",
-                  "heading": "Påvirker produktet byggverkets grunnleggende egenskaper?",
+                  "heading": "Påvirker produktet byggkvaliteten?",
                   "show": { "field": "varigDelAvByggverk", "operator": "required" },
+                  "text": "<p>Hvis produktet har en vesentlig funksjon i byggverket, er det en byggevare. Produktet er mest sannsynlig en byggevare hvis det påvirker byggets:</p><ul><li>mekaniske motstandsevne og stabilitet</li><li>brannsikkerhet</li><li>hygiene, helse og miljø</li><li>sikkerhet og tilgjengelighet ved bruk</li><li>vern mot støy</li><li>energiøkonomisering og varmeisolering </li><li>bærekraftighet</li></ul><p>Maling som ikke har brannegenskaper er for eksempel ikke regnet som en byggevare ettersom det ikke påvirker kvaliteten på byggverket.</p>",
                   "options": [
                     {
                       "id": "grunnleggendeEgenskaper.ja",
@@ -399,7 +410,8 @@
           "id": "dekketAvProduktStandard",
           "property": "dekketAvProduktStandard",
           "type": "Radio",
-          "heading": "Er produktet dekket av en harmoniserende produktstandard?",
+          "heading": "Er produktet omfattet/dekket av en harmonisert produktstandard?",
+          "text": "<p>En produktstandard er en felles oppskrift på hvordan et produkt skal lages. En harmonisert produktstandard lages etter et mandat fra Europakommisjonen. Slike standarder er altså viktige for alle som ønsker å selge produktet sitt på det europeiske markedet. </p><p>For produsenter av byggevarer er det obligatorisk å følge denne hvis de omfattes av en harmonisert produktstandard. </p><h3>Finn riktig harmonisert produktstandard</h3><p>Det finnes ca. 500 harmoniserte produktstandarder for byggevarer. Her finner du <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.hs&cpr=Y' target='_blank'>liste over alle de harmoniserte standardene (EUs nettside Nando)</a>. Det står også når man kan starte å bruke standarden og når den må brukes.</p><h3>Bruk eller skaff deg standarden</h3><p><a href='http://www.standard.no/' target='_blank'>Du kan kjøpe en standard hos Standard Norge</a>. Se i omfanget (scope) til standarden for å vurdere om det konkrete produktet du lurer på er omfattet eller ikke. </p><p>Merk deg at Standard Norge ikke opplyser om hvilke standarder som er offisielle etter byggevareforordningen. På noen områder har ikke nye standarder blitt godkjent av Europakommisjonen. Det er da den gamle standarden som skal brukes frem til den nye standarden blir godkjent. Det er altså kun de standardene som står på EU-nettsiden som er de offisielle standardene.</p>",
           "show": {
             "type": "or",
             "clauses": [
@@ -425,26 +437,15 @@
               "type": "Answer",
               "heading": "Nei",
               "value": "nei"
-            },
-            {
-              "id": "dekketAvProduktStandard.usikker",
-              "type": "Answer",
-              "heading": "Usikker",
-              "value": "usikker"
             }
           ]
-        },
-        {
-          "id": "usikkerProduktStandard",
-          "type": "Result",
-          "heading": "Dette må du finne ut av",
-          "show": { "field": "dekketAvProduktStandard", "operator": "eq", "value": "usikker" }
         },
         {
           "id": "frivilligCE",
           "property": "frivilligCE",
           "type": "Radio",
-          "heading": "Er produktet frivillig CE-merket? Har produktet en ETA?",
+          "heading": "Har produktet en ETA?",
+          "text": "<p>Dette er helt frivillig. Fordelen er at produsenten fritt kan omsette sitt produkt i hele EU/EØS-området. </p><h3>Hvordan skaffer jeg en ETA?</h3><ol><li>En produsent spør et <a href='https://www.eota.eu/en-GB/content/how-to-find-a-tab/55/' target='_blank'>teknisk bedømmelsesorgan</a> om de kan lage en europeisk teknisk bedømmelse (ETA) for produktet sitt.</li><li>En ETA utarbeides på grunnlag av et eksisterende <a href='https://www.eota.eu/en-GB/content/eads/56/' target='_blank'>europeisk bedømmelsesdokument</a> (EAD). Om en EAD ikke finnes fra før av for dette produktet må det tekniske bedømmelsesorganet utarbeide en ny. </li><li>Ytelseserklæring utarbeides på bakgrunn av ETA’en. </li></ol>",
           "show": {
             "type": "or",
             "clauses": [
@@ -481,6 +482,7 @@
           "property": "hasDokumentasjon",
           "type": "Radio",
           "heading": "Har produktet dokumentasjon?",
+          "text": "<p>Produsenten skal lage og undertegne produktdokumentasjonen, og dermed ta ansvar for at produktet har de beskrevne egenskapene. Det er ingen spesielle krav til navnet på dokumentet eller hvilken rekkefølge informasjonen kommer. Det er imidlertid krav til hva dokumententasjonen skal innholdet.</p><p>Se mal for produktdokumentasjon HER.</p>",
           "options": [
             {
               "id": "hasDokumentasjon.ja",
@@ -493,6 +495,20 @@
               "type": "Answer",
               "heading": "Nei",
               "value": false
+            }
+          ]
+        },
+        {
+          "id": "hasDokumentasjon.error",
+          "type": "Error",
+          "show": { "field": "hasDokumentasjon", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "hasDokumentasjon.msg",
+              "type": "Text",
+              "warning": true,
+              "heading": "Produktet må ha produktdokumentasjon",
+              "text": "<p>Produsenten av byggevaren må utarbeide dokumentasjon for produktet. Importøren og distributøren av byggevaren må påse at produktet har dokumentasjon.</p>"
             }
           ]
         },
@@ -518,11 +534,25 @@
           ]
         },
         {
+          "id": "dokumentasjonSpraak.error",
+          "type": "Error",
+          "show": { "field": "dokumentasjonSpraak", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "dokumentasjonSpraak.msg",
+              "type": "Text",
+              "warning": true,
+              "heading": "Produktet må ha dokumentasjon på norsk, svensk eller dansk",
+              "text": "<p>Er produktdokumentasjonen ikke skrevet på norsk, svensk eller dansk, må du som produsent få den oversatt eller som importør eller distributør kreve å få den oversatt av produsenten.</p>"
+            }
+          ]
+        },
+        {
           "id": "hvilketSystemDokumentasjon",
           "property": "hvilketSystemDokumentasjon",
           "type": "Radio",
           "heading": "Hvilket system gjelder for produktet?",
-          "text": "<p>Husk at du er selv ansvarlig for at produktet oppfyller oppgavene i valgt system. <a href='https://dibk.no/byggeregler/dok/veiledning-til/7.-systemer-for-vurdering-og/' target='_blank'>Se oppgavene her</a> (åpnes i nytt vindu)</p>",
+          "text": "<p>Mange byggevarer har stor betydning for bygninger. Det kan derfor være nødvendig å underlegge de en viss form for kontroll fra en uavhengig tredjepart.</p><p>Fordi byggevarer har ulik betydning for byggverk har man kategorisert kontrollen i ulike systemer. Det finnes 5 ulike systemer som beskriver hvilke oppgaver produsenten har og hvilke oppgaver som skal gjennomføres av en tredjepart.</p>",
           "show": { "field": "dokumentasjonSpraak", "operator": "required" },
           "options": [
             {
@@ -532,7 +562,7 @@
               "value": "1plus",
               "disabled": {
                 "field": "$computed.iSystem1Plus",
-                "operator": "neq",
+                "operator": "eq",
                 "value": true
               }
             },
@@ -543,7 +573,7 @@
               "value": "1",
               "disabled": {
                 "field": "$computed.iSystem1",
-                "operator": "neq",
+                "operator": "eq",
                 "value": true
               }
             },
@@ -554,7 +584,7 @@
               "value": "2plus",
               "disabled": {
                 "field": "$computed.iSystem2Plus",
-                "operator": "neq",
+                "operator": "eq",
                 "value": true
               }
             },
@@ -565,7 +595,7 @@
               "value": "3",
               "disabled": {
                 "field": "$computed.iSystem3",
-                "operator": "neq",
+                "operator": "eq",
                 "value": true
               }
             },
@@ -576,7 +606,7 @@
               "value": "4",
               "disabled": {
                 "field": "$computed.iSystem4",
-                "operator": "neq",
+                "operator": "eq",
                 "value": true
               }
             }
@@ -604,7 +634,7 @@
             {
               "id": "sjekklisteDokumentasjon.3",
               "type": "Answer",
-              "heading": "Hvilke tekniske spesifikasjoner som er lagt til grunn",
+              "heading": "Hvilke tekniske spesifikasjoner som er lagt til grunn (denne godkjenningen eller standarden vil som regel være fra Norge eller et annet land i Europa)",
               "value": "3"
             },
             {
@@ -619,6 +649,12 @@
               "type": "Answer",
               "heading": "Navnet på uavhengig tredjepartorgan",
               "value": "5"
+            },
+            {
+              "id": "sjekklisteDokumentasjon.6",
+              "type": "Answer",
+              "heading": "Produktets egenskaper og ytelser",
+              "value": "6"
             }
           ]
         },
@@ -640,6 +676,20 @@
               "type": "Answer",
               "heading": "Nei",
               "value": false
+            }
+          ]
+        },
+        {
+          "id": "egenskaperBeskrevetDokumentasjon.error",
+          "type": "Error",
+          "show": { "field": "egenskaperBeskrevetDokumentasjon", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "egenskaperBeskrevetDokumentasjon.msg",
+              "type": "Text",
+              "warning": true,
+              "heading": "Produktdokumentasjonen må beskrive de viktigste egenskapene",
+              "text": "<p>Produsenten må påse at de viktigste egenskapene til produktet står i produktdokumentasjonen.</p>"
             }
           ]
         }
@@ -670,7 +720,8 @@
           "id": "hasYtelseserklaering",
           "property": "hasYtelseserklaering",
           "type": "Radio",
-          "heading": "Har produktet en ytelsesærklæring?",
+          "heading": "Har produktet en ytelseserklæring?",
+          "text": "<p>Ytelseserklæringen er et dokument som er laget og undertegnet av produsenten. Hovedformålet med dokumentet er at produsentene skal deklarere den viktigste informasjonen om sitt produkt, spesielt produktets viktigste egenskaper og ytelser.</p><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p><p>Mal for ytelseserklæring finner du HER.</p><p>Dokumentet kan ha flere ulike titler. På svensk heter dokumentet “prestandadeklaration”, på dansk “ydeevnedeklaration”, på tysk “Leistungserklärung” og på engelsk “Declaration of performance”.</p>",
           "options": [
             {
               "id": "hasYtelseserklaering.ja",
@@ -683,6 +734,20 @@
               "type": "Answer",
               "heading": "Nei",
               "value": false
+            }
+          ]
+        },
+        {
+          "id": "hasYtelseserklaering.error",
+          "type": "Error",
+          "show": { "field": "hasYtelseserklaering", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "hasYtelseserklaering.msg",
+              "type": "Text",
+              "warning": true,
+              "heading": "Produktet må ha en ytelseserklæring",
+              "text": "<p>Er du produsent, må du utarbeide en ytelseserklæring på norsk, svensk eller dansk. Er du importør eller distributør, må du be en ytelseserklæring på norsk, svensk eller dansk fra den du kjøpte produktet fra.</p>"
             }
           ]
         },
@@ -708,6 +773,20 @@
           ]
         },
         {
+          "id": "ytelseserklaeringSpraak.error",
+          "type": "Error",
+          "show": { "field": "ytelseserklaeringSpraak", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "ytelseserklaeringSpraak.msg",
+              "type": "Text",
+              "warning": true,
+              "heading": "Produktet må ha en ytelseserklæring på norsk, svensk eller dansk",
+              "text": "<p>Er du produsent, må du oversette ytelseserklæring til norsk, svensk eller dansk. Er du importør eller distributør, må du be om en oversettelse av ytelseserklæringen fra den du kjøpte produktet fra.</p>"
+            }
+          ]
+        },
+        {
           "id": "hvilketSystem",
           "property": "hvilketSystem",
           "type": "Radio",
@@ -722,7 +801,7 @@
               "value": "1plus",
               "disabled": {
                 "field": "$computed.iSystem1Plus",
-                "operator": "neq",
+                "operator": "eq",
                 "value": true
               }
             },
@@ -733,7 +812,7 @@
               "value": "1",
               "disabled": {
                 "field": "$computed.iSystem1",
-                "operator": "neq",
+                "operator": "eq",
                 "value": true
               }
             },
@@ -744,7 +823,7 @@
               "value": "2plus",
               "disabled": {
                 "field": "$computed.iSystem2Plus",
-                "operator": "neq",
+                "operator": "eq",
                 "value": true
               }
             },
@@ -755,7 +834,7 @@
               "value": "3",
               "disabled": {
                 "field": "$computed.iSystem3",
-                "operator": "neq",
+                "operator": "eq",
                 "value": true
               }
             },
@@ -766,70 +845,71 @@
               "value": "4",
               "disabled": {
                 "field": "$computed.iSystem4",
-                "operator": "neq",
+                "operator": "eq",
                 "value": true
               }
             }
           ]
         },
         {
-          "id": "sjekklisteForInnholdet",
-          "property": "sjekklisteForInnholdet",
+          "id": "sjekklisteForYtelsese",
+          "property": "sjekklisteForYtelsese",
           "type": "Checkbox",
-          "heading": "Sjekkliste for innholdet",
+          "heading": "Sjekkliste for ytelseserklæringen",
+          "text": "<p>Det er viktig at opplysningene i ytelseserklæringen skrives på en klar og sammenhengende måte. Rekkefølge og fremstillingen av innholdet er opp til produsenten å bestemme, men følgende innhold må være med: </p>",
           "show": { "field": "hvilketSystem", "operator": "required" },
           "options": [
             {
-              "id": "sjekklisteForInnholdet.1",
+              "id": "sjekklisteForYtelsese.1",
               "type": "Answer",
               "heading": "Produkttype",
               "value": "1"
             },
             {
-              "id": "sjekklisteForInnholdet.2",
+              "id": "sjekklisteForYtelsese.2",
               "type": "Answer",
               "heading": "Vareidentifikasjon (type-, parti-, eller serienummer)",
               "value": "2"
             },
             {
-              "id": "sjekklisteForInnholdet.3",
+              "id": "sjekklisteForYtelsese.3",
               "type": "Answer",
               "heading": "Tiltenkt bruk av byggevaren",
               "value": "3"
             },
             {
-              "id": "sjekklisteForInnholdet.4",
+              "id": "sjekklisteForYtelsese.4",
               "type": "Answer",
               "heading": "Navn og adresse til produsent",
               "value": "4"
             },
             {
-              "id": "sjekklisteForInnholdet.5",
+              "id": "sjekklisteForYtelsese.5",
               "type": "Answer",
               "heading": "Hvilket system for vurdering og verifikasjon av byggevarens ytelser som er valgt",
               "value": "5"
             },
             {
               "show": { "field": "hvilketSystem", "operator": "neq", "value": "4" },
-              "id": "sjekklisteForInnholdet.6",
+              "id": "sjekklisteForYtelsese.6",
               "type": "Answer",
-              "heading": "Nummer til det tekniske kontrollorganet",
+              "heading": "Nummer til det tekniske kontrollorganet. Finnes i NANDO-basen (LENKE)",
               "value": "6"
             },
             {
-              "id": "sjekklisteForInnholdet.7",
+              "id": "sjekklisteForYtelsese.7",
               "type": "Answer",
-              "heading": "Henvisningen til den relevante harmoniserte produktstandarden",
+              "heading": "Henvisning til den relevante harmonisierte produktstandarden / europeiske bedømmelsesdokumentet ",
               "value": "7"
             },
             {
-              "id": "sjekklisteForInnholdet.8",
+              "id": "sjekklisteForYtelsese.8",
               "type": "Answer",
-              "heading": "Byggevarens ytelser",
+              "heading": "Byggevarens viktigste egenskaper og ytelser. Hvis det ikke deklareres noen ytelser, skal det stå NPD (“No performance determined”)",
               "value": "8"
             },
             {
-              "id": "sjekklisteForInnholdet.9",
+              "id": "sjekklisteForYtelsese.9",
               "type": "Answer",
               "heading": "Underskrift av produsenten eller dennes representant",
               "value": "9"
@@ -856,6 +936,20 @@
               "value": false
             }
           ]
+        },
+        {
+          "id": "egenskaperBeskrevet.error",
+          "type": "Error",
+          "show": { "field": "egenskaperBeskrevet", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "egenskaperBeskrevet.msg",
+              "type": "Text",
+              "warning": true,
+              "heading": "Ytelseserklæringen må beskrive de viktigste egenskapene",
+              "text": "<p>Produsenten må påse at de viktigste egenskapene til produktet er deklarert i ytelseserklæringen. </p>"
+            }
+          ]
         }
       ]
     },
@@ -877,6 +971,7 @@
           "property": "hasCE",
           "type": "Radio",
           "heading": "Har produktet CE-merke?",
+          "text": "<p>Produktet du har valgt krever CE-merking og det skal være festet på produktet. Der det ikke er mulig, skal det være festet på emballasjen eller framgå av papirer som følger med produktet.</p><p>Mal for CE-merking finner du HER.</p>",
           "options": [
             {
               "id": "hasCE.ja",
@@ -893,10 +988,25 @@
           ]
         },
         {
+          "id": "hasCE.error",
+          "type": "Error",
+          "show": { "field": "hasCE", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "hasCE.msg",
+              "type": "Text",
+              "warning": true,
+              "heading": "Produktet må ha CE-merke",
+              "text": "<p>Etterspør dokumentasjon som viser at produktet er CE-merket. Finnes ikke merket, må dere vurdere oppfølging basert på hvor alvorlig bruddet er.</p>"
+            }
+          ]
+        },
+        {
           "id": "CEsjekkliste",
           "property": "CEsjekkliste",
           "type": "Checkbox",
           "heading": "Sjekkliste for innholdet i CE-merket",
+          "text": "<p>CE-merket må være festet på byggevaren. Der det ikke er mulig, skal det være festet på emballasjen eller framgå av papirer som følger med produktet. Det stilles ikke konkrete språkkrav til CE-merket. I den harmoniserte produktstandarden står kravene til innholdet i CE-merke i vedlegg ZA.3.</p><p><strong>Følgende innhold må være med:</strong></p>",
           "show": { "field": "hasCE", "operator": "eq", "value": true },
           "options": [
             {
@@ -978,6 +1088,7 @@
           "property": "hasBruksanvisning",
           "type": "Radio",
           "heading": "Har produktet en bruksanvisning?",
+          "text": "<p>De fleste produkter må ha en bruksanvisning eller monteringsanvisning. Det må også kunne legges ved sikkerhetsinformasjon dersom produktet inneholder farlige stoffer. Hvis slike dokumenter mangler, kan det føre til byggfeil. Det er derfor viktig at disse dokumentene er tilgjengelig for brukeren. En slik dokumentasjon vil variere fra produkt til produkt.</p><p>Mange produsenter gir også utfyllende informasjon til byggverkets eier for å sørge for best mulig vedlikehold i driftsfasen av byggevarene. Slik forenklet forvaltning, drift og vedlikeholdsinformasjon (FDV-dokumentasjon), som kan omfatte råd om rengjøring og rengjøringsmetoder, fuktbestandighet, vedlikeholdsinstruks- og intervall, vilkår for garanti osv.</p>",
           "options": [
             {
               "id": "hasBruksanvisning.ja",
@@ -990,6 +1101,19 @@
               "type": "Answer",
               "heading": "Nei",
               "value": false
+            }
+          ]
+        },
+        {
+          "id": "hasBruksanvisning.error",
+          "type": "Error",
+          "show": { "field": "hasBruksanvisning", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "hasBruksanvisning.msg",
+              "type": "Text",
+              "warning": true,
+              "text": "<p>Hvis produktet trenger slik dokumentasjon, skal den utarbeides av produsenten. Importøren og distributøren av byggevaren skal sørge for at slik informasjon følger med varen.</p>"
             }
           ]
         },
@@ -1011,6 +1135,19 @@
               "type": "Answer",
               "heading": "Nei",
               "value": false
+            }
+          ]
+        },
+        {
+          "id": "bruksanvisningSpraak.error",
+          "type": "Error",
+          "show": { "field": "bruksanvisningSpraak", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "bruksanvisningSpraak.msg",
+              "type": "Text",
+              "warning": true,
+              "text": "<p>Er bruksanvisningen ikke skrevet på norsk, svensk eller dansk, må du som produsent få den oversatt eller som importør eller distributør kreve å få den oversatt av produsenten.</p>"
             }
           ]
         },
