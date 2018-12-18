@@ -55,7 +55,12 @@ export default class App extends Component {
 
 		return (
 			<Provider store={store}>
-				<Wizard wizard={data} translations={this.props.translations} showIntro={this.showIntro} />
+				<Wizard
+					wizard={data}
+					translations={this.props.translations}
+					showIntro={this.showIntro}
+					showResetModal={!window.location.hash.match(/produktType:\w+/)}
+				/>
 			</Provider>
 		);
 	}
