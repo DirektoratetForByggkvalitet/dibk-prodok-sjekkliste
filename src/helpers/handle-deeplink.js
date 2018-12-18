@@ -4,7 +4,7 @@ import find from 'lodash.find';
 import schema from '../api/prodok-sjekkliste.json';
 
 /**
- * Redux middleware for getting the produktType from the hash and 
+ * Redux middleware for getting the produktType from the hash and
  */
 export default function handleDeeplink({ getState }) {
     return next => action => {
@@ -20,8 +20,8 @@ export default function handleDeeplink({ getState }) {
         }
 
         // Calculate the ceValgfri based on the state + specified produktType
-        const ceValgfri = dsl.parse(schema.computed.ceValgfri)({
-            ...action.payload, 
+        const ceValgfri = dsl.default(schema.computed.ceValgfri)({
+            ...action.payload,
             produktType
         }).valid
 
@@ -32,14 +32,14 @@ export default function handleDeeplink({ getState }) {
                 [state.NAME]: {
                     $computed: {
                         ...action.payload[state.NAME].$computed || {},
-                        
+
                         // override ceValgfri
                         ceValgfri
                     },
 
                     // set produktType
                     produktType,
-                    
+
                     // set page based on ceValgfri and produktType
                     page: (
                         !ceValgfri
