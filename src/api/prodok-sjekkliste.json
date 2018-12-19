@@ -2867,127 +2867,28 @@
           ]
         },
         {
-          "id": "ytelseserklaringIngress",
-          "type": "Text",
-          "heading": "Finnes det ytelseserklæring?",
-          "text": "<p>Det er viktig at opplysningene i ytelseserklæringen skrives på en klar og sammenhengende måte. Rekkefølge og fremstillingen av innholdet er opp til produsenten å bestemme, men følgende innhold må være med:</p><ol><li>Produkttype.</li><li>Vareidentifikasjon (type-, parti-, eller serienummer).</li><li>Tiltenkt bruk av byggevaren.</li><li>Navn og adresse til produsent.</li><li>Hvilket system for vurdering og verifikasjon av byggevarens ytelser som er valgt.</li><li>Nummer til det tekniske kontrollorgan (gjelder kun enkelte produkter).</li><li>Henvisning til den relevante harmonisierte produktstandarden/europeiske bedømmelsesdokumentet.</li><li>Byggevarens viktigste egenskaper og ytelser.</li><li>Underskrift av produsent eller en representant.</li></ol>"
+          "nodeId": "resultIkkeByggevare",
+          "type": "Reference",
+          "heading": "Produktet er ikke en byggevare",
+          "lead": "<p>Du har svart på nei spørsmålene i veiviseren. Svarene viser at produktet ikke er en byggevare. Dette er ofte en vanskelig vurdering. Er du usikker om produktet er en byggevare kan du ta kontakt med direktoratet HER (e-post).</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>"
         },
         {
-          "id": "egenskapProduktdokumentasjon",
-          "type": "Branch",
-          "branches": [
-            {
-              "test": {
-                "type": "and",
-                "clauses": [
-                  {
-                    "type": "and",
-                    "clauses": [
-                      { "field": "produktCeMerket", "operator": "not" },
-                      { "field": "eta", "operator": "not" },
-                      { "field": "finnesDokumentasjon", "operator": "eq", "value": true }
-                    ]
-                  },
-                  {
-                    "field": "produktType",
-                    "operator": "required"
-                  }
-                ]
-              },
-              "children": [
-                {
-                  "id": "viktigsteEgenskaper",
-                  "property": "viktigsteEgenskaper",
-                  "type": "Radio",
-                  "heading": "Er egenskapene du fører tilsyn med beskrevet i dokumentasjonen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaper.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaper.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaper.error",
-                  "type": "Error",
-                  "show": { "field": "viktigsteEgenskaper", "operator": "eq", "value": false },
-                  "children": [
-                    {
-                      "id": "viktigsteEgenskaper.error.msg",
-                      "type": "Text",
-                      "warning": true,
-                      "text": "Du kan etterspørre ytterligere dokumentasjon om egenskapene. Kan ikke foretaket vise fram dette, må dere vurdere oppfølging basert på hvor alvorlig bruddet er."
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "id": "resultAltOK",
+          "type": "Result",
+          "heading": "Dokumentasjonen er i orden",
+          "lead": "<p>Du har svart på alle spørsmål i veiviseren. Svarene viser at dokumentasjonen til produktet du har sjekket er i orden.</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>"
         },
         {
-          "id": "egenskapYtelseserklaering",
-          "type": "Branch",
-          "branches": [
-            {
-              "test": {
-                "type": "and",
-                "clauses": [
-                  { "field": "produktType", "operator": "required" },
-                  {
-                    "type": "or",
-                    "clauses": [
-                      { "field": "produktCeMerket", "operator": "eq", "value": true },
-                      { "field": "eta", "operator": "eq", "value": true },
-                      { "field": "ytelseserklæringFremlagt", "operator": "eq", "value": true }
-                    ]
-                  }
-                ]
-              },
-              "children": [
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "heading": "Er egenskapene du fører tilsyn med beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering.error",
-                  "type": "Error",
-                  "show": { "field": "viktigsteEgenskaperYtelseserklaering", "operator": "eq", "value": false },
-                  "children": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.error.msg",
-                      "type": "Text",
-                      "warning": true,
-                      "text": "Du kan etterspørre ytterligere dokumentasjon om egenskapene. Kan ikke foretaket vise fram dette, må dere vurdere oppfølging basert på hvor alvorlig bruddet er.</a>"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "id": "resultIkkeSvartPaaAlleSporsmal",
+          "type": "Result",
+          "heading": "Du har ikke svart på alle spørsmålene",
+          "lead": "<p>Du har ikke svart på alle spørsmålene. Vi kan derfor ikke gi deg et resultat ennå.</p><p>Du kan se hvilke spørsmål du ikke har svart på i oppsummeringen under. Der kan du også klikke deg inn på hvert steg i veiviseren for å legge til og endre dine svar.</p><p>(....)</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>"
+        },
+        {
+          "id": "resultSvartPaAltMenIkkeOK",
+          "type": "Result",
+          "heading": "Dokumentasjonen er ikke i orden",
+          "lead": "<p>Svarene dine viser at noe av dokumentasjonen til produktet er mangelfull.</p><p>Er du produsent av produktet må du gjennomgå dokumentasjonen på nytt og vurdere å endre på innholdet der du fikk feil. Husk at det er ditt ansvar at du oppgir riktig informasjon i dokumentasjonen.</p><p>Er du importør eller distributør må du ta kontakt med den du har kjøpt produktet av og be se se nærmere på disse feilene.</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>"
         }
       ]
     },
@@ -3002,7 +2903,7 @@
           "property": "produktType",
           "type": "Radio",
           "grid": true,
-          "heading": "Velg produkt",
+          "heading": "Velg byggevare",
           "text": "<p></p>",
           "options": [
             {
@@ -3223,7 +3124,7 @@
     {
       "id": "byggevareOgProdukter",
       "type": "Page",
-      "heading": "Byggevare",
+      "heading": "Veivalg til dokumentasjon",
       "show": {
         "type": "or",
         "clauses": [
@@ -3261,9 +3162,8 @@
           ]
         },
         {
-          "id": "ikkeProdukt",
-          "type": "Result",
-          "heading": "Dette er ikke et produkt",
+          "nodeId": "resultIkkeByggevare",
+          "type": "Reference",
           "show": { "field": "isProductByggevare", "operator": "eq", "value": "nei" }
         },
         {
@@ -3316,9 +3216,8 @@
                   ]
                 },
                 {
-                  "id": "hellerIkkeProdukt",
-                  "type": "Result",
-                  "heading": "Dette er heller ikke et produkt",
+                  "nodeId": "resultIkkeByggevare",
+                  "type": "Reference",
                   "show": {
                     "type": "or",
                     "clauses": [
@@ -3335,8 +3234,10 @@
           "id": "dekketAvProduktStandard",
           "property": "dekketAvProduktStandard",
           "type": "Radio",
-          "heading": "Er produktet omfattet/dekket av en harmonisert produktstandard?",
-          "text": "<p>En produktstandard er en felles oppskrift på hvordan et produkt skal lages. En harmonisert produktstandard lages etter et mandat fra Europakommisjonen. Slike standarder er altså viktige for alle som ønsker å selge produktet sitt på det europeiske markedet. </p><p>For produsenter av byggevarer er det obligatorisk å følge denne hvis de omfattes av en harmonisert produktstandard. </p><h3>Finn riktig harmonisert produktstandard</h3><p>Det finnes ca. 500 harmoniserte produktstandarder for byggevarer. Her finner du <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.hs&cpr=Y' target='_blank'>liste over alle de harmoniserte standardene (EUs nettside Nando)</a>. Det står også når man kan starte å bruke standarden og når den må brukes.</p><h3>Bruk eller skaff deg standarden</h3><p><a href='http://www.standard.no/' target='_blank'>Du kan kjøpe en standard hos Standard Norge</a>. Se i omfanget (scope) til standarden for å vurdere om det konkrete produktet du lurer på er omfattet eller ikke. </p><p>Merk deg at Standard Norge ikke opplyser om hvilke standarder som er offisielle etter byggevareforordningen. På noen områder har ikke nye standarder blitt godkjent av Europakommisjonen. Det er da den gamle standarden som skal brukes frem til den nye standarden blir godkjent. Det er altså kun de standardene som står på EU-nettsiden som er de offisielle standardene.</p>",
+          "heading": "Er produktet omfattet av en harmonisert produktstandard?",
+          "text": "<p>En produktstandard er en felles oppskrift på hvordan et produkt skal lages. En harmonisert produktstandard lages etter et mandat fra Europakommisjonen. Slike standarder er altså viktige for alle som ønsker å selge produktet sitt på det europeiske markedet. </p><p>For produsenter av byggevarer er det obligatorisk å følge denne hvis de omfattes av en harmonisert produktstandard. </p>",
+          "summary": "Finn riktig harmonisert produktstandard",
+          "details": "<p>Det finnes ca. 500 harmoniserte produktstandarder for byggevarer. Her finner du <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.hs&cpr=Y' target='_blank'>liste over alle de harmoniserte standardene (EUs nettside Nando)</a>. Det står også når man kan starte å bruke standarden og når den må brukes.</p><h3>Bruk eller skaff deg standarden</h3><p><a href='http://www.standard.no/' target='_blank'>Du kan kjøpe en standard hos Standard Norge</a>. Se i omfanget (scope) til standarden for å vurdere om det konkrete produktet du lurer på er omfattet eller ikke. </p><p>Merk deg at Standard Norge ikke opplyser om hvilke standarder som er offisielle etter byggevareforordningen. På noen områder har ikke nye standarder blitt godkjent av Europakommisjonen. Det er da den gamle standarden som skal brukes frem til den nye standarden blir godkjent. Det er altså kun de standardene som står på EU-nettsiden som er de offisielle standardene.</p>",
           "show": {
             "type": "or",
             "clauses": [
@@ -3399,7 +3300,7 @@
     {
       "id": "dokumentasjon",
       "type": "Page",
-      "heading": "Dokumentasjon",
+      "heading": "Har du dokumentasjon?",
       "show": { "field": "frivilligCE", "operator": "eq", "value": false },
       "children": [
         {
@@ -3536,12 +3437,21 @@
               }
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "innholdDokumentasjon",
+      "type": "Page",
+      "heading": "Innhold i dokumentasjon",
+      "show": { "field": "hvilketSystemDokumentasjon", "operator": "required" },
+      "children": [
         {
           "id": "sjekklisteDokumentasjon",
           "property": "sjekklisteDokumentasjon",
           "type": "Checkbox",
           "heading": "Sjekkliste for innholdet",
+          "text": "<p>Det er viktig at opplysningene i produktdokumentasjonen skrives på en klar og sammenhengende måte. Rekkefølge og presentasjon av innhold er opp til produsenten å bestemme, men følgende innhold må være med:</p>",
           "show": { "field": "hvilketSystemDokumentasjon", "operator": "required" },
           "options": [
             {
@@ -3572,7 +3482,7 @@
               "show": { "field": "hvilketSystemDokumentasjon", "operator": "neq", "value": "4" },
               "id": "sjekklisteDokumentasjon.5",
               "type": "Answer",
-              "heading": "Navnet på uavhengig tredjepartorgan",
+              "heading": "Navnet på uavhengig tredjepartsorgan",
               "value": "5"
             },
             {
@@ -3624,7 +3534,7 @@
     {
       "id": "ytelseserklæring",
       "type": "Page",
-      "heading": "Dokumentasjon",
+      "heading": "Har du dokumentasjon?",
       "show": {
         "type": "or",
         "clauses": [
@@ -3775,14 +3685,22 @@
               }
             }
           ]
-        },
+        }
+      ]
+    },
+
+    {
+      "id": "innholdYtelseserklæring",
+      "type": "Page",
+      "heading": "Innhold i dokumentasjon",
+      "show": { "field": "hvilketSystem", "operator": "required" },
+      "children": [
         {
           "id": "sjekklisteForYtelsese",
           "property": "sjekklisteForYtelsese",
           "type": "Checkbox",
           "heading": "Sjekkliste for ytelseserklæringen",
           "text": "<p>Det er viktig at opplysningene i ytelseserklæringen skrives på en klar og sammenhengende måte. Rekkefølge og fremstillingen av innholdet er opp til produsenten å bestemme, men følgende innhold må være med: </p>",
-          "show": { "field": "hvilketSystem", "operator": "required" },
           "options": [
             {
               "id": "sjekklisteForYtelsese.1",
@@ -3818,13 +3736,13 @@
               "show": { "field": "hvilketSystem", "operator": "neq", "value": "4" },
               "id": "sjekklisteForYtelsese.6",
               "type": "Answer",
-              "heading": "Nummer til det tekniske kontrollorganet. Finnes i NANDO-basen (LENKE)",
+              "heading": "Nummer til det tekniske kontrollorganet.",
               "value": "6"
             },
             {
               "id": "sjekklisteForYtelsese.7",
               "type": "Answer",
-              "heading": "Henvisning til den relevante harmonisierte produktstandarden / europeiske bedømmelsesdokumentet ",
+              "heading": "Henvisning til den relevante harmonisierte produktstandarden (europeiske bedømmelsesdokumentet)",
               "value": "7"
             },
             {
@@ -4026,7 +3944,9 @@
           "property": "hasBruksanvisning",
           "type": "Radio",
           "heading": "Har produktet en bruksanvisning?",
-          "text": "<p>De fleste produkter må ha en bruksanvisning eller monteringsanvisning. Det må også kunne legges ved sikkerhetsinformasjon dersom produktet inneholder farlige stoffer. Hvis slike dokumenter mangler, kan det føre til byggfeil. Det er derfor viktig at disse dokumentene er tilgjengelig for brukeren. En slik dokumentasjon vil variere fra produkt til produkt.</p><p>Mange produsenter gir også utfyllende informasjon til byggverkets eier for å sørge for best mulig vedlikehold i driftsfasen av byggevarene. Slik forenklet forvaltning, drift og vedlikeholdsinformasjon (FDV-dokumentasjon), som kan omfatte råd om rengjøring og rengjøringsmetoder, fuktbestandighet, vedlikeholdsinstruks- og intervall, vilkår for garanti osv.</p>",
+          "text": "<p>De fleste produkter må ha en bruksanvisning eller monteringsanvisning. Det må også kunne legges ved sikkerhetsinformasjon dersom produktet inneholder farlige stoffer. Hvis slike dokumenter mangler, kan det føre til byggfeil. Det er derfor viktig at disse dokumentene er tilgjengelig for brukeren. En slik dokumentasjon vil variere fra produkt til produkt.</p>",
+          "summary": "Mer informasjon om vedlikehold og FDV",
+          "details": "<p>Mange produsenter gir også utfyllende informasjon til byggverkets eier for å sørge for best mulig vedlikehold i driftsfasen av byggevarene. Slik forenklet forvaltning, drift og vedlikeholdsinformasjon (FDV-dokumentasjon), som kan omfatte råd om rengjøring og rengjøringsmetoder, fuktbestandighet, vedlikeholdsinstruks- og intervall, vilkår for garanti osv.</p>",
           "options": [
             {
               "id": "hasBruksanvisning.ja",
@@ -4090,10 +4010,8 @@
           ]
         },
         {
-          "id": "ferdigBruksanvisning",
-          "type": "Result",
-          "heading": "Ferdig",
-          "lead": "lead text her",
+          "type": "Reference",
+          "nodeId": "resultIkkeSvartPaaAlleSporsmal",
           "show": {
             "type": "or",
             "clauses": [
