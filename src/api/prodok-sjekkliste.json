@@ -9,11 +9,11 @@
       "clauses": [
         { "field": "produktType", "operator": "eq", "value": "radonmembran" },
         { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikertBaderomsmodul" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerTre" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerStal" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkertBaderomsmodul" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerTre" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerStal" },
         { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikertTrapp" }
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" }
       ]
     },
     "iSystem1Plus": {
@@ -26,9 +26,9 @@
         { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
         { "field": "produktType", "operator": "eq", "value": "laminertGlass" },
         { "field": "produktType", "operator": "eq", "value": "radonmembran" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikertBaderomsmodul" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerTre" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerStal" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkertBaderomsmodul" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerTre" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerStal" },
         { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
@@ -38,7 +38,7 @@
         { "field": "produktType", "operator": "eq", "value": "veggelement" },
         { "field": "produktType", "operator": "eq", "value": "takstoler" },
         { "field": "produktType", "operator": "eq", "value": "styrkesortertKonstruksjonsvirke" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikerteStalkonstruksjoner" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkerteStalkonstruksjoner" },
         { "field": "produktType", "operator": "eq", "value": "hulldekkeelementer" },
         { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
         { "field": "produktType", "operator": "eq", "value": "annet" }
@@ -61,7 +61,7 @@
       "clauses": [
         { "field": "produktType", "operator": "eq", "value": "fasadekledningMetall" },
         { "field": "produktType", "operator": "eq", "value": "ror" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikertTrapp" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" },
         { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     }
@@ -464,17 +464,17 @@
               ]
             },
             {
-              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikertBaderomsmodul" },
+              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikkertBaderomsmodul" },
               "children": [
                 {
-                  "id": "ytelseserklaringTabell.prefabrikertBaderomsmodul",
+                  "id": "ytelseserklaringTabell.prefabrikkertBaderomsmodul",
                   "text": "<p>Produktdokumentasjonen skal inneholde informasjon om baderomsmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.heading",
+                        "id": "prefabrikkertBaderomsmodul.heading",
                         "type": "Heading",
                         "colSpan": 2,
                         "text": "Produktegenskaper"
@@ -482,216 +482,216 @@
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.vegger",
+                        "id": "prefabrikkertBaderomsmodul.cell.vegger",
                         "type": "Cell",
                         "text": "<strong>Vegger</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.veggerValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.veggerValue",
                         "type": "Cell",
                         "text": "400 mm brede kassetter av 1 mm tykke stålplater"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.tak",
+                        "id": "prefabrikkertBaderomsmodul.cell.tak",
                         "type": "Cell",
                         "text": "<strong>Tak</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.takValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.takValue",
                         "type": "Cell",
                         "text": "Uisolert hvitlakkerte kassetter"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.gulv",
+                        "id": "prefabrikkertBaderomsmodul.cell.gulv",
                         "type": "Cell",
                         "text": "<strong>Gulv</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.gulvValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.gulvValue",
                         "type": "Cell",
                         "text": "Armert betongplater i stålramme"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.gulvmembran",
+                        "id": "prefabrikkertBaderomsmodul.cell.gulvmembran",
                         "type": "Cell",
                         "text": "<strong>Gulvmembran</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.gulvmembranValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.gulvmembranValue",
                         "type": "Cell",
                         "text": "Produktets navn"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.armering",
+                        "id": "prefabrikkertBaderomsmodul.cell.armering",
                         "type": "Cell",
                         "text": "<strong>Armering i gulv</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.armeringValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.armeringValue",
                         "type": "Cell",
                         "text": "Armeringsnett NPS 6150"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.tetting",
+                        "id": "prefabrikkertBaderomsmodul.cell.tetting",
                         "type": "Cell",
                         "text": "<strong>Tetting veggkassetter / gulvramme</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.tettingValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.tettingValue",
                         "type": "Cell",
                         "text": "Produktets navn og beskrivelse"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.påstrykningsmembran",
+                        "id": "prefabrikkertBaderomsmodul.cell.påstrykningsmembran",
                         "type": "Cell",
                         "text": "<strong>Påstrykningsmembran</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.påstrykningsmembranValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.påstrykningsmembranValue",
                         "type": "Cell",
                         "text": "Beskrivelse"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.rørirør",
+                        "id": "prefabrikkertBaderomsmodul.cell.rørirør",
                         "type": "Cell",
                         "text": "<strong>Rør-i-rør-system</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.rørirørValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.rørirørValue",
                         "type": "Cell",
                         "text": "Uponor iht NPS 0017 og 1118 med gummimansjett type 3069 tilpasset veggkonstruksjon"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.sluk",
+                        "id": "prefabrikkertBaderomsmodul.cell.sluk",
                         "type": "Cell",
                         "text": "<strong>Sluk</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.slukValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.slukValue",
                         "type": "Cell",
                         "text": "Sertifiserte produkter iht EN 1253"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.slukmansjett",
+                        "id": "prefabrikkertBaderomsmodul.cell.slukmansjett",
                         "type": "Cell",
                         "text": "<strong>Slukmansjett</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.slukmansjettValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.slukmansjettValue",
                         "type": "Cell",
                         "text": "LIP selvklebende slukmansjett"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.tettebånd",
+                        "id": "prefabrikkertBaderomsmodul.cell.tettebånd",
                         "type": "Cell",
                         "text": "<strong>Tettebånd rundt gjennomføring i vegg</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.tettebåndValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.tettebåndValue",
                         "type": "Cell",
                         "text": "Gjennomføring iht En 997 eller NT VVS 120"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.fliser",
+                        "id": "prefabrikkertBaderomsmodul.cell.fliser",
                         "type": "Cell",
                         "text": "<strong>Fliser</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.fliserValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.fliserValue",
                         "type": "Cell",
                         "text": "Fliser iht En 87 og NS-EN 14411"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.flislim",
+                        "id": "prefabrikkertBaderomsmodul.cell.flislim",
                         "type": "Cell",
                         "text": "<strong>Flislim</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.flislimValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.flislimValue",
                         "type": "Cell",
                         "text": "Proline E50 2K og LIP Flexicol"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.fugemørtel",
+                        "id": "prefabrikkertBaderomsmodul.cell.fugemørtel",
                         "type": "Cell",
                         "text": "<strong>Fugemørtel</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.fugemørtelValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.fugemørtelValue",
                         "type": "Cell",
                         "text": "Fugemørtel iht NS-EN 13888"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.wc",
+                        "id": "prefabrikkertBaderomsmodul.cell.wc",
                         "type": "Cell",
                         "text": "<strong>WC</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.wcValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.wcValue",
                         "type": "Cell",
                         "text": "Sertifiserte produkter iht EN-NS 997 eller NT VVS 120"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.sisterne",
+                        "id": "prefabrikkertBaderomsmodul.cell.sisterne",
                         "type": "Cell",
                         "text": "<strong>WC siterne</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.sisterneValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.sisterneValue",
                         "type": "Cell",
                         "text": "Sertifiserte produkter iht NS-EN 14055"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.tappearmaturer",
+                        "id": "prefabrikkertBaderomsmodul.cell.tappearmaturer",
                         "type": "Cell",
                         "text": "<strong>Tappearmaturer</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.tappearmaturerValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.tappearmaturerValue",
                         "type": "Cell",
                         "text": "Sertifiserte produkter iht NS-EN 2000, NS-EN 817 og NS-EN 1111"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.fleksibleSlanger",
+                        "id": "prefabrikkertBaderomsmodul.cell.fleksibleSlanger",
                         "type": "Cell",
                         "text": "<strong>Fleksible slanger</strong>"
                       },
                       {
-                        "id": "prefabrikertBaderomsmodul.cell.fleksibleSlangerValue",
+                        "id": "prefabrikkertBaderomsmodul.cell.fleksibleSlangerValue",
                         "type": "Cell",
                         "text": "Produkter iht prEN 13618-1 og 2"
                       }
@@ -701,7 +701,7 @@
               ]
             },
             {
-              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikertTrapp" },
+              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" },
               "children": [
                 {
                   "id": "ytelseserklaringTabell.trapp",
@@ -910,17 +910,17 @@
               ]
             },
             {
-              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikerteStalkonstruksjoner" },
+              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikkerteStalkonstruksjoner" },
               "children": [
                 {
-                  "id": "ytelseserklaringTabell.prefabrikerteStålkonstruksjoner",
+                  "id": "ytelseserklaringTabell.prefabrikkerteStålkonstruksjoner",
                   "text": "<p>Ytelseserklæringen skal inneholde informasjon om stålkonstruksjonens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
                     [
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.heading",
+                        "id": "prefabrikkerteStålkonstruksjoner.heading",
                         "type": "Heading",
                         "colSpan": 2,
                         "text": "Produktegenskaper"
@@ -928,120 +928,120 @@
                     ],
                     [
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.toleranse",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.toleranse",
                         "type": "Cell",
                         "text": "<strong>Toleranse for geometriske data</strong>"
                       },
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.toleranseValue",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.toleranseValue",
                         "type": "Cell",
                         "text": "Toleranser skal deklareres i samsvar med grensene for grunnleggende toleranser i NS-EN 1090-2. Uttrykkes som en beskrivelse. <br/><em>eks. I henhold til NS-EN 1090-2</em>"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.sveisbarhet",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.sveisbarhet",
                         "type": "Cell",
                         "text": "<strong>Sveisbarhet</strong>"
                       },
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.sveisbarhetValue",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.sveisbarhetValue",
                         "type": "Cell",
                         "text": "Stålkvaliteten som det kan utarbeides en kvalifisert sveisprosedyre for. Evaluering av sveisbarhet foretas på bakgrunn av NS-EN 1090-2. Uttrykkes som en beskrivelse av stålkvalitet. <br/><em>eks. Stål S235J0 i samsvar med EN-10025-2</em>"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.bruddseighet",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.bruddseighet",
                         "type": "Cell",
                         "text": "<strong>Bruddseighet (fracture toughness)</strong>"
                       },
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.bruddseighetValue",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.bruddseighetValue",
                         "type": "Cell",
                         "text": "Benyttes til å beregne kritiske sprekkstørrelser i konstruksjoner. Ved hjelp av bestanddelens bruddseighet kan man basere seg på egenskaper for slagseighet til materialer og komponenter, hvis det finnes en standard, eller ved hjelp av prøving. Uttrykkes som en beskrivelse. <br/><em>eks. NPD</em>"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.slagseighet",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.slagseighet",
                         "type": "Cell",
                         "text": "<strong>Slagseighet (impact resistance)</strong>"
                       },
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.slagseighetValue",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.slagseighetValue",
                         "type": "Cell",
                         "text": "Materialets evne til å motstå dannelse og forplantning av sprekker. Uttrykkes som en beskrivelse. <br/><em>eks. 27 J ved 0C0</em>"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.bæreevne",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.bæreevne",
                         "type": "Cell",
                         "text": "<strong>Bæreevne (lastkapasitet)</strong>"
                       },
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.bæreevneValue",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.bæreevneValue",
                         "type": "Cell",
                         "text": "Benyttes for materialer som er ment å tåle en viss vektmessig belastning. Uttrykkes som en beskrivelse. eks. Prosjektert i samsvar med NS-En 1993-1, se vedlagt prosjekteringsgrunnlag og konstruksjonsberegningen"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.utmattingsstyrke",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.utmattingsstyrke",
                         "type": "Cell",
                         "text": "<strong>Utmattingsstyrke</strong>"
                       },
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.utmattingsstyrkeValue",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.utmattingsstyrkeValue",
                         "type": "Cell",
                         "text": "Motstand mot sprekkdannelser som opptrer i et materiale når det utsettes for vekslende spenning, over en viss størrelse over lang tid. Da må konstruksjonens utmattingskapasitet kontrolleres og angis. Uttrykkes som en verdi. <br/><em>eks. NPD</em>"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.deformasjon",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.deformasjon",
                         "type": "Cell",
                         "text": "<strong>Deformasjon i bruksgrensetilstanden</strong>"
                       },
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.deformasjonValue",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.deformasjonValue",
                         "type": "Cell",
                         "text": "En endring som er forårsaket av en tilført kraft og som bestemmes ved å bruke en hensiktsmessig kombinasjon av påvirkninger. Uttrykkes som en verdi. <br/><em>eks. NPD</em>"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.brannpåvirkning",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.brannpåvirkning",
                         "type": "Cell",
                         "text": "<strong>Brannpåvirkning</strong>"
                       },
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.brannpåvirkningValue",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.brannpåvirkningValue",
                         "type": "Cell",
                         "text": "Hvor mye vil stålkonstruksjoner bidra til brann- og røykutvikling i tilfelle brann. Stål er klassifisert som A1 for ubelagte komponenter. For belagte komponenter gjelder klassifisering i samsvar med NS-EN 13501-1. Anodisering og galvanisering anses ikke som belegg. Uttrykkes som en klasse. <br/><em>eks. Materiale klassifisert A1</em>"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.brannmotstand",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.brannmotstand",
                         "type": "Cell",
                         "text": "<strong>Brannmotstand</strong>"
                       },
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.brannmotstandValue",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.brannmotstandValue",
                         "type": "Cell",
                         "text": "Hvor mye en stålkonstruksjon vil motstå brann- og varmeutvikling i tilfelle brann. Brannmotstanden kan beregnes etter Eurokoder. Uttrykkes som en klasse. <br/><em>eks. NPD</em>"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.bestandighet",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.bestandighet",
                         "type": "Cell",
                         "text": "<strong>Bestandighet</strong>"
                       },
                       {
-                        "id": "prefabrikerteStålkonstruksjoner.cell.bestandighetValue",
+                        "id": "prefabrikkerteStålkonstruksjoner.cell.bestandighetValue",
                         "type": "Cell",
                         "text": "Krav til korrosjonsbeskyttelse. Uttrykkes som en beskrivelse. eks. Overflatebehandling i samsvar med NS-EN 1090-2, rengjøringsgrad P3. Overflate malt i samsvar med NS-EN-ISO 12944-5"
                       }
@@ -1051,11 +1051,11 @@
               ]
             },
             {
-              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerTre" },
+              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerTre" },
               "children": [
                 {
                   "id": "ytelseserklaringTabell.byggmodulerITre",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om den prefabrikerte byggmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om den prefabrikkerte byggmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1246,11 +1246,11 @@
               ]
             },
             {
-              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerStal" },
+              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerStal" },
               "children": [
                 {
-                  "id": "ytelseserklaringTabell.prefabrikerteStålkonstruksjoner",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om den prefabrikerte byggmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "id": "ytelseserklaringTabell.prefabrikkerteStålkonstruksjoner",
+                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om den prefabrikkerte byggmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2937,53 +2937,53 @@
               }
             },
             {
-              "id": "produktType.prefabrikertBaderomsmodul",
+              "id": "produktType.prefabrikkertBaderomsmodul",
               "type": "Answer",
-              "heading": "Prefabrikert baderomsmodul",
-              "value": "prefabrikertBaderomsmodul",
+              "heading": "prefabrikkert baderomsmodul",
+              "value": "prefabrikkertBaderomsmodul",
               "image": {
                 "url": "/images/baderomsmodul.png",
                 "alt": "Baderomsmodul"
               }
             },
             {
-              "id": "produktType.prefabrikertTrapp",
+              "id": "produktType.prefabrikkertTrapp",
               "type": "Answer",
-              "heading": "Prefabrikert trapp",
-              "value": "prefabrikertTrapp",
+              "heading": "prefabrikkert trapp",
+              "value": "prefabrikkertTrapp",
               "image": {
                 "url": "/images/trapp.png",
                 "alt": "Trapp"
               }
             },
             {
-              "id": "produktType.prefabrikerteByggmodulerTre",
+              "id": "produktType.prefabrikkerteByggmodulerTre",
               "type": "Answer",
-              "heading": "Prefabrikerte byggmoduler i tre",
-              "value": "prefabrikerteByggmodulerTre",
+              "heading": "prefabrikkerte byggmoduler i tre",
+              "value": "prefabrikkerteByggmodulerTre",
               "image": {
-                "url": "/images/prefabrikert_tre.png",
-                "alt": "Prefabrikert byggemodul i tre"
+                "url": "/images/prefabrikkert_tre.png",
+                "alt": "prefabrikkert byggemodul i tre"
               }
             },
             {
-              "id": "produktType.prefabrikerteStalkonstruksjoner",
+              "id": "produktType.prefabrikkerteStalkonstruksjoner",
               "type": "Answer",
-              "heading": "Prefabrikerte stålkonstruksjoner",
-              "value": "prefabrikerteStalkonstruksjoner",
+              "heading": "prefabrikkerte stålkonstruksjoner",
+              "value": "prefabrikkerteStalkonstruksjoner",
               "image": {
                 "url": "/images/prefab_staalkonstruksjon_ce.png",
-                "alt": "Prefabrikert stålkonstruksjon med CE-merke"
+                "alt": "prefabrikkert stålkonstruksjon med CE-merke"
               }
             },
             {
-              "id": "produktType.prefabrikerteByggmodulerStal",
+              "id": "produktType.prefabrikkerteByggmodulerStal",
               "type": "Answer",
-              "heading": "Prefabrikerte byggmoduler i stål",
-              "value": "prefabrikerteByggmodulerStal",
+              "heading": "prefabrikkerte byggmoduler i stål",
+              "value": "prefabrikkerteByggmodulerStal",
               "image": {
-                "url": "/images/prefabrikert_staal.png",
-                "alt": "Prefabrikert byggemodul i stål"
+                "url": "/images/prefabrikkert_staal.png",
+                "alt": "prefabrikkert byggemodul i stål"
               }
             },
             {
