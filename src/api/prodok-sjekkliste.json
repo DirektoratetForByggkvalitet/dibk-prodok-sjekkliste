@@ -69,6 +69,7 @@
   "schema": [
     {
       "id": "tingTilGjenbruk",
+      "heading": "Ting til gjenbruk",
       "type": "Page",
       "show": { "field": "neverShow", "operator": "eq", "value": 123 },
       "children": [
@@ -2867,8 +2868,8 @@
           ]
         },
         {
-          "nodeId": "resultIkkeByggevare",
-          "type": "Reference",
+          "id": "resultIkkeByggevare",
+          "type": "Result",
           "heading": "Produktet er ikke en byggevare",
           "lead": "<p>Du har svart på nei spørsmålene i veiviseren. Svarene viser at produktet ikke er en byggevare. Dette er ofte en vanskelig vurdering. Er du usikker om produktet er en byggevare kan du ta kontakt med direktoratet HER (e-post).</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>"
         },
