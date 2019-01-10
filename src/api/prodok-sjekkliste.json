@@ -13,12 +13,16 @@
         { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerTre" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerStal" },
         { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" }
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" },
+        { "field": "produktType", "operator": "eq", "value": "element" }
       ]
     },
     "iSystem1Plus": {
       "type": "or",
-      "clauses": [{ "field": "produktType", "operator": "eq", "value": "annet" }]
+      "clauses": [
+        { "field": "produktType", "operator": "eq", "value": "element" },
+        { "field": "produktType", "operator": "eq", "value": "annet" }
+      ]
     },
     "iSystem1": {
       "type": "or",
@@ -29,6 +33,7 @@
         { "field": "produktType", "operator": "eq", "value": "prefabrikkertBaderomsmodul" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerTre" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerStal" },
+        { "field": "produktType", "operator": "eq", "value": "element" },
         { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
@@ -41,6 +46,7 @@
         { "field": "produktType", "operator": "eq", "value": "prefabrikkerteStalkonstruksjoner" },
         { "field": "produktType", "operator": "eq", "value": "hulldekkeelementer" },
         { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
+        { "field": "produktType", "operator": "eq", "value": "element" },
         { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
@@ -53,6 +59,7 @@
         { "field": "produktType", "operator": "eq", "value": "sandwichelementer" },
         { "field": "produktType", "operator": "eq", "value": "pahengsfasader" },
         { "field": "produktType", "operator": "eq", "value": "laminertGlass" },
+        { "field": "produktType", "operator": "eq", "value": "element" },
         { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
@@ -62,6 +69,7 @@
         { "field": "produktType", "operator": "eq", "value": "fasadekledningMetall" },
         { "field": "produktType", "operator": "eq", "value": "ror" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" },
+        { "field": "produktType", "operator": "eq", "value": "element" },
         { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     }
@@ -2883,7 +2891,7 @@
           "id": "resultIkkeSvartPaaAlleSporsmal",
           "type": "Result",
           "heading": "Du har ikke svart på alle spørsmålene",
-          "lead": "<p>Du har ikke svart på alle spørsmålene. Vi kan derfor ikke gi deg et resultat ennå.</p><p>Du kan se hvilke spørsmål du ikke har svart på i oppsummeringen under. Der kan du også klikke deg inn på hvert steg i veiviseren for å legge til og endre dine svar.</p><p>(....)</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>"
+          "lead": "<p>Du har ikke svart på alle spørsmålene. Vi kan derfor ikke gi deg et resultat ennå.</p><p>Du kan se hvilke spørsmål du ikke har svart på i oppsummeringen under. Der kan du også klikke deg inn på hvert steg i veiviseren for å legge til og endre dine svar.</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>"
         },
         {
           "id": "resultSvartPaAltMenIkkeOK",
@@ -3108,6 +3116,16 @@
               }
             },
             {
+              "id": "produktType.element",
+              "type": "Answer",
+              "heading": "Element",
+              "value": "element",
+              "image": {
+                "url": "/images/element.jpg",
+                "alt": "Element"
+              }
+            },
+            {
               "id": "produktType.annet",
               "type": "Answer",
               "heading": "Annet / vet ikke",
@@ -3163,8 +3181,8 @@
           ]
         },
         {
+          "type": "ReferenceREMOVE",
           "nodeId": "resultIkkeByggevare",
-          "type": "Reference",
           "show": { "field": "isProductByggevare", "operator": "eq", "value": "nei" }
         },
         {
