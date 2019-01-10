@@ -2876,6 +2876,238 @@
           ]
         },
         {
+          "id": "eksempelTabellForIkkeSpesifikkeProdukter",
+          "text": "Produsenten må finne riktig system for produktet. Her er en liste med eksempler på produkter som ikke er dekket av en harmonisert standard og systemene som gjelder for disse produktene. Finner du ikke ditt produkt eller er du fortsatt usikker på valg av system, kan du ta KONTAKT (lenke e-post) med direktoratet.",
+          "type": "Table",
+          "simple": true,
+          "cells": [
+            [
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.headingProdukt",
+                "type": "Heading",
+                "colSpan": 1,
+                "text": "Produkt"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.headingSystem",
+                "type": "Heading",
+                "colSpan": 1,
+                "text": "Hvilket system?"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.headingKommentar",
+                "type": "Heading",
+                "colSpan": 1,
+                "text": "Kommentar"
+              }
+            ],
+            [
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell1-1",
+                "type": "Cell",
+                "text": "I-profiler av tre"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell1-2",
+                "type": "Cell",
+                "text": "1"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell1-3",
+                "type": "Cell",
+                "text": "Se EAD"
+              }
+            ],
+            [
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell2-1",
+                "type": "Cell",
+                "text": "Stolpesko i galvanisert stål"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell2-2",
+                "type": "Cell",
+                "text": "2+"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell2-3",
+                "type": "Cell",
+                "text": " "
+              }
+            ],
+            [
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell4-1",
+                "type": "Cell",
+                "text": "Åpne veggelementer i tre"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell3-2",
+                "type": "Cell",
+                "text": "4"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell3-3",
+                "type": "Cell",
+                "text": "ETAG 007"
+              }
+            ],
+            [
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell4-1",
+                "type": "Cell",
+                "text": "Lukkede veggelementer i tre"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell4-2",
+                "type": "Cell",
+                "text": "2+"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell4-3",
+                "type": "Cell",
+                "text": "ETAG 007"
+              }
+            ],
+            [
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell5-1",
+                "type": "Cell",
+                "text": "Påstrykingsmembraner"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell5-2",
+                "type": "Cell",
+                "text": "2+"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell5-3",
+                "type": "Cell",
+                "text": "ETAG 022"
+              }
+            ],
+            [
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell6-1",
+                "type": "Cell",
+                "text": "Banevaremembraner"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell6-2",
+                "type": "Cell",
+                "text": "2+"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell6-3",
+                "type": "Cell",
+                "text": "ETAG 022"
+              }
+            ],
+            [
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell6-1",
+                "type": "Cell",
+                "text": "Vanntette platesystemer"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell6-2",
+                "type": "Cell",
+                "text": "2+"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell6-3",
+                "type": "Cell",
+                "text": "ETAG 022"
+              }
+            ],
+            [
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell7-1",
+                "type": "Cell",
+                "text": "Plastrør uten kontakt med drikkevann"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell7-2",
+                "type": "Cell",
+                "text": "4"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell7-3",
+                "type": "Cell",
+                "text": " "
+              }
+            ],
+            [
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell8-1",
+                "type": "Cell",
+                "text": "Produkter i kontakt med drikkevann"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell8-2",
+                "type": "Cell",
+                "text": "1+"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell8-3",
+                "type": "Cell",
+                "text": " "
+              }
+            ],
+            [
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell9-1",
+                "type": "Cell",
+                "text": "Brannklassifiserte dører"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell9-2",
+                "type": "Cell",
+                "text": "1"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell9-3",
+                "type": "Cell",
+                "text": " "
+              }
+            ],
+            [
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell10-1",
+                "type": "Cell",
+                "text": "Sprinkler"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell10-2",
+                "type": "Cell",
+                "text": "1"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell10-3",
+                "type": "Cell",
+                "text": " "
+              }
+            ],
+            [
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell11-1",
+                "type": "Cell",
+                "text": "Brannbeskyttende maling"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell11-2",
+                "type": "Cell",
+                "text": "1"
+              },
+              {
+                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell11-3",
+                "type": "Cell",
+                "text": " "
+              }
+            ]
+          ]
+        },
+        {
           "id": "resultIkkeByggevare",
           "type": "Result",
           "heading": "Produktet er ikke en byggevare",
@@ -3393,67 +3625,85 @@
           ]
         },
         {
-          "id": "hvilketSystemDokumentasjon",
-          "property": "hvilketSystemDokumentasjon",
-          "type": "Radio",
+          "id": "hvilketSystemDokumentasjonGroup",
+          "type": "Group",
           "heading": "Hvilket system gjelder for produktet?",
-          "text": "<p>Mange byggevarer har stor betydning for bygninger. Det kan derfor være nødvendig å underlegge de en viss form for kontroll fra en uavhengig tredjepart.</p><p>Fordi byggevarer har ulik betydning for byggverk har man kategorisert kontrollen i ulike systemer. Det finnes 5 ulike systemer som beskriver hvilke oppgaver produsenten har og hvilke oppgaver som skal gjennomføres av en tredjepart.</p>",
           "show": { "field": "dokumentasjonSpraak", "operator": "required" },
-          "options": [
+          "children": [
             {
-              "id": "hvilketSystemDokumentasjon.1plus",
-              "type": "Answer",
-              "heading": "System 1+",
-              "value": "1plus",
-              "disabled": {
-                "field": "$computed.iSystem1Plus",
-                "operator": "eq",
-                "value": true
-              }
+              "id": "hvilketSystemDokumentasjonText",
+              "property": "hvilketSystemDokumentasjonText",
+              "type": "Text",
+              "text": "<p>Mange byggevarer har stor betydning for bygninger. Det kan derfor være nødvendig å underlegge de en viss form for kontroll fra en uavhengig tredjepart.</p><p>Fordi byggevarer har ulik betydning for byggverk har man kategorisert kontrollen i ulike systemer. Det finnes 5 ulike systemer som beskriver hvilke oppgaver produsenten har og hvilke oppgaver som skal gjennomføres av en tredjepart.</p>"
             },
             {
-              "id": "hvilketSystemDokumentasjon.1",
-              "type": "Answer",
-              "heading": "System 1",
-              "value": "1",
-              "disabled": {
-                "field": "$computed.iSystem1",
-                "operator": "eq",
-                "value": true
-              }
+              "nodeId": "eksempelTabellForIkkeSpesifikkeProdukter",
+              "type": "Reference",
+              "show": { "field": "produktType", "operator": "eq", "value": "annet" }
             },
             {
-              "id": "hvilketSystemDokumentasjon.2plus",
-              "type": "Answer",
-              "heading": "System 2+",
-              "value": "2plus",
-              "disabled": {
-                "field": "$computed.iSystem2Plus",
-                "operator": "eq",
-                "value": true
-              }
-            },
-            {
-              "id": "hvilketSystemDokumentasjon.3",
-              "type": "Answer",
-              "heading": "System 3",
-              "value": "3",
-              "disabled": {
-                "field": "$computed.iSystem3",
-                "operator": "eq",
-                "value": true
-              }
-            },
-            {
-              "id": "hvilketSystemDokumentasjon.4",
-              "type": "Answer",
-              "heading": "System 4",
-              "value": "4",
-              "disabled": {
-                "field": "$computed.iSystem4",
-                "operator": "eq",
-                "value": true
-              }
+              "id": "hvilketSystemDokumentasjon",
+              "property": "hvilketSystemDokumentasjon",
+              "type": "Radio",
+              "heading": "",
+              "show": { "field": "dokumentasjonSpraak", "operator": "required" },
+              "options": [
+                {
+                  "id": "hvilketSystemDokumentasjon.1plus",
+                  "type": "Answer",
+                  "heading": "System 1+",
+                  "value": "1plus",
+                  "disabled": {
+                    "field": "$computed.iSystem1Plus",
+                    "operator": "eq",
+                    "value": true
+                  }
+                },
+                {
+                  "id": "hvilketSystemDokumentasjon.1",
+                  "type": "Answer",
+                  "heading": "System 1",
+                  "value": "1",
+                  "disabled": {
+                    "field": "$computed.iSystem1",
+                    "operator": "eq",
+                    "value": true
+                  }
+                },
+                {
+                  "id": "hvilketSystemDokumentasjon.2plus",
+                  "type": "Answer",
+                  "heading": "System 2+",
+                  "value": "2plus",
+                  "disabled": {
+                    "field": "$computed.iSystem2Plus",
+                    "operator": "eq",
+                    "value": true
+                  }
+                },
+                {
+                  "id": "hvilketSystemDokumentasjon.3",
+                  "type": "Answer",
+                  "heading": "System 3",
+                  "value": "3",
+                  "disabled": {
+                    "field": "$computed.iSystem3",
+                    "operator": "eq",
+                    "value": true
+                  }
+                },
+                {
+                  "id": "hvilketSystemDokumentasjon.4",
+                  "type": "Answer",
+                  "heading": "System 4",
+                  "value": "4",
+                  "disabled": {
+                    "field": "$computed.iSystem4",
+                    "operator": "eq",
+                    "value": true
+                  }
+                }
+              ]
             }
           ]
         }
