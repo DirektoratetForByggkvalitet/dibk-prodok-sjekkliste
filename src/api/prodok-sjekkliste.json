@@ -3543,7 +3543,7 @@
                       "id": "hvilketSystem.prefabrikkerteByggmodulerTre",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Byggmoduler tre</em> tilhører: <a href='#' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For byggmoduler i tre er det disse oppgavene produsenten og tredjepart har.</p><h4>Produsent skal:</h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul> ",
                       "show": { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerTre" }
                     },
                     {
@@ -3585,7 +3585,7 @@
                       "id": "hvilketSystem.sandwichelementer",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Sandwichelementer</em> tilhører: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=153240&cpr=Y' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For sandwichelementer er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=153240&cpr=Y' target='_blank'>Nando</a></p><h4>Produsent skal:</h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "sandwichelementer" }
                     },
                     {
@@ -3967,15 +3967,36 @@
           ]
         },
         {
-          "type": "Reference",
-          "nodeId": "resultIkkeSvartPaaAlleSporsmal",
-          "show": {
-            "type": "or",
-            "clauses": [
-              { "field": "hasBruksanvisning", "operator": "eq", "value": false },
-              { "field": "bruksanvisningSpraak", "operator": "required" }
-            ]
-          }
+          "type": "Branch",
+          "branches": [
+            {
+              "test": {
+                "type": "or",
+                "clauses": [
+                  { "field": "hasBruksanvisning", "operator": "eq", "value": false },
+                  { "field": "bruksanvisningSpraak", "operator": "eq", "value": false }
+                ]
+              },
+              "children": [
+                {
+                  "type": "Reference",
+                  "nodeId": "resultSvartPaAltMenIkkeOK"
+                }
+              ]
+            },
+            {
+              "test": {
+                "type": "or",
+                "clauses": [{ "field": "bruksanvisningSpraak", "operator": "eq", "value": true }]
+              },
+              "children": [
+                {
+                  "type": "Reference",
+                  "nodeId": "resultSvartPaAltMenIkkeOK"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
