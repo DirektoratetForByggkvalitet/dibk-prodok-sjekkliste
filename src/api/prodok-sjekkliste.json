@@ -8,7 +8,6 @@
       "type": "or",
       "clauses": [
         { "field": "produktType", "operator": "eq", "value": "radonmembran" },
-        { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkertBaderomsmodul" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerTre" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerStal" },
@@ -45,7 +44,6 @@
         { "field": "produktType", "operator": "eq", "value": "styrkesortertKonstruksjonsvirke" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkerteStalkonstruksjoner" },
         { "field": "produktType", "operator": "eq", "value": "hulldekkeelementer" },
-        { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
         { "field": "produktType", "operator": "eq", "value": "element" },
         { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
@@ -1732,155 +1730,6 @@
               ]
             },
             {
-              "test": { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
-              "children": [
-                {
-                  "id": "ytelseserklaringTabell.rekkverk",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om rekkverkets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
-                  "type": "Table",
-                  "simple": true,
-                  "cells": [
-                    [
-                      {
-                        "id": "rekkverk.produktegenskaper",
-                        "type": "Heading",
-                        "colSpan": 2,
-                        "text": "Produktegenskaper"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "rekkverk.cell.bæreevne",
-                        "type": "Cell",
-                        "text": "<strong>Bæreevne</strong>"
-                      },
-                      {
-                        "id": "rekkverk.cell.bæreevneValue",
-                        "type": "Cell",
-                        "text": "Dimensjonerende horisontal lastkapasitet ved belastning mot overkant rekkverk"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "rekkverk.cell.brannpåvirkning",
-                        "type": "Cell",
-                        "text": "<strong>Brannpåvirkning i skjøt</strong>"
-                      },
-                      {
-                        "id": "rekkverk.cell.brannpåvirkningValue",
-                        "type": "Cell",
-                        "text": "Brannklassifisering iht. NS-EN 13501-1 av materialer som inngår i konstruksjonen"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "rekkverk.cell.sikkerhetVedBruk",
-                        "type": "Cell",
-                        "text": "<strong>Sikkerhet ved bruk</strong>"
-                      },
-                      {
-                        "id": "rekkverk.cell.sikkerhetVedBrukValue",
-                        "type": "Cell",
-                        "text": "Netto vertikal åpning mellom trinn og åpning mellom rekkverksspiler"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "rekkverk.cell.komponenter",
-                        "type": "Heading",
-                        "colSpan": 2,
-                        "text": "Komponenter"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "rekkverk.cell.aluminiumprofiler",
-                        "type": "Cell",
-                        "text": "<strong>Aluminium-profiler</strong>"
-                      },
-                      {
-                        "id": "rekkverk.cell.aluminiumprofilerValue",
-                        "type": "Cell",
-                        "text": "Ekstrudert aluminium EN AW6060 og 6005A"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "rekkverk.cell.håndlist",
-                        "type": "Cell",
-                        "text": "<strong>Håndlist i aluminium</strong>"
-                      },
-                      {
-                        "id": "rekkverk.cell.håndlistValue",
-                        "type": "Cell",
-                        "text": "Ekstrudert aluminium EN AW6060 og 6005A"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "rekkverk.cell.glass",
-                        "type": "Cell",
-                        "text": "<strong>Glass</strong>"
-                      },
-                      {
-                        "id": "rekkverk.cell.glassValue",
-                        "type": "Cell",
-                        "text": "Laminert glass i henhold til NS-EN 14449:2005"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "rekkverk.cell.bolterOgFestemidler",
-                        "type": "Cell",
-                        "text": "<strong>Bolter og festemidler</strong>"
-                      },
-                      {
-                        "id": "rekkverk.cell.bolterOgFestemidlerValue",
-                        "type": "Cell",
-                        "text": "Ikke forspente skrueforbindelser i henhold til NS-EN 15048"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "rekkverk.cell.forbindelser",
-                        "type": "Cell",
-                        "text": "<strong>Forbindelser</strong>"
-                      },
-                      {
-                        "id": "rekkverk.cell.forbindelserValue",
-                        "type": "Cell",
-                        "text": "Legert* sink type 5"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "rekkverk.cell.festebolter",
-                        "type": "Cell",
-                        "text": "<strong>Festebolter (ankerfeste i betong)</strong>"
-                      },
-                      {
-                        "id": "rekkverk.cell.festebolterValue",
-                        "type": "Cell",
-                        "text": "Metallanker i stål"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "rekkverk.cell.festeplater",
-                        "type": "Cell",
-                        "text": "<strong>Festeplater</strong>"
-                      },
-                      {
-                        "id": "rekkverk.cell.festeplaterValue",
-                        "type": "Cell",
-                        "text": "Legert* sink type 5"
-                      }
-                    ]
-                  ]
-                }
-              ]
-            },
-            {
               "test": { "field": "produktType", "operator": "eq", "value": "ror" },
               "children": [
                 {
@@ -2877,7 +2726,7 @@
         },
         {
           "id": "eksempelTabellForIkkeSpesifikkeProdukter",
-          "text": "Produsenten må finne riktig system for produktet. Her er en liste med eksempler på produkter som ikke er dekket av en harmonisert standard og systemene som gjelder for disse produktene. Finner du ikke ditt produkt eller er du fortsatt usikker på valg av system, kan du ta KONTAKT (lenke e-post) med direktoratet.",
+          "text": "<p>Produsenten må finne riktig system for produktet. Her er en liste med eksempler på produkter som ikke er dekket av en harmonisert standard og systemene som gjelder for disse produktene. Finner du ikke ditt produkt eller er du fortsatt usikker på valg av system, kan du <a href=\"mailto:post@dibk.no\">ta kontakt med direktoratet</a>.</p>",
           "type": "Table",
           "simple": true,
           "cells": [
@@ -3111,7 +2960,7 @@
           "id": "resultIkkeByggevare",
           "type": "Result",
           "heading": "Produktet er ikke en byggevare",
-          "lead": "<p>Du har svart på nei spørsmålene i veiviseren. Svarene viser at produktet ikke er en byggevare. Dette er ofte en vanskelig vurdering. Er du usikker om produktet er en byggevare kan du ta kontakt med direktoratet HER (e-post).</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>"
+          "lead": "<p>Du har svart på nei spørsmålene i veiviseren. Svarene viser at produktet ikke er en byggevare. Dette er ofte en vanskelig vurdering. Er du usikker om produktet er en byggevare kan du <a href=\"mailto:post@dibk.no\">ta kontakt med direktoratet</a>.</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>"
         },
         {
           "id": "resultAltOK",
@@ -3245,16 +3094,6 @@
               "image": {
                 "url": "/images/radonmembran.png",
                 "alt": "Radonmembran"
-              }
-            },
-            {
-              "id": "produktType.rekkverkAluStalGlass",
-              "type": "Answer",
-              "heading": "Rekkverk",
-              "value": "rekkverkAluStalGlass",
-              "image": {
-                "url": "/images/rekkverk.png",
-                "alt": "Rekkverk"
               }
             },
             {
@@ -3413,11 +3252,6 @@
           ]
         },
         {
-          "type": "ReferenceREMOVE",
-          "nodeId": "resultIkkeByggevare",
-          "show": { "field": "isProductByggevare", "operator": "eq", "value": "nei" }
-        },
-        {
           "type": "Branch",
           "branches": [
             {
@@ -3428,18 +3262,20 @@
                   "property": "varigDelAvByggverk",
                   "type": "Radio",
                   "heading": "Skal produktet bygges varig inn i et byggverk?",
-                  "text": "<p>De aller fleste produkter som skal bygges inn i et byggverk er byggevarer. F.eks. listverk og kjøkkeninnredning anses ikke som byggevarer ettersom de ikke bygges permanent inn i et byggverk. Det at produktet kan skiftes ut, f.eks. vinduer og dører, innebærer ikke at det ikke er en byggevare.</p>",
+                  "text": "<p>De aller fleste produkter som skal bygges inn i et byggverk er byggevarer.</p>",
                   "options": [
                     {
                       "id": "varigDelAvByggverk.ja",
                       "type": "Answer",
-                      "heading": "Ja",
+                      "heading": "Ja, det er en byggevare",
+                      "text": "De fleste som ting som bygges permanent inn i boligen er byggevarer. Noen byggevarer som kan skiftes ut, for eksempel vinduer og dører, regnes også som byggevarer.",
                       "value": true
                     },
                     {
                       "id": "varigDelAvByggverk.nei",
                       "type": "Answer",
-                      "heading": "Nei",
+                      "heading": "Nei, det er ikke en byggevare",
+                      "text": "Det som ikke bygges permanent inn, som listverk og kjøkkeninnredning, anses ikke som byggevarer.",
                       "value": false
                     }
                   ]
@@ -3465,17 +3301,32 @@
                       "value": false
                     }
                   ]
-                },
-                {
-                  "nodeId": "resultIkkeByggevare",
-                  "type": "Reference",
-                  "show": {
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Branch",
+          "branches": [
+            {
+              "test": {
+                "type": "or",
+                "clauses": [
+                  {
                     "type": "or",
                     "clauses": [
                       { "field": "varigDelAvByggverk", "operator": "eq", "value": false },
                       { "field": "grunnleggendeEgenskaper", "operator": "eq", "value": false }
                     ]
-                  }
+                  },
+                  { "field": "isProductByggevare", "operator": "eq", "value": "nei" }
+                ]
+              },
+              "children": [
+                {
+                  "type": "Reference",
+                  "nodeId": "resultIkkeByggevare"
                 }
               ]
             }
@@ -3559,7 +3410,7 @@
           "property": "hasDokumentasjon",
           "type": "Radio",
           "heading": "Har produktet dokumentasjon?",
-          "text": "<p>Produsenten skal lage og undertegne produktdokumentasjonen, og dermed ta ansvar for at produktet har de beskrevne egenskapene. Det er ingen spesielle krav til navnet på dokumentet eller hvilken rekkefølge informasjonen kommer. Det er imidlertid krav til hva dokumententasjonen skal innholdet.</p><p>Se mal for produktdokumentasjon HER.</p>",
+          "text": "<p>Produsenten skal lage og undertegne produktdokumentasjonen, og dermed ta ansvar for at produktet har de beskrevne egenskapene. Det er ingen spesielle krav til navnet på dokumentet eller hvilken rekkefølge informasjonen kommer. Det er imidlertid krav til hva dokumententasjonen skal innholdet.</p><p><a href=\"https://dibk.no/produkter-til-byggverk/byggevareinfo/dokumentasjon-av-byggevarer/dokumentasjonskrav-til-ikke-ce-merkede-byggevarer/\" target=\"_blank\">Mal for produktdokumentasjon</a>.</p>",
           "options": [
             {
               "id": "hasDokumentasjon.ja",
@@ -3635,11 +3486,6 @@
               "property": "hvilketSystemDokumentasjonText",
               "type": "Text",
               "text": "<p>Mange byggevarer har stor betydning for bygninger. Det kan derfor være nødvendig å underlegge de en viss form for kontroll fra en uavhengig tredjepart.</p><p>Fordi byggevarer har ulik betydning for byggverk har man kategorisert kontrollen i ulike systemer. Det finnes 5 ulike systemer som beskriver hvilke oppgaver produsenten har og hvilke oppgaver som skal gjennomføres av en tredjepart.</p>"
-            },
-            {
-              "nodeId": "eksempelTabellForIkkeSpesifikkeProdukter",
-              "type": "Reference",
-              "show": { "field": "produktType", "operator": "eq", "value": "annet" }
             },
             {
               "id": "hvilketSystemDokumentasjon",
@@ -3825,7 +3671,7 @@
           "property": "hasYtelseserklaering",
           "type": "Radio",
           "heading": "Har produktet en ytelseserklæring?",
-          "text": "<p>Ytelseserklæringen er et dokument som er laget og undertegnet av produsenten. Hovedformålet med dokumentet er at produsentene skal deklarere den viktigste informasjonen om sitt produkt, spesielt produktets viktigste egenskaper og ytelser.</p><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p><p>Mal for ytelseserklæring finner du HER.</p><p>Dokumentet kan ha flere ulike titler. På svensk heter dokumentet “prestandadeklaration”, på dansk “ydeevnedeklaration”, på tysk “Leistungserklärung” og på engelsk “Declaration of performance”.</p>",
+          "text": "<p>Ytelseserklæringen er et dokument som er laget og undertegnet av produsenten. Hovedformålet med dokumentet er at produsentene skal deklarere den viktigste informasjonen om sitt produkt, spesielt produktets viktigste egenskaper og ytelser.</p><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p><p><a href=\"https://dibk.no/globalassets/temaveiledninger/produktdokumentasjon/produktdokumentasjon_kortversjon/ytelseserklaring_generell_3-7.png\" target=\"_blank\">Mal for ytelseserklæring</a>.</p><p>Dokumentet kan ha flere ulike titler. På svensk heter dokumentet “prestandadeklaration”, på dansk “ydeevnedeklaration”, på tysk “Leistungserklärung” og på engelsk “Declaration of performance”.</p>",
           "options": [
             {
               "id": "hasYtelseserklaering.ja",
@@ -3903,6 +3749,20 @@
               "type": "Text",
               "heading": "",
               "text": "<p>Mange byggevarer har stor betydning for bygninger. Det kan derfor være nødvendig å underlegge de en viss form for kontroll fra en uavhengig tredjepart.</p><p>Fordi byggevarer har ulik betydning for byggverk har man kategorisert kontrollen i ulike systemer. Det finnes 5 ulike systemer som beskriver hvilke oppgaver produsenten har og hvilke oppgaver som skal gjennomføres av en tredjepart.</p>"
+            },
+            {
+              "type": "Branch",
+              "branches": [
+                {
+                  "test": { "field": "produktType", "operator": "eq", "value": "annet" },
+                  "children": [
+                    {
+                      "nodeId": "eksempelTabellForIkkeSpesifikkeProdukter",
+                      "type": "Reference"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "hvilketSystemTextNonSpecificProduct",
@@ -4049,13 +3909,6 @@
                       "heading": "",
                       "text": "<p>Produkttype <em>Radonmembran</em> tilhører: Radonmotstand/radongjennomgang må testes av et uavhengig tredjepartsorgan</p>",
                       "show": { "field": "produktType", "operator": "eq", "value": "radonmembran" }
-                    },
-                    {
-                      "id": "hvilketSystem.rekkverkAluStalGlass",
-                      "type": "Text",
-                      "heading": "",
-                      "text": "<p>Produkttype <em>Rekkverk</em> tilhører: <a href='#' target='_blank'>lenke til Nando</a></p>",
-                      "show": { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" }
                     },
                     {
                       "id": "hvilketSystem.ror",
@@ -4267,7 +4120,7 @@
           "property": "hasCE",
           "type": "Radio",
           "heading": "Har produktet CE-merke?",
-          "text": "<p>Produktet du har valgt krever CE-merking og det skal være festet på produktet. Der det ikke er mulig, skal det være festet på emballasjen eller framgå av papirer som følger med produktet.</p><p>Mal for CE-merking finner du HER.</p>",
+          "text": "<p>Produktet du har valgt krever CE-merking og det skal være festet på produktet. Der det ikke er mulig, skal det være festet på emballasjen eller framgå av papirer som følger med produktet.</p><p><a href=\"https://dibk.no/saksbehandling/kommunalt-tilsyn/temaveiledninger/veiledning-for-kommunalt-tilsyn-med-produktdokumentasjon/3.-regelverket-for-produktdokumentasjon-av-byggevarer/oversikt-over-regelverk-og-begreper/#produktdokumentasjon_av_CE\" target=\"_blank\">Mal for CE-merking</a>.</p>",
           "options": [
             {
               "id": "hasCE.ja",
