@@ -476,6 +476,8 @@
                 {
                   "id": "ytelseserklaringTabell.prefabrikkertBaderomsmodul",
                   "text": "<p>Produktdokumentasjonen skal inneholde informasjon om baderomsmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "summary": "Eksempler på komponenter (vil variere)",
+                  "details": "<ul><li>Vegger</li><li>Tak</li><li>Gulv</li><li>Gulvmembran</li><li>Fleksible slanger</li><li>Tetting veggkassetter / gulvramme</li><li>Påstrykningsmembran</li><li>Rør-i-rør-system</li><li>Sluk</li><li>Slukmansjett</li><li>Tettebånd rundt gjennomføring i vegg</li><li>Fliser</li><li>Flislim</li><li>Fugemørtel</li><li>WC</li><li>WC siterne</li><li>Tappearmaturer</li></ul>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -489,218 +491,50 @@
                     ],
                     [
                       {
-                        "id": "prefabrikkertBaderomsmodul.cell.vegger",
+                        "id": "prefabrikkertBaderomsmodul.cell1",
                         "type": "Cell",
-                        "text": "<strong>Vegger</strong>"
+                        "text": "<strong>Bæreevne</strong>"
                       },
                       {
-                        "id": "prefabrikkertBaderomsmodul.cell.veggerValue",
+                        "id": "prefabrikkertBaderomsmodul.cell1value",
                         "type": "Cell",
-                        "text": "400 mm brede kassetter av 1 mm tykke stålplater"
+                        "text": "Dimensjonerende lastkapasitet"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikkertBaderomsmodul.cell.tak",
+                        "id": "prefabrikkertBaderomsmodul.cell2",
                         "type": "Cell",
-                        "text": "<strong>Tak</strong>"
+                        "text": "<strong>Vanntetthet</strong>"
                       },
                       {
-                        "id": "prefabrikkertBaderomsmodul.cell.takValue",
+                        "id": "prefabrikkertBaderomsmodul.cell2value",
                         "type": "Cell",
-                        "text": "Uisolert hvitlakkerte kassetter"
+                        "text": "Gjennomtrengning av vann som virker på overflaten av gulv og vegger med gjennomføringer."
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikkertBaderomsmodul.cell.gulv",
+                        "id": "prefabrikkertBaderomsmodul.cell3",
                         "type": "Cell",
-                        "text": "<strong>Gulv</strong>"
+                        "text": "<strong>Branntekniske egenskaper</strong>"
                       },
                       {
-                        "id": "prefabrikkertBaderomsmodul.cell.gulvValue",
+                        "id": "prefabrikkertBaderomsmodul.cell3value",
                         "type": "Cell",
-                        "text": "Armert betongplater i stålramme"
+                        "text": "Brannpåvirkning - påvirkning til varme- og røykutvikling ved brann"
                       }
                     ],
                     [
                       {
-                        "id": "prefabrikkertBaderomsmodul.cell.gulvmembran",
+                        "id": "prefabrikkertBaderomsmodul.cell4",
                         "type": "Cell",
-                        "text": "<strong>Gulvmembran</strong>"
+                        "text": "<strong>Varmeisolering</strong>"
                       },
                       {
-                        "id": "prefabrikkertBaderomsmodul.cell.gulvmembranValue",
+                        "id": "prefabrikkertBaderomsmodul.cell4value",
                         "type": "Cell",
-                        "text": "Produktets navn"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.armering",
-                        "type": "Cell",
-                        "text": "<strong>Armering i gulv</strong>"
-                      },
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.armeringValue",
-                        "type": "Cell",
-                        "text": "Armeringsnett NPS 6150"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.tetting",
-                        "type": "Cell",
-                        "text": "<strong>Tetting veggkassetter / gulvramme</strong>"
-                      },
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.tettingValue",
-                        "type": "Cell",
-                        "text": "Produktets navn og beskrivelse"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.påstrykningsmembran",
-                        "type": "Cell",
-                        "text": "<strong>Påstrykningsmembran</strong>"
-                      },
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.påstrykningsmembranValue",
-                        "type": "Cell",
-                        "text": "Beskrivelse"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.rørirør",
-                        "type": "Cell",
-                        "text": "<strong>Rør-i-rør-system</strong>"
-                      },
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.rørirørValue",
-                        "type": "Cell",
-                        "text": "Uponor iht NPS 0017 og 1118 med gummimansjett type 3069 tilpasset veggkonstruksjon"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.sluk",
-                        "type": "Cell",
-                        "text": "<strong>Sluk</strong>"
-                      },
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.slukValue",
-                        "type": "Cell",
-                        "text": "Sertifiserte produkter iht EN 1253"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.slukmansjett",
-                        "type": "Cell",
-                        "text": "<strong>Slukmansjett</strong>"
-                      },
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.slukmansjettValue",
-                        "type": "Cell",
-                        "text": "LIP selvklebende slukmansjett"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.tettebånd",
-                        "type": "Cell",
-                        "text": "<strong>Tettebånd rundt gjennomføring i vegg</strong>"
-                      },
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.tettebåndValue",
-                        "type": "Cell",
-                        "text": "Gjennomføring iht En 997 eller NT VVS 120"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.fliser",
-                        "type": "Cell",
-                        "text": "<strong>Fliser</strong>"
-                      },
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.fliserValue",
-                        "type": "Cell",
-                        "text": "Fliser iht En 87 og NS-EN 14411"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.flislim",
-                        "type": "Cell",
-                        "text": "<strong>Flislim</strong>"
-                      },
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.flislimValue",
-                        "type": "Cell",
-                        "text": "Proline E50 2K og LIP Flexicol"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.fugemørtel",
-                        "type": "Cell",
-                        "text": "<strong>Fugemørtel</strong>"
-                      },
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.fugemørtelValue",
-                        "type": "Cell",
-                        "text": "Fugemørtel iht NS-EN 13888"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.wc",
-                        "type": "Cell",
-                        "text": "<strong>WC</strong>"
-                      },
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.wcValue",
-                        "type": "Cell",
-                        "text": "Sertifiserte produkter iht EN-NS 997 eller NT VVS 120"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.sisterne",
-                        "type": "Cell",
-                        "text": "<strong>WC siterne</strong>"
-                      },
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.sisterneValue",
-                        "type": "Cell",
-                        "text": "Sertifiserte produkter iht NS-EN 14055"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.tappearmaturer",
-                        "type": "Cell",
-                        "text": "<strong>Tappearmaturer</strong>"
-                      },
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.tappearmaturerValue",
-                        "type": "Cell",
-                        "text": "Sertifiserte produkter iht NS-EN 2000, NS-EN 817 og NS-EN 1111"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.fleksibleSlanger",
-                        "type": "Cell",
-                        "text": "<strong>Fleksible slanger</strong>"
-                      },
-                      {
-                        "id": "prefabrikkertBaderomsmodul.cell.fleksibleSlangerValue",
-                        "type": "Cell",
-                        "text": "Produkter iht prEN 13618-1 og 2"
+                        "text": "For eksempel U-verdi"
                       }
                     ]
                   ]
@@ -713,6 +547,8 @@
                 {
                   "id": "ytelseserklaringTabell.trapp",
                   "text": "<p>Produktdokumentasjonen skal inneholde informasjon om trappens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "summary": "Eksempler på komponenter (vil variere)",
+                  "details": "<ul><li>Inntrinn</li><li>Opptrinn</li><li>Barnesikringslist</li><li>Midtstenger</li><li>Håndlist</li><li>Bolter</li><li>Festemidler</li><li>Glass</li></ul>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -721,195 +557,91 @@
                         "id": "trapp.heading",
                         "type": "Heading",
                         "colSpan": 2,
-                        "text": "Bæreevne"
+                        "text": "Produktegenskaper"
                       }
                     ],
                     [
                       {
-                        "id": "trapp.cell.lastkapasitetJevn",
+                        "id": "trapp.cell1",
                         "type": "Cell",
                         "text": "<strong>Dimensjonerende lastkapasitet ved jevnt fordelt last på alle trinn</strong>"
                       },
                       {
-                        "id": "trapp.cell.lastkapasitetJevnValue",
+                        "id": "trapp.cell1value",
                         "type": "Cell",
-                        "text": "kN/m<sup>2</sup>"
+                        "text": "Uttrykkes som kN/m2. Minstekrav iht. NS-EN 1991-1-1 er 3,0 kN/m2"
                       }
                     ],
                     [
                       {
-                        "id": "trapp.cell.lastkapasitetPunktlast",
+                        "id": "trapp.cell2",
                         "type": "Cell",
                         "text": "<strong>Dimensjonerende lastkapasitet ved punktlast</strong>"
                       },
                       {
-                        "id": "trapp.cell.lastkapasitetPunktlastValue",
+                        "id": "trapp.cell2value",
                         "type": "Cell",
-                        "text": "kN"
+                        "text": "Uttrykkes som kN. Minstekrav iht. NS-EN 1991-1-1 er 2,0 kN"
                       }
                     ],
                     [
                       {
-                        "id": "trapp.cell.horisontallast",
+                        "id": "trapp.cell3",
                         "type": "Cell",
                         "text": "<strong>Dimensjonerende horisontallast på rekkverk</strong>"
                       },
                       {
-                        "id": "trapp.cell.horisontallastValue",
+                        "id": "trapp.cell3value",
                         "type": "Cell",
-                        "text": "kN/m"
+                        "text": "Uttrykkes som kN/m. Minstekrav iht. NS-EN 1991-1-1 er 1,0 kN/m"
                       }
                     ],
                     [
                       {
-                        "id": "trapp.cell.brannpåvirkning",
+                        "id": "trapp.cell4",
                         "type": "Cell",
-                        "text": "<strong>Egenskaper ved brannpåvirkning</strong>"
+                        "text": "<strong>Brannpåvirkning</strong>"
                       },
                       {
-                        "id": "trapp.cell.brannpåvirkningValue",
+                        "id": "trapp.cell4value",
                         "type": "Cell",
                         "text": "Brannklassifisering iht. NS-EN 13501-1 av materialer som inngår i konstruksjonen. Uttrykkes ved klasse A - E"
                       }
                     ],
                     [
                       {
-                        "id": "trapp.cell.brannmotstand",
+                        "id": "trapp.cell5",
                         "type": "Cell",
                         "text": "<strong>Brannmotstand</strong>"
                       },
                       {
-                        "id": "trapp.cell.brannmotstandValue",
+                        "id": "trapp.cell5value",
                         "type": "Cell",
-                        "text": "EI + antall minutter"
+                        "text": "Brannmotstand iht. NS-EN 13501-2. Uttrykkes som EI + antall minutter"
                       }
                     ],
                     [
                       {
-                        "id": "trapp.cell.sikkerhetVedBruk",
+                        "id": "trapp.cell6",
                         "type": "Cell",
-                        "text": "<strong>Sikkerhet ved bruk</strong>"
+                        "text": "<strong>Sikkerhet ved bruk - netto vertival åpning</strong>"
                       },
                       {
-                        "id": "trapp.cell.sikkerhetVedBrukValue",
+                        "id": "trapp.cell6value",
                         "type": "Cell",
-                        "text": "Netto vertikal åpning mellom trinn og åpning mellom rekkverkspiler. Uttrykkes i mm"
+                        "text": "Netto vertikal åpning mellom trinn og åpning mellom rekkverkspiler. Uttrykkes i mm. Åpningen skal være maksimalt 100 mm der det kreves barnesikring."
                       }
                     ],
                     [
                       {
-                        "id": "trapp.cell.stigningOgPlassbehov",
+                        "id": "trapp.cell7",
                         "type": "Cell",
                         "text": "<strong>Stigning og plassbehov</strong>"
                       },
                       {
-                        "id": "trapp.cell.stigningOgPlassbehovValue",
+                        "id": "trapp.cell7value",
                         "type": "Cell",
                         "text": "Målangivelser"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "trapp.komponent",
-                        "type": "Heading",
-                        "colSpan": 2,
-                        "text": "Komponent"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "trapp.cell.inntrinn",
-                        "type": "Cell",
-                        "text": "<strong>Inntrinn</strong>"
-                      },
-                      {
-                        "id": "trapp.cell.inntrinnValue",
-                        "type": "Cell",
-                        "text": "Kryssfiner"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "trapp.cell.opptrinn",
-                        "type": "Cell",
-                        "text": "<strong>Opptrinn</strong>"
-                      },
-                      {
-                        "id": "trapp.cell.opptrinnValue",
-                        "type": "Cell",
-                        "text": "Kryssfiner"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "trapp.cell.barnesikringslist",
-                        "type": "Cell",
-                        "text": "<strong>Barnesikringslist</strong>"
-                      },
-                      {
-                        "id": "trapp.cell.barnesikringslistValue",
-                        "type": "Cell",
-                        "text": "Stål med kvalitet S235JrG2"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "trapp.cell.midtstenger",
-                        "type": "Cell",
-                        "text": "<strong>Midtstenger</strong>"
-                      },
-                      {
-                        "id": "trapp.cell.fliserValue",
-                        "type": "Cell",
-                        "text": "Stål med kvalitet S275"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "trapp.cell.håndlist",
-                        "type": "Cell",
-                        "text": "<strong>Håndlist</strong>"
-                      },
-                      {
-                        "id": "trapp.cell.håndlistValue",
-                        "type": "Cell",
-                        "text": "Stål med kvalitet S235JrG2"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "trapp.cell.bolter",
-                        "type": "Cell",
-                        "text": "<strong>Bolter</strong>"
-                      },
-                      {
-                        "id": "trapp.cell.bolterValue",
-                        "type": "Cell",
-                        "text": "Stål med kvalitet S275"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "trapp.cell.festemidler",
-                        "type": "Cell",
-                        "text": "<strong>Festemidler</strong>"
-                      },
-                      {
-                        "id": "trapp.cell.festemidlerValue",
-                        "type": "Cell",
-                        "text": "Stål med kvalitet S275"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "trapp.cell.glass",
-                        "type": "Cell",
-                        "text": "<strong>Glass</strong>"
-                      },
-                      {
-                        "id": "trapp.cell.glassValue",
-                        "type": "Cell",
-                        "text": "Laminert glass"
                       }
                     ]
                   ]
@@ -1063,189 +795,149 @@
                 {
                   "id": "ytelseserklaringTabell.byggmodulerITre",
                   "text": "<p>Produktdokumentasjonen skal inneholde informasjon om den prefabrikkerte byggmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "summary": "Eksempler på komponenter (vil variere)",
+                  "details": "<ul><li>Trevirke</li><li>Undergulv</li><li>Underlagsplater</li><li>Parkett</li><li>Vinyl</li><li>Innvendig underkledning </li><li>Modulskillevegger</li><li>Lydvegg, mot hulrom</li><li>Varmeisolasjon </li><li>Lydisolerende oppleggsklosser</li><li>Dampsperre</li><li>Vindsperre</li><li>Taktekning </li><li>Kledning under modul</li><li>Kledning mot overliggende modul</li></ul>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
                     [
                       {
-                        "id": "byggmodulerITre.cell.mekaniskeEgenskaper",
+                        "id": "byggmodulerITre.cell.heading",
                         "type": "Heading",
-                        "text": "Mekaniske egenskaper"
+                        "colSpan": 2,
+                        "text": "Produktegenskaper"
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerITre.cell.bæreevneTilVegg",
+                        "id": "byggmodulerITre.cell1",
                         "type": "Cell",
-                        "text": "<strong>Bæreevne til vegg</strong>"
-                      }
-                    ],
-                    [
+                        "text": "<strong>Bæreevne gulv, tak og vegg</strong>"
+                      },
                       {
-                        "id": "byggmodulerITre.cell.bæreevneTilGulv",
+                        "id": "byggmodulerITre.cell1value",
                         "type": "Cell",
-                        "text": "<strong>Bæreevne til gulv</strong>"
+                        "text": "Dimensjonerende lastkapasitet"
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerITre.cell.bæreevneTilTak",
+                        "id": "byggmodulerITre.cell2",
                         "type": "Cell",
-                        "text": "<strong>Bæreevne til tak</strong>"
+                        "text": "<strong>Nyttelastkapasiteten til etasjeskiller</strong>"
+                      },
+                      {
+                        "id": "byggmodulerITre.cell2value",
+                        "type": "Cell",
+                        "text": "Nyttelasten er den belastningen en konstruksjon kan bli belastet med etter at konstruksjonens egenlast er trukket fra."
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerITre.cell.brannegenskaper",
-                        "type": "Heading",
-                        "text": "Brannegenskaper"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "byggmodulerITre.cell.brannpåvirkning",
+                        "id": "byggmodulerITre.cell3",
                         "type": "Cell",
                         "text": "<strong>Brannpåvirkning til de ulike komponentene</strong>"
+                      },
+                      {
+                        "id": "byggmodulerITre.cell3value",
+                        "type": "Cell",
+                        "text": "Brannpåvirkning beskriver hvor mye en byggevare vil bidra til brann og røykutviklingen i tilfelle brann (uttrykkes i form av klasser). Egenskaper ved brannpåvirkning for de enkelte materialer og komponenter skal normalt være klassifisert i henhold NS-EN 13501-1. For de vanligste materialene fremgår klassifiseringen av en produktstandard og CE-merking."
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerITre.cell.brannmotstand",
+                        "id": "byggmodulerITre.cell4",
                         "type": "Cell",
                         "text": "<strong>Brannmotstand</strong>"
-                      }
-                    ],
-                    [
+                      },
                       {
-                        "id": "byggmodulerITre.cell.brannegenskaperForTaktekning",
+                        "id": "byggmodulerITre.cell4value",
                         "type": "Cell",
-                        "text": "<strong>Ytre brannegenskaper for taktekning</strong>"
+                        "text": "Brannmotstand er byggevarens evne til å motstå brann i en viss periode beregnet i minutter (uttrykkes i form av klasser). Brannmotstanden til de aktuelle bygningsdelene skal være klassifisert i henhold til NS-EN 13501-2 på basis av prøving, eller beregnet i henhold til relevant beregningsstandard (NS-EN 1995-1-2 for trekonstruksjoner)."
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerITre.cell.helseHygieneMiljø",
-                        "type": "Heading",
-                        "text": "Helse, hygiene og miljø"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "byggmodulerITre.cell.vanntetthetUtvendig",
+                        "id": "byggmodulerITre.cell5",
                         "type": "Cell",
-                        "text": "<strong>Vanntetthet til utvendige komponenter (vegg, tak og fundamenter)</strong>"
-                      }
-                    ],
-                    [
+                        "text": "<strong>Ytre brannegenskaper for tak og fasade</strong>"
+                      },
                       {
-                        "id": "byggmodulerITre.cell.vanntetthetInnvendig",
+                        "id": "byggmodulerITre.cell5value",
                         "type": "Cell",
-                        "text": "<strong>Vanntetthet til innvendige flater (vegg, tak, gulv)</strong>"
+                        "text": "Brannpåvirkning (se beskrivelse over) "
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerITre.cell.vanndampmotstand",
+                        "id": "byggmodulerITre.cell6",
                         "type": "Cell",
-                        "text": "<strong>Vanndampmotstand til komponenter til vegg, tak, gulv</strong>"
-                      }
-                    ],
-                    [
+                        "text": "<strong>Vanntetthet </strong>"
+                      },
                       {
-                        "id": "byggmodulerITre.cell.fugtighetsmotstand",
+                        "id": "byggmodulerITre.cell6value",
                         "type": "Cell",
-                        "text": "<strong>Fuktighetsmotstand til komponenter til vegg, tak, gulv</strong>"
+                        "text": "Måler trykket. Uttrykkes med en klasse. eks. RA (150)"
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerITre.cell.emisjonFargligStoffer",
+                        "id": "byggmodulerITre.cell7",
                         "type": "Cell",
-                        "text": "<strong>Emisjon av farlige stoffer til komponentene</strong>"
+                        "text": "<strong>Vanndampmotstand til komponenter</strong>"
+                      },
+                      {
+                        "id": "byggmodulerITre.cell7value",
+                        "type": "Cell",
+                        "text": "Hvor mye vann i gassform trenger inn vindsperren. Uttrykkes ved en verdi (SD-verdi) i m. eks. < 0,04"
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerITre.cell.energi",
-                        "type": "Heading",
-                        "text": "Energi/varmetilbakeholdelse"
+                        "id": "byggmodulerITre.cell8",
+                        "type": "Cell",
+                        "text": "<strong>Emisjon av farlige stoffer fra komponentene</strong>"
+                      },
+                      {
+                        "id": "byggmodulerITre.cell8value",
+                        "type": "Cell",
+                        "text": "Emisjon til inneluft"
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerITre.cell.termiskMotstand",
+                        "id": "byggmodulerITre.cell9",
                         "type": "Cell",
                         "text": "<strong>Termisk motstand til vegg, gulv, tak</strong>"
+                      },
+                      {
+                        "id": "byggmodulerITre.cell9value",
+                        "type": "Cell",
+                        "text": "For eksempel U-verdi"
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerITre.cell.lufttetthet",
+                        "id": "byggmodulerITre.cell10",
                         "type": "Cell",
                         "text": "<strong>Lufttetthet</strong>"
-                      }
-                    ],
-                    [
+                      },
                       {
-                        "id": "byggmodulerITre.cell.inertia",
+                        "id": "byggmodulerITre.cell10value",
                         "type": "Cell",
-                        "text": "<strong>Termisk treghet (intertia)</strong>"
+                        "text": "Måler trykket (Pa). Uttrykkes med en klasse. eks. A1 (150)"
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerITre.cell.sikkerhetForBruk",
-                        "type": "Heading",
-                        "text": "Sikkerhet for bruk"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "byggmodulerITre.cell.sklisikkerhetGulv",
+                        "id": "byggmodulerITre.cell11",
                         "type": "Cell",
-                        "text": "<strong>Sklisikkerhet gulv</strong>"
-                      }
-                    ],
-                    [
+                        "text": "<strong>Luftlyd- og trinnlydisolasjon</strong>"
+                      },
                       {
-                        "id": "byggmodulerITre.cell.motstandStøt",
+                        "id": "byggmodulerITre.cell11value",
                         "type": "Cell",
-                        "text": "<strong>Motstand mot støt til komponentene</strong>"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "byggmodulerITre.cell.motstandDynamiskBelastning",
-                        "type": "Cell",
-                        "text": "<strong>Motstand mot dynamisk belastning</strong>"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "byggmodulerITre.cell.lydisolering",
-                        "type": "Heading",
-                        "text": "Lydisolering"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "byggmodulerITre.cell.luftlydisolasjon",
-                        "type": "Cell",
-                        "text": "<strong>Luftlydisolasjon</strong>"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "byggmodulerITre.cell.lydisolering",
-                        "type": "Cell",
-                        "text": "<strong>Lydisolering</strong>"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "byggmodulerITre.cell.lydabsorpsjon",
-                        "type": "Cell",
-                        "text": "<strong>Lydabsorpsjon</strong>"
+                        "text": "Det er viktig å tenkte på slike målinger mellom boenheter. Spesielt for bygningsmoduler som skal monteres i flere etasjer må det normalt foreligge målinger av trinnlyd- og luftlydisolasjon, f.eks. i form av feltmålinger i ferdig bygg eller i pilotbygg."
                       }
                     ]
                   ]
@@ -1258,161 +950,149 @@
                 {
                   "id": "ytelseserklaringTabell.prefabrikkerteStålkonstruksjoner",
                   "text": "<p>Produktdokumentasjonen skal inneholde informasjon om den prefabrikkerte byggmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "summary": "Eksempler på komponenter (vil variere)",
+                  "details": "<ul><li>Stålprofiler</li><li>Tynnplateprofiler</li><li>Trevirke</li><li>Undergulv</li><li>Varmeisolasjon</li><li>Brannisolering av stålprofiler</li><li>Dampsperre</li><li>Vindsperre</li><li>Fugetetting</li><li>Tetting av gjennom føringer i brannskiller</li><li>Innvendig kledning</li><li>Himling i etasjeskiller over fundament</li><li>Monteringslim</li><li>Spiker/skruer</li><li>Opplagersjikt mellom moduler</li><li>Geotekstil under isolasjon</li></ul>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
                     [
                       {
-                        "id": "byggmodulerIStål.cell.bærendeKomponenter",
+                        "id": "byggmodulerIStaal.cell.heading",
                         "type": "Heading",
-                        "text": "Bærende komponenter"
+                        "colSpan": 2,
+                        "text": "Produktegenskaper"
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerIStål.cell.stålprofiler",
+                        "id": "byggmodulerIStaal.cell1",
                         "type": "Cell",
-                        "text": "<strong>Stålprofiler</strong>"
-                      }
-                    ],
-                    [
+                        "text": "<strong>Bæreevne gulv, tak og vegg</strong>"
+                      },
                       {
-                        "id": "byggmodulerIStål.cell.tynnplateprofiler",
+                        "id": "byggmodulerITre.cell1value",
                         "type": "Cell",
-                        "text": "<strong>Tynnplateprofiler</strong>"
+                        "text": "Dimensjonerende lastkapasitet"
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerIStål.cell.trevirke",
+                        "id": "byggmodulerIStaal.cell2",
                         "type": "Cell",
-                        "text": "<strong>Trevirke</strong>"
-                      }
-                    ],
-                    [
+                        "text": "<strong>Nyttelastkapasiteten til etasjeskiller</strong>"
+                      },
                       {
-                        "id": "byggmodulerIStål.cell.undergulv",
+                        "id": "byggmodulerITre.cell2value",
                         "type": "Cell",
-                        "text": "<strong>Undergulv</strong>"
+                        "text": "Nyttelasten er den belastningen en konstruksjon kan bli belastet med etter at konstruksjonens egenlast er trukket fra."
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerIStål.cell.isolasjonsmaterialer",
-                        "type": "Heading",
-                        "text": "Isolasjonsmaterialer"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "byggmodulerIStål.cell.varmeisolasjon",
+                        "id": "byggmodulerIStaal.cell3",
                         "type": "Cell",
-                        "text": "<strong>Varmeisolasjon</strong>"
-                      }
-                    ],
-                    [
+                        "text": "<strong>Brannpåvirkning til de ulike komponentene</strong>"
+                      },
                       {
-                        "id": "byggmodulerIStål.cell.brannisoleringAvStålprofiler",
+                        "id": "byggmodulerITre.cell3value",
                         "type": "Cell",
-                        "text": "<strong>Brannisolering av stålprofiler</strong>"
+                        "text": "Brannpåvirkning beskriver hvor mye en byggevare vil bidra til brann og røykutviklingen i tilfelle brann (uttrykkes i form av klasser). Egenskaper ved brannpåvirkning for de enkelte materialer og komponenter skal normalt være klassifisert i henhold NS-EN 13501-1. For de vanligste materialene fremgår klassifiseringen av en produktstandard og CE-merking."
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerIStål.cell.sperresjikt",
-                        "type": "Heading",
-                        "text": "Sperresjikt"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "byggmodulerIStål.cell.dampsperre",
+                        "id": "byggmodulerIStaal.cell4",
                         "type": "Cell",
-                        "text": "<strong>Dampsperre</strong>"
-                      }
-                    ],
-                    [
+                        "text": "<strong>Brannmotstand</strong>"
+                      },
                       {
-                        "id": "byggmodulerIStål.cell.vindsperre",
+                        "id": "byggmodulerITre.cell4value",
                         "type": "Cell",
-                        "text": "<strong>Vindsperre</strong>"
+                        "text": "Brannmotstand er byggevarens evne til å motstå brann i en viss periode beregnet i minutter (uttrykkes i form av klasser). Brannmotstanden til de aktuelle bygningsdelene skal være klassifisert i henhold til NS-EN 13501-2 på basis av prøving, eller beregnet i henhold til relevant beregningsstandard (NS-EN 1995-1-2 for trekonstruksjoner)."
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerIStål.cell.fugetetting",
+                        "id": "byggmodulerIStaal.cell5",
                         "type": "Cell",
-                        "text": "<strong>Fugetetting</strong>"
-                      }
-                    ],
-                    [
+                        "text": "<strong>Ytre brannegenskaper for tak og fasade</strong>"
+                      },
                       {
-                        "id": "byggmodulerIStål.cell.tettingAvGjennomføringerIBrannskiller",
+                        "id": "byggmodulerITre.cell5value",
                         "type": "Cell",
-                        "text": "<strong>Tetting av gjennomføringer i brannskiller</strong>"
+                        "text": "Brannpåvirkning (se beskrivelse over) "
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerIStål.cell.kledninger",
-                        "type": "Heading",
-                        "text": "Kledninger"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "byggmodulerIStål.cell.innvendigKledning",
+                        "id": "byggmodulerIStaal.cell6",
                         "type": "Cell",
-                        "text": "<strong>Innvendig kledning</strong>"
-                      }
-                    ],
-                    [
+                        "text": "<strong>Vanntetthet</strong>"
+                      },
                       {
-                        "id": "byggmodulerIStål.cell.himlingIEtasjeskillerOverFundament",
+                        "id": "byggmodulerITre.cell6value",
                         "type": "Cell",
-                        "text": "<strong>Himling i etasjeskiller over fundament</strong>"
+                        "text": "Måler trykket. Uttrykkes med en klasse. eks. RA (150)"
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerIStål.cell.festemidler",
-                        "type": "Heading",
-                        "text": "Festemidler"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "byggmodulerIStål.cell.monteringslim",
+                        "id": "byggmodulerIStaal.cell7",
                         "type": "Cell",
-                        "text": "<strong>Monteringslim</strong>"
-                      }
-                    ],
-                    [
+                        "text": "<strong>Vanndampmotstand til komponenter</strong>"
+                      },
                       {
-                        "id": "byggmodulerIStål.cell.spikerSkruer",
+                        "id": "byggmodulerITre.cell7value",
                         "type": "Cell",
-                        "text": "<strong>Spiker/skruer</strong>"
+                        "text": "Hvor mye vann i gassform trenger inn vindsperren. Uttrykkes ved en verdi (SD-verdi) i m. eks. < 0,04"
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerIStål.cell.diverse",
-                        "type": "Heading",
-                        "text": "Diverse"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "byggmodulerIStål.cell.opplagersjiktMellomModuler",
+                        "id": "byggmodulerIStaal.cell8",
                         "type": "Cell",
-                        "text": "<strong>Opplagersjikt mellom moduler</strong>"
+                        "text": "<strong>Emisjon av farlige stoffer fra komponentene</strong>"
+                      },
+                      {
+                        "id": "byggmodulerITre.cell8value",
+                        "type": "Cell",
+                        "text": "Emisjon til inneluft"
                       }
                     ],
                     [
                       {
-                        "id": "byggmodulerIStål.cell.geotekstilUnderIsolasjon",
+                        "id": "byggmodulerIStaal.cell9",
                         "type": "Cell",
-                        "text": "<strong>Geotekstil under isolasjon</strong>"
+                        "text": "<strong>Termisk motstand til vegg, gulv, tak"
+                      },
+                      {
+                        "id": "byggmodulerITre.cell9value",
+                        "type": "Cell",
+                        "text": "For eksempel U-verdi"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "byggmodulerIStaal.cell10",
+                        "type": "Cell",
+                        "text": "<strong>Lufttetthet</strong>"
+                      },
+                      {
+                        "id": "byggmodulerITre.cell10value",
+                        "type": "Cell",
+                        "text": "Måler trykket (Pa). Uttrykkes med en klasse. eks. A1 (150)"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "byggmodulerIStaal.cell11",
+                        "type": "Cell",
+                        "text": "<strong>Luftlyd- og trinnlydisolasjon</strong>"
+                      },
+                      {
+                        "id": "byggmodulerITre.cell11value",
+                        "type": "Cell",
+                        "text": "Det er viktig å tenkte på slike målinger mellom boligenheter. Spesielt for bygningsmoduler som skal monteres i flere etasjer må det normalt foreligge målinger av trinnlyd- og luftlydisolasjon, f.eks. i form av feltmålinger i ferdig bygg eller i pilotbygg."
                       }
                     ]
                   ]
@@ -1574,155 +1254,139 @@
                         "id": "radonmembran.mekaniskeEgenskaper",
                         "type": "Heading",
                         "colSpan": 2,
-                        "text": "Mekaniske egenskaper"
+                        "text": "Produktegenskaper"
                       }
                     ],
                     [
                       {
-                        "id": "radonmembran.cell.dimensjonsstabilitet",
-                        "type": "Cell",
-                        "text": "<strong>Dimensjonsstabilitet (langs og tvers)</strong>"
-                      },
-                      {
-                        "id": "radonmembran.cell.dimensjonsstabilitetValue",
-                        "type": "Cell",
-                        "text": "Maksimale tillatte toleranser uttrykt i mm."
-                      }
-                    ],
-                    [
-                      {
-                        "id": "radonmembran.cell.skjærstyrke",
-                        "type": "Cell",
-                        "text": "<strong>Skjærstyrke i skjøt</strong>"
-                      },
-                      {
-                        "id": "radonmembran.cell.skjærstyrkeValue",
-                        "type": "Cell",
-                        "text": "Den maksimale strekkfastheten påkrevd for å utvide membraner for testing av før membranens brudd"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "radonmembran.cell.statiskBelastning",
-                        "type": "Cell",
-                        "text": "<strong>Motstand mot statisk belastning (mykt underlag)</strong>"
-                      },
-                      {
-                        "id": "radonmembran.cell.statiskBelastningValue",
-                        "type": "Cell",
-                        "text": "Membranens evne til å tåle belasting fra byggverk"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "radonmembran.cell.motstandMotSlag",
-                        "type": "Cell",
-                        "text": "<strong>Motstand mot slag (hardt og mykt underlag)</strong>"
-                      },
-                      {
-                        "id": "radonmembran.cell.motstandMotSlagValue",
-                        "type": "Cell",
-                        "text": "Membranens evne til å tale mekaniske påkjenninger fra slag."
-                      }
-                    ],
-                    [
-                      {
-                        "id": "radonmembran.cell.rivestyrke",
-                        "type": "Cell",
-                        "text": "<strong>Rivestyrke (langs og tvers)</strong>"
-                      },
-                      {
-                        "id": "radonmembran.cell.rivestyrkeValue",
-                        "type": "Cell",
-                        "text": "Membranens evne til å stå imot oppriving"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "radonmembran.cell.forlengelse",
-                        "type": "Cell",
-                        "text": "<strong>Forlengelse</strong>"
-                      },
-                      {
-                        "id": "radonmembran.cell.forlengelseValue",
-                        "type": "Cell",
-                        "text": "Økning av et materialets lengde under strekk"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "radonmembran.cell.kuldemykhet",
-                        "type": "Cell",
-                        "text": "<strong>Kuldemykhet</strong>"
-                      },
-                      {
-                        "id": "radonmembran.cell.kuldemykhetValue",
-                        "type": "Cell",
-                        "text": "Kuldemykhet angir i hvor stor grad radonmembran er fleksibelt i kulde"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "radonmembran.beskyttelse",
-                        "type": "Heading",
-                        "colSpan": 2,
-                        "text": "Beskyttelse mot radon"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "radonmembran.cell.radongjennomgang",
+                        "id": "radonmembran.cell1",
                         "type": "Cell",
                         "text": "<strong>Radongjennomgang</strong>"
                       },
                       {
-                        "id": "radonmembran.cell.radongjennomgangValue",
+                        "id": "radonmembran.cell1value",
                         "type": "Cell",
-                        "text": "Hvor mye radon vil gå gjennom radonmembranen"
+                        "text": "Hvor mye radon vil gå gjennom radonmembranen. Uttrykkes med en verdi (m/s)"
                       }
                     ],
                     [
                       {
-                        "id": "radonmembran.cell.radonmotstand",
+                        "id": "radonmembran.cell2",
                         "type": "Cell",
                         "text": "<strong>Radonmotstand</strong>"
                       },
                       {
-                        "id": "radonmembran.cell.radonmotstandValue",
+                        "id": "radonmembran.cell2value",
                         "type": "Cell",
-                        "text": "Membranens motstand til å motstå gjennomgang av radon"
+                        "text": "Membranens motstand til å motstå gjennomgang av radon. Uttrykkes med en verdi (s/m)"
                       }
                     ],
                     [
                       {
-                        "id": "radonmembran.permeabilitet",
-                        "type": "Heading",
-                        "colSpan": 2,
-                        "text": "Permeabilitet"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "radonmembran.cell.lufttetthet",
+                        "id": "radonmembran.cell3",
                         "type": "Cell",
                         "text": "<strong>Lufttetthet</strong>"
                       },
                       {
-                        "id": "radonmembran.cell.lufttetthetValue",
+                        "id": "radonmembran.cell3value",
                         "type": "Cell",
-                        "text": "Radonmembranens evne til å begrense energitap fra luftgjennomstrømning"
+                        "text": "Radonmembranens evne til å begrense energitap fra luftgjennomstrømning. Uttrykkes med en grenseveri (l/min)"
                       }
                     ],
                     [
                       {
-                        "id": "radonmembran.cell.vanndampmotstand",
+                        "id": "radonmembran.cell4",
                         "type": "Cell",
                         "text": "<strong>Vanndampmotstand</strong>"
                       },
                       {
-                        "id": "radonmembran.cell.vanndampmotstandValue",
+                        "id": "radonmembran.cell4value",
                         "type": "Cell",
-                        "text": "Diffusjonsmotstand. Membranens vanndampdiffusjonsmotstand i forhold til et stillestående luftlags motstand"
+                        "text": "Diffusjonsmotstand. Membranens vanndampdiffusjonsmotstand i forhold til et stillestående luftlags motstand. Uttrykkes med en grenseverdi (m2Pa/kg)"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "radonmembran.cell5",
+                        "type": "Cell",
+                        "text": "<strong>Motstand mot statisk belastning (mykt underlag)</strong>"
+                      },
+                      {
+                        "id": "radonmembran.cell5value",
+                        "type": "Cell",
+                        "text": "Membranens evne til å tåle belasting fra byggverk. Uttrykkes med en verdi (kg)"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "radonmembran.cell6",
+                        "type": "Cell",
+                        "text": "<strong>Motstand mot slag (hardt og mykt underlag)</strong>"
+                      },
+                      {
+                        "id": "radonmembran.cell6value",
+                        "type": "Cell",
+                        "text": "Membranens evne til å tale mekaniske påkjenninger fra slag. Uttrykkes med en grenseverdi (%)"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "radonmembran.cell7",
+                        "type": "Cell",
+                        "text": "<strong>Skjærstyrke i skjøt</strong>"
+                      },
+                      {
+                        "id": "radonmembran.cell7value",
+                        "type": "Cell",
+                        "text": "Den maksimale strekkfastheten påkrevd for å utvide membraner for testing av før membranens brudd. Uttrykkes med en kontrollverdi (N/50 mm)"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "radonmembran.cell8",
+                        "type": "Cell",
+                        "text": "<strong>Rivestyrke (langs og tvers)</strong>"
+                      },
+                      {
+                        "id": "radonmembran.cell8value",
+                        "type": "Cell",
+                        "text": "Membranens evne til å stå imot oppriving. Uttrykkes med en kontrollverdi (N)"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "radonmembran.cell9",
+                        "type": "Cell",
+                        "text": "<strong>Dimensjonsstabilitet (langs og tvers)</strong>"
+                      },
+                      {
+                        "id": "radonmembran.cell9value",
+                        "type": "Cell",
+                        "text": "Maksimale tillatte toleranser uttrykt i mm. Uttrykkes med kontrollverdier (%)"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "radonmembran.cell10",
+                        "type": "Cell",
+                        "text": "<strong>Forlengelse</strong>"
+                      },
+                      {
+                        "id": "radonmembran.cell10value",
+                        "type": "Cell",
+                        "text": "Økning av et materialets lengde under strekk. "
+                      }
+                    ],
+                    [
+                      {
+                        "id": "radonmembran.cell11",
+                        "type": "Cell",
+                        "text": "<strong>Kuldemykhet</strong>"
+                      },
+                      {
+                        "id": "radonmembran.cell11value",
+                        "type": "Cell",
+                        "text": "Kuldemykhet angir i hvor stor grad radonmembran er fleksibelt i kulde. Uttrykkes med en verdi (celsius)"
                       }
                     ]
                   ]
@@ -2025,7 +1689,7 @@
                       {
                         "id": "konstruksjonsvirke.cell.brannpåvirkningValue",
                         "type": "Cell",
-                        "text": "Konstruksjonsvirkets påvirkning til brann-og røykutviklingen ved brann."
+                        "text": "Konstruksjonsvirkets påvirkning til brann- og røykutviklingen ved brann."
                       }
                     ],
                     [
@@ -2999,11 +2663,11 @@
             {
               "id": "produktType.brannsikkerFugemasse",
               "type": "Answer",
-              "heading": "Brannsikker fugemasse",
+              "heading": "Brannklassifisert fugemasse",
               "value": "brannsikkerFugemasse",
               "image": {
                 "url": "/images/brannfugemasse.png",
-                "alt": "Brannsikker fugemasse"
+                "alt": "Brannklassifisert fugemasse"
               }
             },
             {
@@ -3039,7 +2703,7 @@
             {
               "id": "produktType.prefabrikkertTrapp",
               "type": "Answer",
-              "heading": "Prefabrikkert trapp",
+              "heading": "Trapp i stål eller tre",
               "value": "prefabrikkertTrapp",
               "image": {
                 "url": "/images/trapp.png",
@@ -3844,7 +3508,7 @@
                       "id": "hvilketSystem.brannsikkerFugemasse",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Brannsikker fugemasse</em> tilhører: <a href='#' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>Produkttype <em>Brannklassifisert fugemasse</em> tilhører: <a href='#' target='_blank'>lenke til Nando</a></p>",
                       "show": { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" }
                     },
                     {
@@ -3872,7 +3536,7 @@
                       "id": "hvilketSystem.prefabrikkertTrapp",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Prefabrikkert trapp</em> tilhører: <a href='#' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>Produkttype <em>Trapp i stål eller tre</em> tilhører: <a href='#' target='_blank'>lenke til Nando</a></p>",
                       "show": { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" }
                     },
                     {
