@@ -3967,36 +3967,15 @@
           ]
         },
         {
-          "type": "Branch",
-          "branches": [
-            {
-              "test": {
-                "type": "or",
-                "clauses": [
-                  { "field": "hasBruksanvisning", "operator": "eq", "value": false },
-                  { "field": "bruksanvisningSpraak", "operator": "eq", "value": false }
-                ]
-              },
-              "children": [
-                {
-                  "type": "Reference",
-                  "nodeId": "resultSvartPaAltMenIkkeOK"
-                }
-              ]
-            },
-            {
-              "test": {
-                "type": "or",
-                "clauses": [{ "field": "bruksanvisningSpraak", "operator": "eq", "value": true }]
-              },
-              "children": [
-                {
-                  "type": "Reference",
-                  "nodeId": "resultSvartPaAltMenIkkeOK"
-                }
-              ]
-            }
-          ]
+          "type": "Reference",
+          "nodeId": "resultSvartPaAltMenIkkeOK",
+          "show": {
+            "type": "or",
+            "clauses": [
+              { "field": "hasBruksanvisning", "operator": "eq", "value": false },
+              { "field": "bruksanvisningSpraak", "operator": "required" }
+            ]
+          }
         }
       ]
     }
