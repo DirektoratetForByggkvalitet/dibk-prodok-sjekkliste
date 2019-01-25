@@ -28,7 +28,6 @@
       "clauses": [
         { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
         { "field": "produktType", "operator": "eq", "value": "laminertGlass" },
-        { "field": "produktType", "operator": "eq", "value": "radonmembran" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkertBaderomsmodul" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerTre" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerStal" },
@@ -45,6 +44,7 @@
         { "field": "produktType", "operator": "eq", "value": "prefabrikkerteStalkonstruksjoner" },
         { "field": "produktType", "operator": "eq", "value": "hulldekkeelementer" },
         { "field": "produktType", "operator": "eq", "value": "element" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" },
         { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
@@ -58,6 +58,7 @@
         { "field": "produktType", "operator": "eq", "value": "pahengsfasader" },
         { "field": "produktType", "operator": "eq", "value": "laminertGlass" },
         { "field": "produktType", "operator": "eq", "value": "element" },
+        { "field": "produktType", "operator": "eq", "value": "radonmembran" },
         { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
@@ -65,6 +66,7 @@
       "type": "or",
       "clauses": [
         { "field": "produktType", "operator": "eq", "value": "fasadekledningMetall" },
+        { "field": "produktType", "operator": "eq", "value": "veggelement" },
         { "field": "produktType", "operator": "eq", "value": "ror" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" },
         { "field": "produktType", "operator": "eq", "value": "element" },
@@ -181,7 +183,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.hulldekkeelementer",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om elementets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse for hulldekkeelementer, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om elementets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse for hulldekkelementer, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2661,6 +2663,16 @@
           "text": "<p></p>",
           "options": [
             {
+              "id": "produktType.prefabrikkertBaderomsmodul",
+              "type": "Answer",
+              "heading": "Baderomsmodul",
+              "value": "prefabrikkertBaderomsmodul",
+              "image": {
+                "url": "/images/baderomsmodul.png",
+                "alt": "Baderomsmodul"
+              }
+            },
+            {
               "id": "produktType.brannsikkerFugemasse",
               "type": "Answer",
               "heading": "Brannklassifisert fugemasse",
@@ -2671,53 +2683,33 @@
               }
             },
             {
-              "id": "produktType.hulldekkeelementer",
+              "id": "produktType.prefabrikkerteByggmodulerStal",
               "type": "Answer",
-              "heading": "Hulldekke-elementer",
-              "value": "hulldekkeelementer",
+              "heading": "Byggmoduler i stål",
+              "value": "prefabrikkerteByggmodulerStal",
               "image": {
-                "url": "/images/hulldekkemodul_ce.png",
-                "alt": "Hulldekke-element med CE-merke"
-              }
-            },
-            {
-              "id": "produktType.laminertGlass",
-              "type": "Answer",
-              "heading": "Laminert glass",
-              "value": "laminertGlass",
-              "image": {
-                "url": "/images/laminert_glass_ce.png",
-                "alt": "Laminert glass med CE-merke"
-              }
-            },
-            {
-              "id": "produktType.prefabrikkertBaderomsmodul",
-              "type": "Answer",
-              "heading": "Prefabrikkert baderomsmodul",
-              "value": "prefabrikkertBaderomsmodul",
-              "image": {
-                "url": "/images/baderomsmodul.png",
-                "alt": "Baderomsmodul"
-              }
-            },
-            {
-              "id": "produktType.prefabrikkertTrapp",
-              "type": "Answer",
-              "heading": "Trapp i stål eller tre",
-              "value": "prefabrikkertTrapp",
-              "image": {
-                "url": "/images/trapp.png",
-                "alt": "Trapp"
+                "url": "/images/prefabrikkert_staal.png",
+                "alt": "Byggmoduler i stål"
               }
             },
             {
               "id": "produktType.prefabrikkerteByggmodulerTre",
               "type": "Answer",
-              "heading": "Prefabrikkerte byggmoduler i tre",
+              "heading": "Byggmoduler i tre",
               "value": "prefabrikkerteByggmodulerTre",
               "image": {
                 "url": "/images/prefabrikkert_tre.png",
-                "alt": "prefabrikkert byggemodul i tre"
+                "alt": "Byggmoduler i tre"
+              }
+            },
+            {
+              "id": "produktType.hulldekkeelementer",
+              "type": "Answer",
+              "heading": "Hulldekkelementer",
+              "value": "hulldekkelementer",
+              "image": {
+                "url": "/images/hulldekkemodul_ce.png",
+                "alt": "Hulldekkelement med CE-merke"
               }
             },
             {
@@ -2728,16 +2720,6 @@
               "image": {
                 "url": "/images/prefab_staalkonstruksjon_ce.png",
                 "alt": "prefabrikkert stålkonstruksjon med CE-merke"
-              }
-            },
-            {
-              "id": "produktType.prefabrikkerteByggmodulerStal",
-              "type": "Answer",
-              "heading": "Prefabrikkerte byggmoduler i stål",
-              "value": "prefabrikkerteByggmodulerStal",
-              "image": {
-                "url": "/images/prefabrikkert_staal.png",
-                "alt": "prefabrikkert byggemodul i stål"
               }
             },
             {
@@ -2781,6 +2763,16 @@
               }
             },
             {
+              "id": "produktType.laminertGlass",
+              "type": "Answer",
+              "heading": "Sikkerhetsglass",
+              "value": "laminertGlass",
+              "image": {
+                "url": "/images/laminert_glass_ce.png",
+                "alt": "Sikkerhetsglass med CE-merke"
+              }
+            },
+            {
               "id": "produktType.styrkesortertKonstruksjonsvirke",
               "type": "Answer",
               "heading": "Styrkesortert konstruksjonsvirke",
@@ -2808,6 +2800,16 @@
               "image": {
                 "url": "/images/takstoler_ce.png",
                 "alt": "Takstol med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.prefabrikkertTrapp",
+              "type": "Answer",
+              "heading": "Trapper i stål eller tre",
+              "value": "prefabrikkertTrapp",
+              "image": {
+                "url": "/images/trapp.png",
+                "alt": "Trapp"
               }
             },
             {
@@ -2843,7 +2845,7 @@
             {
               "id": "produktType.vindu",
               "type": "Answer",
-              "heading": "Vindu",
+              "heading": "Vinduer (uten brannegenskaper)",
               "value": "vindu",
               "image": {
                 "url": "/images/vindu_ce.png",
@@ -3508,35 +3510,35 @@
                       "id": "hvilketSystem.brannsikkerFugemasse",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Brannklassifisert fugemasse</em> tilhører: <a href='#' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For brannklassifisert fugemasse er det disse oppgavene produsenten og tredjepart har.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" }
                     },
                     {
                       "id": "hvilketSystem.hulldekkeelementer",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Hulldekke-elementer</em> tilhører: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=144405&cpr=Y' target='_blank'>lenke til Nando</a></p>",
+                      "text": " <p>For (sett inn produktnavn) er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=144405&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul> ",
                       "show": { "field": "produktType", "operator": "eq", "value": "hulldekkeelementer" }
                     },
                     {
                       "id": "hvilketSystem.laminertGlass",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Laminert glass</em> tilhører: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=807&cpr=Y' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For sikkerhetsglass er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=807&cpr=Y' target='_blank'>Nando</a>.</p> <h3>For system 1</h3> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul> <h3>For system 3</h3> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "laminertGlass" }
                     },
                     {
                       "id": "hvilketSystem.prefabrikkertBaderomsmodul",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Laminert glass</em> tilhører: <a href='#' target='_blank'>lenke til Nando</a></p>",
+                      "text": " <p>For baderomsmodul er det disse oppgavene produsenten og tredjepart har.</> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "prefabrikkertBaderomsmodul" }
                     },
                     {
                       "id": "hvilketSystem.prefabrikkertTrapp",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Trapp i stål eller tre</em> tilhører: <a href='#' target='_blank'>lenke til Nando</a></p>",
+                      "text": " <p>For trapp i stål eller tre er det disse oppgavene produsenten og tredjepart har.</> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" }
                     },
                     {
@@ -3550,35 +3552,35 @@
                       "id": "hvilketSystem.prefabrikkerteStalkonstruksjoner",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Prefabrikkerte stålkonstruksjoner</em> tilhører: <a href='#' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For prefabrikkerte stålkonstruksjoner er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=144404&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "prefabrikkerteStalkonstruksjoner" }
                     },
                     {
                       "id": "hvilketSystem.prefabrikkerteByggmodulerStal",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Prefabrikkerte byggmoduler i stål</em> tilhører: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=144404&cpr=Y' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For byggmoduler i stål er det disse oppgavene produsenten og tredjepart har.</> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerStal" }
                     },
                     {
                       "id": "hvilketSystem.pahengsfasader",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Påhengsfasader</em> tilhører: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=627&cpr=Y' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For påhengsfasader er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=627&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>' target='_blank'>lenke til Nando</a></p>",
                       "show": { "field": "produktType", "operator": "eq", "value": "pahengsfasader" }
                     },
                     {
                       "id": "hvilketSystem.radonmembran",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Radonmembran</em> tilhører: Radonmotstand/radongjennomgang må testes av et uavhengig tredjepartsorgan</p>",
+                      "text": " <p>For radonmembran er det disse oppgavene produsenten og tredjepart har.</> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "radonmembran" }
                     },
                     {
                       "id": "hvilketSystem.ror",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Rør</em> tilhører: Ikke behov for tredjepartsertifisering</p>",
+                      "text": "<p>For rør og rørdeler av betong er det disse oppgavene produsenten har.</> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "ror" }
                     },
                     {
@@ -3592,49 +3594,49 @@
                       "id": "hvilketSystem.styrkesortertKonstruksjonsvirke",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Styrkesortert konstruksjonsvirke</em> tilhører: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=153240&cpr=Y' target='_blank'>lenke til Nando</a></p>",
+                      "text": " <p>For styrkesortert konstruksjonsvirke er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=141875&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "styrkesortertKonstruksjonsvirke" }
                     },
                     {
                       "id": "hvilketSystem.takbelegg",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Takbelegg med asfalt</em> tilhører: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=139097&cpr=Y' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For takbelegg med asfalt er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=139097&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "takbelegg" }
                     },
                     {
                       "id": "hvilketSystem.takstoler",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Takstoler</em> tilhører: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=140326&cpr=Y' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For takstoler er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=140326&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "takstoler" }
                     },
                     {
                       "id": "hvilketSystem.fasadekledningMetall",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Utvendig fasadekledning i metall</em> tilhører: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=153230&cpr=Y' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For utvendig fasadekledning i metall er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=153230&cpr=Y ' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "fasadekledningMetall" }
                     },
                     {
                       "id": "hvilketSystem.veggelement",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Veggelementer i betong</em> tilhører: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=150597&cpr=Y' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For veggelementer i betong er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=150597&cpr=Y' target='_blank'>Nando</a>.</p> <h3>For system 2+</h3> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul> <h3>For system 4</h3> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "veggelement" }
                     },
                     {
                       "id": "hvilketSystem.vindsperre",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Vindsperre på rull</em> tilhører: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=140953&cpr=Y' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For vindsperre på rull er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=140953&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "vindsperre" }
                     },
                     {
                       "id": "hvilketSystem.vindu",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>Produkttype <em>Vindu</em> tilhører: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=140953&cpr=Y' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For vinduer (uten brannegenskaper) er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=140327&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "vindu" }
                     }
                   ]
