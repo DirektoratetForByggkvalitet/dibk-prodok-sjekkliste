@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
+import './helpers/scroll-on-product-selection';
+
 const root = document.querySelector('div[data-bind], #root');
 let translations = JSON.parse(root.getAttribute('data-bind') || '{}');
 

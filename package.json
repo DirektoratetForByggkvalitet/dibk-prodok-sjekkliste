@@ -12,7 +12,8 @@
     "react-scripts": "2.1.1",
     "redux": "3",
     "redux-persist": "4",
-    "styled-components": "2"
+    "styled-components": "2",
+    "zenscroll": "^4.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
