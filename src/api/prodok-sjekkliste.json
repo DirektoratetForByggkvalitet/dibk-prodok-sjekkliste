@@ -90,7 +90,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.brannsikkerFugemasse",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om fugemassens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse for brannsikker fugemasse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om fugemassens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -183,7 +183,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.hulldekkeelementer",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om elementets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse for hulldekkelementer, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om elementets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -300,7 +300,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.laminertglass",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om glassets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse for laminert glass, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om glassets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -477,7 +477,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.prefabrikkertBaderomsmodul",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om baderomsmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om baderomsmodulens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "summary": "Eksempler på komponenter (vil variere)",
                   "details": "<ul><li>Vegger</li><li>Tak</li><li>Gulv</li><li>Gulvmembran</li><li>Fleksible slanger</li><li>Tetting veggkassetter / gulvramme</li><li>Påstrykningsmembran</li><li>Rør-i-rør-system</li><li>Sluk</li><li>Slukmansjett</li><li>Tettebånd rundt gjennomføring i vegg</li><li>Fliser</li><li>Flislim</li><li>Fugemørtel</li><li>WC</li><li>WC siterne</li><li>Tappearmaturer</li></ul>",
                   "type": "Table",
@@ -548,7 +548,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.trapp",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om trappens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om trappens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "summary": "Eksempler på komponenter (vil variere)",
                   "details": "<ul><li>Inntrinn</li><li>Opptrinn</li><li>Barnesikringslist</li><li>Midtstenger</li><li>Håndlist</li><li>Bolter</li><li>Festemidler</li><li>Glass</li></ul>",
                   "type": "Table",
@@ -655,7 +655,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.prefabrikkerteStålkonstruksjoner",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om stålkonstruksjonens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om stålkonstruksjonens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -796,7 +796,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.byggmodulerITre",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om den prefabrikkerte byggmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om den prefabrikkerte byggmodulens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "summary": "Eksempler på komponenter (vil variere)",
                   "details": "<ul><li>Trevirke</li><li>Undergulv</li><li>Underlagsplater</li><li>Parkett</li><li>Vinyl</li><li>Innvendig underkledning </li><li>Modulskillevegger</li><li>Lydvegg, mot hulrom</li><li>Varmeisolasjon </li><li>Lydisolerende oppleggsklosser</li><li>Dampsperre</li><li>Vindsperre</li><li>Taktekning </li><li>Kledning under modul</li><li>Kledning mot overliggende modul</li></ul>",
                   "type": "Table",
@@ -951,7 +951,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.prefabrikkerteStålkonstruksjoner",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om den prefabrikkerte byggmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om den prefabrikkerte byggmodulens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "summary": "Eksempler på komponenter (vil variere)",
                   "details": "<ul><li>Stålprofiler</li><li>Tynnplateprofiler</li><li>Trevirke</li><li>Undergulv</li><li>Varmeisolasjon</li><li>Brannisolering av stålprofiler</li><li>Dampsperre</li><li>Vindsperre</li><li>Fugetetting</li><li>Tetting av gjennom føringer i brannskiller</li><li>Innvendig kledning</li><li>Himling i etasjeskiller over fundament</li><li>Monteringslim</li><li>Spiker/skruer</li><li>Opplagersjikt mellom moduler</li><li>Geotekstil under isolasjon</li></ul>",
                   "type": "Table",
@@ -1106,7 +1106,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.påhengsfasader",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om påhengsfasadens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om åhengsfasadens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1247,7 +1247,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.radonmembran",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om radonmembranens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om radonmembranens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1400,7 +1400,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.ror",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om rørets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om rørets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1481,7 +1481,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.sandwitchelementer",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om sandwichelementets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om sandwichelementets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1658,7 +1658,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.konstruksjonsvirke",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om konstruksjonsvirkets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om konstruksjonsvirkets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1727,7 +1727,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.takbelegg",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om takbeleggets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om takbeleggets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1892,7 +1892,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.takstoler",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om takstolens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om takstolens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2009,7 +2009,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.fasadekledningMetall",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om fasadekledningens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om fasadekledningens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2078,7 +2078,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.veggelement",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om veggelementets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om veggelementets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2183,7 +2183,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.vindsperre",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om vindsperrens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om vindsperrens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2324,7 +2324,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.vindu",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om vinduets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om vinduets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2631,20 +2631,18 @@
         {
           "id": "resultAltOK",
           "type": "Result",
-          "heading": "Dokumentasjonen er i orden",
-          "lead": "<p>Du har svart på alle spørsmål i veiviseren. Svarene viser at dokumentasjonen til produktet du har sjekket er i orden.</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>"
-        },
-        {
-          "id": "resultIkkeSvartPaaAlleSporsmal",
-          "type": "Result",
-          "heading": "Du har ikke svart på alle spørsmålene",
-          "lead": "<p>Du har ikke svart på alle spørsmålene. Vi kan derfor ikke gi deg et resultat ennå.</p><p>Du kan se hvilke spørsmål du ikke har svart på i oppsummeringen under. Der kan du også klikke deg inn på hvert steg i veiviseren for å legge til og endre dine svar.</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>"
-        },
-        {
-          "id": "resultSvartPaAltMenIkkeOK",
-          "type": "Result",
-          "heading": "Dokumentasjonen er ikke i orden",
-          "lead": "<p>Svarene dine viser at noe av dokumentasjonen til produktet er mangelfull.</p><p>Er du produsent av produktet må du gjennomgå dokumentasjonen på nytt og vurdere å endre på innholdet der du fikk feil. Husk at det er ditt ansvar at du oppgir riktig informasjon i dokumentasjonen.</p><p>Er du importør eller distributør må du ta kontakt med den du har kjøpt produktet av og be se se nærmere på disse feilene.</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>"
+          "heading": {
+            "complete": "Dokumentasjonen er i orden NEI",
+            "completeWithError": "Dokumentasjonen er ikke i orden",
+            "incomplete": "Du har ikke svart på alle spørsmålene",
+            "incompleteWithError": "Du har ikke svart på alle spørsmålene"
+          },
+          "lead": {
+            "complete": "<p>Du har svart på alle spørsmål i veiviseren. Svarene viser at dokumentasjonen til produktet du har sjekket er i orden.</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>",
+            "completeWithError": "<p>Svarene dine viser at noe av dokumentasjonen til produktet er mangelfull.</p><p>Er du produsent av produktet må du gjennomgå dokumentasjonen på nytt og vurdere å endre på innholdet der du fikk feil. Husk at det er ditt ansvar at du oppgir riktig informasjon i dokumentasjonen.</p><p>Er du importør eller distributør må du ta kontakt med den du har kjøpt produktet av og be se se nærmere på disse feilene.</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>",
+            "incomplete": "<p>Du har ikke svart på alle spørsmålene. Vi kan derfor ikke gi deg et resultat ennå.</p><p>Du kan se hvilke spørsmål du ikke har svart på i oppsummeringen under. Der kan du også klikke deg inn på hvert steg i veiviseren for å legge til og endre dine svar.</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>",
+            "incompleteWithError": "<p>Du har ikke svart på alle spørsmålene. Vi kan derfor ikke gi deg et resultat ennå.</p><p>Du kan se hvilke spørsmål du ikke har svart på i oppsummeringen under. Der kan du også klikke deg inn på hvert steg i veiviseren for å legge til og endre dine svar.</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>"
+          }
         }
       ]
     },
@@ -2706,7 +2704,7 @@
               "id": "produktType.hulldekkeelementer",
               "type": "Answer",
               "heading": "Hulldekkelementer",
-              "value": "hulldekkelementer",
+              "value": "hulldekkeelementer",
               "image": {
                 "url": "/images/hulldekkemodul_ce.png",
                 "alt": "Hulldekkelement med CE-merke"
@@ -2865,11 +2863,11 @@
             {
               "id": "produktType.annet",
               "type": "Answer",
-              "heading": "Annet / vet ikke",
+              "heading": "Annet produkt",
               "value": "annet",
               "image": {
                 "url": "/images/annet.png",
-                "alt": "Annet / vet ikke"
+                "alt": "Annet produkt"
               }
             }
           ]
@@ -3337,7 +3335,7 @@
           "property": "hasYtelseserklaering",
           "type": "Radio",
           "heading": "Har produktet en ytelseserklæring?",
-          "text": "<p>Ytelseserklæringen er et dokument som er laget og undertegnet av produsenten. Hovedformålet med dokumentet er at produsentene skal deklarere den viktigste informasjonen om sitt produkt, spesielt produktets viktigste egenskaper og ytelser.</p><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p><p><a href=\"https://dibk.no/globalassets/temaveiledninger/produktdokumentasjon/produktdokumentasjon_kortversjon/ytelseserklaring_generell_3-7.png\" target=\"_blank\">Mal for ytelseserklæring</a>.</p><p>Dokumentet kan ha flere ulike titler. På svensk heter dokumentet “prestandadeklaration”, på dansk “ydeevnedeklaration”, på tysk “Leistungserklärung” og på engelsk “Declaration of performance”.</p>",
+          "text": "<p>Ytelseserklæringen er et dokument som er laget og undertegnet av produsenten. Hovedformålet med dokumentet er at produsentene skal deklarere den viktigste informasjonen om sitt produkt, spesielt produktets viktigste egenskaper og ytelser.</p><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p><p><a href=\"https://dibk.no/globalassets/temaveiledninger/produktdokumentasjon/produktdokumentasjon_kortversjon/ytelseserklaring_generell_3-7.png\" target=\"_blank\">Mal for ytelseserklæring</a> (åpnes i nytt vindu).</p><p>Dokumentet kan ha flere ulike titler. På svensk heter dokumentet “prestandadeklaration”, på dansk “ydeevnedeklaration”, på tysk “Leistungserklärung” og på engelsk “Declaration of performance”.</p>",
           "options": [
             {
               "id": "hasYtelseserklaering.ja",
@@ -3517,7 +3515,7 @@
                       "id": "hvilketSystem.hulldekkeelementer",
                       "type": "Text",
                       "heading": "",
-                      "text": " <p>For (sett inn produktnavn) er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=144405&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul> ",
+                      "text": " <p>For hulldekkelementer er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=144405&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 1168.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul> ",
                       "show": { "field": "produktType", "operator": "eq", "value": "hulldekkeelementer" }
                     },
                     {
@@ -3659,7 +3657,7 @@
           "property": "sjekklisteForYtelsese",
           "type": "Checkbox",
           "heading": "Sjekkliste for ytelseserklæringen",
-          "text": "<p>Det er viktig at opplysningene i ytelseserklæringen skrives på en klar og sammenhengende måte. Rekkefølge og fremstillingen av innholdet er opp til produsenten å bestemme, men følgende innhold må være med: </p>",
+          "text": "<p>Opplysningene i ytelseserklæringen må skrives på en klar og sammenhengende måte. Du må huke av på <strong>alle punktene</strong> for at doxkumentasjonen skal være godkjent. Rekkefølgen og fremstillingen av innholdet bestemmer produsenten. Se en veiledning for hvordan du skal fylle ut <a href='https://dibk.no/globalassets/byggevareinfo/instruksjoner_for_utfyllelse_av_ytelseserklaering.pdf' target='_blank'>ytelseserklæringen</a> (pdf, åpnes i nytt vindu).</p>",
           "options": [
             {
               "id": "sjekklisteForYtelsese.1",
@@ -3723,7 +3721,7 @@
           "id": "egenskaperBeskrevetDokumentasjonGroup",
           "type": "Group",
           "simple": false,
-          "heading": "Prosjektering",
+          "heading": "Noen av produktets viktigste egenskaper",
           "show": { "field": "hvilketSystem", "operator": "required" },
           "children": [
             {
@@ -3903,8 +3901,8 @@
           "property": "hasBruksanvisning",
           "type": "Radio",
           "heading": "Har produktet en bruksanvisning?",
-          "text": "<p>De fleste produkter må ha en bruksanvisning eller monteringsanvisning. Det må også kunne legges ved sikkerhetsinformasjon dersom produktet inneholder farlige stoffer. Hvis slike dokumenter mangler, kan det føre til byggfeil. Det er derfor viktig at disse dokumentene er tilgjengelig for brukeren. En slik dokumentasjon vil variere fra produkt til produkt.</p>",
-          "summary": "Mer informasjon om vedlikehold og FDV",
+          "text": "<p>De fleste produkter må ha en bruksanvisning eller monteringsanvisning. Det må også kunne legges ved sikkerhetsinformasjon dersom produktet inneholder farlige stoffer. Hvis slike dokumenter mangler, kan det føre til byggfeil.</p><p>En slik dokumentasjon vil variere fra produkt til produkt. Denne veiviseren dekker ikke eventuelle krav til produktet etter Miljødirektoratet sitt regelverk.</p>",
+          "summary": "Informasjon om forvaltning, drift og vedlikehold",
           "details": "<p>Mange produsenter gir også utfyllende informasjon til byggverkets eier for å sørge for best mulig vedlikehold i driftsfasen av byggevarene. Slik forenklet forvaltning, drift og vedlikeholdsinformasjon (FDV-dokumentasjon), som kan omfatte råd om rengjøring og rengjøringsmetoder, fuktbestandighet, vedlikeholdsinstruks- og intervall, vilkår for garanti osv.</p>",
           "options": [
             {
@@ -3970,14 +3968,7 @@
         },
         {
           "type": "Reference",
-          "nodeId": "resultSvartPaAltMenIkkeOK",
-          "show": {
-            "type": "or",
-            "clauses": [
-              { "field": "hasBruksanvisning", "operator": "eq", "value": false },
-              { "field": "bruksanvisningSpraak", "operator": "required" }
-            ]
-          }
+          "nodeId": "resultAltOK"
         }
       ]
     }
