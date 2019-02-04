@@ -21,7 +21,8 @@ function Intro({ close, data: { $computed, ...data } }) {
         </Primitives.Paragraphs.P>
         <Primitives.Paragraphs.P>
           I veiviseren har vi valgt ut 20 produkter. Disse produktene får direktoratet ofte spørsmål om. Den er
-          imidlertid ikke uttømmende. Gi oss innspill til produkter vi kan lage nye sjekklister for HER (mailadresse).
+          imidlertid ikke uttømmende. Gi oss innspill til produkter vi kan lage nye sjekklister for på{' '}
+          <a href="mailto:post@dibk.no">post@dibk.no</a>.
         </Primitives.Paragraphs.P>
         <Primitives.Button.MainButton type="button" onClick={() => close()}>
           Start veiviseren
