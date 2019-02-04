@@ -2632,7 +2632,7 @@
           "id": "resultAltOK",
           "type": "Result",
           "heading": {
-            "complete": "Dokumentasjonen er i orden NEI",
+            "complete": "Dokumentasjonen er i orden",
             "completeWithError": "Dokumentasjonen er ikke i orden",
             "incomplete": "Du har ikke svart på alle spørsmålene",
             "incompleteWithError": "Du har ikke svart på alle spørsmålene"
