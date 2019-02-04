@@ -3142,14 +3142,14 @@
         {
           "id": "hvilketSystemDokumentasjonGroup",
           "type": "Group",
-          "heading": "Hvilket system gjelder for produktet?",
+          "heading": "Hvilket system gjelder for byggevaren?",
           "show": { "field": "dokumentasjonSpraak", "operator": "required" },
           "children": [
             {
               "id": "hvilketSystemDokumentasjonText",
               "property": "hvilketSystemDokumentasjonText",
               "type": "Text",
-              "text": "<p>Mange byggevarer har stor betydning for bygninger. Det kan derfor være nødvendig å underlegge de en viss form for kontroll fra en uavhengig tredjepart.</p><p>Fordi byggevarer har ulik betydning for byggverk har man kategorisert kontrollen i ulike systemer. Det finnes 5 ulike systemer som beskriver hvilke oppgaver produsenten har og hvilke oppgaver som skal gjennomføres av en tredjepart.</p>"
+              "text": "<p>Byggevarer har ulik betydning for bygninger, derfor er de kategorisert i systemer. Hvilke oppgaver produsenten har og hvilke en uavhengig tredjepart har for kontroll, er derfor kategorisert ut ifra system.</p>"
             },
             {
               "id": "hvilketSystemDokumentasjon",
@@ -3405,14 +3405,14 @@
           "id": "hvilketSystemGroup",
           "type": "Group",
           "simple": true,
-          "heading": "Hvilket system gjelder for produktet?",
+          "heading": "Hvilket system gjelder for byggevaren?",
           "show": { "field": "ytelseserklaeringSpraak", "operator": "required" },
           "children": [
             {
               "id": "hvilketSystemText",
               "type": "Text",
               "heading": "",
-              "text": "<p>Mange byggevarer har stor betydning for bygninger. Det kan derfor være nødvendig å underlegge de en viss form for kontroll fra en uavhengig tredjepart.</p><p>Fordi byggevarer har ulik betydning for byggverk har man kategorisert kontrollen i ulike systemer. Det finnes 5 ulike systemer som beskriver hvilke oppgaver produsenten har og hvilke oppgaver som skal gjennomføres av en tredjepart.</p>"
+              "text": "<p>Byggevarer har ulik betydning for bygninger, derfor er de kategorisert i systemer. Hvilke oppgaver produsenten har og hvilke en uavhengig tredjepart har for kontroll, er derfor kategorisert ut ifra system. </p>"
             },
             {
               "type": "Branch",
@@ -3522,7 +3522,7 @@
                       "id": "hvilketSystem.laminertGlass",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>For sikkerhetsglass er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=807&cpr=Y' target='_blank'>Nando</a>.</p> <h3>For system 1</h3> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul> <h3>For system 3</h3> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
+                      "text": "<p>For sikkerhetsglass er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=807&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 14449.</p> <h3>For system 1</h3> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul> <h3>For system 3</h3> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "laminertGlass" }
                     },
                     {
@@ -3550,7 +3550,7 @@
                       "id": "hvilketSystem.prefabrikkerteStalkonstruksjoner",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>For prefabrikkerte stålkonstruksjoner er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=144404&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
+                      "text": "<p>For prefabrikkerte stålkonstruksjoner er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=144404&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 1090-1.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "prefabrikkerteStalkonstruksjoner" }
                     },
                     {
@@ -3564,7 +3564,7 @@
                       "id": "hvilketSystem.pahengsfasader",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>For påhengsfasader er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=627&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For påhengsfasader er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=627&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 13830.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>' target='_blank'>lenke til Nando</a></p>",
                       "show": { "field": "produktType", "operator": "eq", "value": "pahengsfasader" }
                     },
                     {
@@ -3585,56 +3585,56 @@
                       "id": "hvilketSystem.sandwichelementer",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>For sandwichelementer er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=153240&cpr=Y' target='_blank'>Nando</a></p><h4>Produsent skal:</h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
+                      "text": "<p>For sandwichelementer er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=153240&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 14509.</p><h4>Produsent skal:</h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "sandwichelementer" }
                     },
                     {
                       "id": "hvilketSystem.styrkesortertKonstruksjonsvirke",
                       "type": "Text",
                       "heading": "",
-                      "text": " <p>For styrkesortert konstruksjonsvirke er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=141875&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
+                      "text": " <p>For styrkesortert konstruksjonsvirke er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=141875&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 14081-1.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "styrkesortertKonstruksjonsvirke" }
                     },
                     {
                       "id": "hvilketSystem.takbelegg",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>For takbelegg med asfalt er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=139097&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
+                      "text": "<p>For takbelegg med asfalt er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=139097&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 13707.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "takbelegg" }
                     },
                     {
                       "id": "hvilketSystem.takstoler",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>For takstoler er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=140326&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
+                      "text": "<p>For takstoler er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=140326&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 14250.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "takstoler" }
                     },
                     {
                       "id": "hvilketSystem.fasadekledningMetall",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>For utvendig fasadekledning i metall er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=153230&cpr=Y ' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> </ul>",
+                      "text": "<p>For utvendig fasadekledning i metall er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=153230&cpr=Y ' target='_blank'>Nando</a>. Standarden er NS-EN 14783.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "fasadekledningMetall" }
                     },
                     {
                       "id": "hvilketSystem.veggelement",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>For veggelementer i betong er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=150597&cpr=Y' target='_blank'>Nando</a>.</p> <h3>For system 2+</h3> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul> <h3>For system 4</h3> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> </ul>",
+                      "text": "<p>For veggelementer i betong er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=150597&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 14992.</p> <h3>For system 2+</h3> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul> <h3>For system 4</h3> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "veggelement" }
                     },
                     {
                       "id": "hvilketSystem.vindsperre",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>For vindsperre på rull er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=140953&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
+                      "text": "<p>For vindsperre på rull er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=140953&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 13859-2.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "vindsperre" }
                     },
                     {
                       "id": "hvilketSystem.vindu",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>For vinduer (uten brannegenskaper) er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=140327&cpr=Y' target='_blank'>Nando</a>.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
+                      "text": "<p>For vinduer (uten brannegenskaper) er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=140327&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 14351-1.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
                       "show": { "field": "produktType", "operator": "eq", "value": "vindu" }
                     }
                   ]
@@ -3657,7 +3657,7 @@
           "property": "sjekklisteForYtelsese",
           "type": "Checkbox",
           "heading": "Sjekkliste for ytelseserklæringen",
-          "text": "<p>Opplysningene i ytelseserklæringen må skrives på en klar og sammenhengende måte. Du må huke av på <strong>alle punktene</strong> for at doxkumentasjonen skal være godkjent. Rekkefølgen og fremstillingen av innholdet bestemmer produsenten. Se en veiledning for hvordan du skal fylle ut <a href='https://dibk.no/globalassets/byggevareinfo/instruksjoner_for_utfyllelse_av_ytelseserklaering.pdf' target='_blank'>ytelseserklæringen</a> (pdf, åpnes i nytt vindu).</p>",
+          "text": "<p>Opplysningene i ytelseserklæringen må skrives på en klar og sammenhengende måte. Du må huke av på <strong>alle punktene</strong> for at dokumentasjonen skal være godkjent. Rekkefølgen og fremstillingen av innholdet bestemmer produsenten. Se en veiledning for hvordan du skal fylle ut <a href='https://dibk.no/globalassets/byggevareinfo/instruksjoner_for_utfyllelse_av_ytelseserklaering.pdf' target='_blank'>ytelseserklæringen</a> (pdf, åpnes i nytt vindu).</p>",
           "options": [
             {
               "id": "sjekklisteForYtelsese.1",
