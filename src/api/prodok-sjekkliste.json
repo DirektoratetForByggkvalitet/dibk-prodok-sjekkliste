@@ -2623,6 +2623,12 @@
           ]
         },
         {
+          "id": "enteredFromMagicLinkText",
+          "type": "Text",
+          "heading": "",
+          "text": "<p>Denne veiviseren hjelper deg med å finne kravene for å kunne omsette en byggevare. Svar på spørsmålene for å finne ut om dokumentasjonen er i orden, eller om det er noe som mangler.</p>"
+        },
+        {
           "id": "resultIkkeByggevare",
           "type": "Result",
           "heading": "Produktet er ikke en byggevare",
@@ -2887,6 +2893,11 @@
         ]
       },
       "children": [
+        {
+          "type": "Reference",
+          "nodeId": "enteredFromMagicLinkText",
+          "show": { "field": "$external.enteredFromMagicLink", "operator": "eq", "value": true }
+        },
         {
           "id": "isProductByggevare",
           "property": "isProductByggevare",
@@ -3330,6 +3341,11 @@
         ]
       },
       "children": [
+        {
+          "type": "Reference",
+          "nodeId": "enteredFromMagicLinkText",
+          "show": { "field": "$external.enteredFromMagicLink", "operator": "eq", "value": true }
+        },
         {
           "id": "hasYtelseserklaering",
           "property": "hasYtelseserklaering",
