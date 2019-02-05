@@ -3191,6 +3191,13 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "hvilketSystemOtherLink2",
+              "property": "hvilketSystemOtherLink2",
+              "type": "Text",
+              "text": "<p>For alle byggevarer er det ulike oppgaver produsent og tredjepart har for kontroll. Disse oppgavene <a href='https://dibk.no/byggeregler/dok/veiledning-til/7.-systemer-for-vurdering-og/' target='_blank'>finner du her</a> (åpnes i nytt vindu).</p>",
+              "show": { "field": "produktType", "operator": "eq", "value": "annet" }
             }
           ]
         }
@@ -3466,6 +3473,13 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "hvilketSystemOtherLink",
+              "property": "hvilketSystemOtherLink",
+              "type": "Text",
+              "text": "<p>For alle byggevarer er det ulike oppgaver produsent og tredjepart har for kontroll. Disse oppgavene <a href='https://dibk.no/byggeregler/dok/veiledning-til/7.-systemer-for-vurdering-og/' target='_blank'>finner du her</a> (åpnes i nytt vindu).</p>",
+              "show": { "field": "produktType", "operator": "eq", "value": "annet" }
             },
             {
               "type": "Branch",
