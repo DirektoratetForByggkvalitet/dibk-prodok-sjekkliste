@@ -3192,6 +3192,7 @@
           "id": "sjekklisteDokumentasjon",
           "property": "sjekklisteDokumentasjon",
           "type": "Checkbox",
+          "allMandatory": true,
           "heading": "Sjekkliste for innholdet",
           "text": "<p>Det er viktig at opplysningene i produktdokumentasjonen skrives på en klar og sammenhengende måte. Rekkefølge og presentasjon av innhold er opp til produsenten å bestemme, men følgende innhold må være med:</p>",
           "show": { "field": "hvilketSystemDokumentasjon", "operator": "required" },
@@ -3624,6 +3625,7 @@
           "id": "sjekklisteForYtelsese",
           "property": "sjekklisteForYtelsese",
           "type": "Checkbox",
+          "allMandatory": true,
           "heading": "Sjekkliste for ytelseserklæringen",
           "text": "<p>Opplysningene i ytelseserklæringen må skrives på en klar og sammenhengende måte. Du må huke av på <strong>alle punktene</strong> for at dokumentasjonen skal være godkjent. Rekkefølgen og fremstillingen av innholdet bestemmer produsenten. Se en veiledning for hvordan du skal fylle ut <a href='https://dibk.no/globalassets/byggevareinfo/instruksjoner_for_utfyllelse_av_ytelseserklaering.pdf' target='_blank'>ytelseserklæringen</a> (pdf, åpnes i nytt vindu).</p>",
           "options": [
@@ -3786,6 +3788,7 @@
           "id": "CEsjekkliste",
           "property": "CEsjekkliste",
           "type": "Checkbox",
+          "allMandatory": true,
           "heading": "Sjekkliste for innholdet i CE-merket",
           "text": "<p>CE-merket må være festet på byggevaren. Der det ikke er mulig, skal det være festet på emballasjen eller framgå av papirer som følger med produktet. Det stilles ikke konkrete språkkrav til CE-merket. I den harmoniserte produktstandarden står kravene til innholdet i CE-merke i vedlegg ZA.3.</p><p><strong>Følgende innhold må være med:</strong></p>",
           "show": { "field": "hasCE", "operator": "eq", "value": true },
