@@ -1106,7 +1106,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.påhengsfasader",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om åhengsfasadens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om påhengsfasadens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2632,7 +2632,7 @@
           "id": "resultIkkeByggevare",
           "type": "Result",
           "heading": "Produktet er ikke en byggevare",
-          "lead": "<p>Du har svart på nei spørsmålene i veiviseren. Svarene viser at produktet ikke er en byggevare. Dette er ofte en vanskelig vurdering. Er du usikker om produktet er en byggevare kan du <a href=\"mailto:post@dibk.no\">ta kontakt med direktoratet</a>.</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>"
+          "lead": "<p>Du har svart nei på et eller flere av spørsmålene i veiviseren. Svarene viser at produktet ikke er en byggevare. Dette er ofte en vanskelig vurdering. Er du usikker om produktet er en byggevare kan du <a href=\"mailto:post@dibk.no\">ta kontakt med direktoratet</a>.</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>"
         },
         {
           "id": "resultAltOK",
@@ -2644,10 +2644,10 @@
             "incompleteWithError": "Du har ikke svart på alle spørsmålene"
           },
           "lead": {
-            "complete": "<p>Du har svart på alle spørsmål i veiviseren. Svarene viser at dokumentasjonen til produktet du har sjekket er i orden.</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>",
-            "completeWithError": "<p>Svarene dine viser at noe av dokumentasjonen til produktet er mangelfull.</p><p>Er du produsent av produktet må du gjennomgå dokumentasjonen på nytt og vurdere å endre på innholdet der du fikk feil. Husk at det er ditt ansvar at du oppgir riktig informasjon i dokumentasjonen.</p><p>Er du importør eller distributør må du ta kontakt med den du har kjøpt produktet av og be se se nærmere på disse feilene.</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>",
-            "incomplete": "<p>Du har ikke svart på alle spørsmålene. Vi kan derfor ikke gi deg et resultat ennå.</p><p>Du kan se hvilke spørsmål du ikke har svart på i oppsummeringen under. Der kan du også klikke deg inn på hvert steg i veiviseren for å legge til og endre dine svar.</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>",
-            "incompleteWithError": "<p>Du har ikke svart på alle spørsmålene. Vi kan derfor ikke gi deg et resultat ennå.</p><p>Du kan se hvilke spørsmål du ikke har svart på i oppsummeringen under. Der kan du også klikke deg inn på hvert steg i veiviseren for å legge til og endre dine svar.</p><p>Veiviseren vurderer ikke bruk av produktet</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>"
+            "complete": "<p>Du har svart på alle spørsmål i veiviseren. Svarene viser at dokumentasjonen til produktet du har sjekket er i orden.</p><p>Veiviseren vurderer ikke bruk av produktet.</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>",
+            "completeWithError": "<p>Svarene dine viser at noe av dokumentasjonen til produktet er mangelfull.</p><p>Er du produsent av produktet, må du gjennomgå dokumentasjonen på nytt og vurdere å endre på innholdet der du fikk feil. Husk at det er ditt ansvar at du oppgir riktig informasjon i dokumentasjonen.</p><p>Er du importør eller distributør, må du ta kontakt med den du har kjøpt produktet av og be se se nærmere på disse feilene.</p><p>Veiviseren vurderer ikke bruk av produktet.</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>",
+            "incomplete": "<p>Du har ikke svart på alle spørsmålene. Vi kan derfor ikke gi deg et resultat ennå.</p><p>Du kan se hvilke spørsmål du ikke har svart på i oppsummeringen under. Der kan du også klikke deg inn på hvert steg i veiviseren for å legge til og endre dine svar.</p><p>Veiviseren vurderer ikke bruk av produktet.</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>",
+            "incompleteWithError": "<p>Du har ikke svart på alle spørsmålene. Vi kan derfor ikke gi deg et resultat ennå.</p><p>Du kan se hvilke spørsmål du ikke har svart på i oppsummeringen under. Der kan du også klikke deg inn på hvert steg i veiviseren for å legge til og endre dine svar.</p><p>Veiviseren vurderer ikke bruk av produktet.</p><p>Ikke alle byggevarer som selges kan benyttes i norske byggverk. Brukere av byggevarer må sjekke om byggevarers ytelser er tilstrekkelig for at byggverk oppfyller kravene i byggteknisk forskrift.</p><p>Takk for at du brukte veiviseren!</p>"
           }
         }
       ]
@@ -3048,7 +3048,7 @@
           "property": "frivilligCE",
           "type": "Radio",
           "heading": "Har produktet en ETA?",
-          "text": "<p>Dette er helt frivillig. Fordelen er at produsenten fritt kan omsette sitt produkt i hele EU/EØS-området. </p><h3>Hvordan skaffer jeg en ETA?</h3><ol><li>En produsent spør et <a href='https://www.eota.eu/en-GB/content/how-to-find-a-tab/55/' target='_blank'>teknisk bedømmelsesorgan</a> om de kan lage en europeisk teknisk bedømmelse (ETA) for produktet sitt.</li><li>En ETA utarbeides på grunnlag av et eksisterende <a href='https://www.eota.eu/en-GB/content/eads/56/' target='_blank'>europeisk bedømmelsesdokument</a> (EAD). Om en EAD ikke finnes fra før av for dette produktet må det tekniske bedømmelsesorganet utarbeide en ny. </li><li>Ytelseserklæring utarbeides på bakgrunn av ETA’en. </li></ol>",
+          "text": "<p>Dette er helt frivillig. Fordelen er at produsenten fritt kan omsette sitt produkt i hele EU/EØS-området. </p><h3>Hvordan skaffer jeg en ETA?</h3><ol><li>En produsent spør et <a href='https://www.eota.eu/en-GB/content/how-to-find-a-tab/55/' target='_blank'>teknisk bedømmelsesorgan</a> om de kan lage en europeisk teknisk bedømmelse (ETA) for produktet sitt.</li><li>En ETA utarbeides på grunnlag av et eksisterende <a href='https://www.eota.eu/en-GB/content/eads/56/' target='_blank'>europeisk bedømmelsesdokument</a> (EAD). Om en EAD ikke finnes fra før, må det tekniske bedømmelsesorganet utarbeide en ny. </li><li>Ytelseserklæring utarbeides på bakgrunn av ETA-en. </li></ol>",
           "show": {
             "type": "or",
             "clauses": [
@@ -3085,7 +3085,7 @@
           "property": "hasDokumentasjon",
           "type": "Radio",
           "heading": "Har produktet dokumentasjon?",
-          "text": "<p>Produsenten skal lage og undertegne produktdokumentasjonen, og dermed ta ansvar for at produktet har de beskrevne egenskapene. Det er ingen spesielle krav til navnet på dokumentet eller hvilken rekkefølge informasjonen kommer. Det er imidlertid krav til hva dokumententasjonen skal innholdet.</p><p><a href=\"https://dibk.no/produkter-til-byggverk/byggevareinfo/dokumentasjon-av-byggevarer/dokumentasjonskrav-til-ikke-ce-merkede-byggevarer/\" target=\"_blank\">Mal for produktdokumentasjon</a>.</p>",
+          "text": "<p>Produsenten skal lage og undertegne produktdokumentasjonen, og tar da ansvar for at produktet har egenskapene de har beskrevet. Det er ingen spesielle krav til navn på dokumentet eller rekkefølgen til informasjonen. Det er imidlertid krav til <em>hva</em> den inneholder.</p><p><a href=\"https://dibk.no/produkter-til-byggverk/byggevareinfo/dokumentasjon-av-byggevarer/dokumentasjonskrav-til-ikke-ce-merkede-byggevarer/\" target=\"_blank\">Mal for produktdokumentasjon</a> (åpnes i nytt vindu).</p>",
           "options": [
             {
               "id": "hasDokumentasjon.ja",
@@ -3580,7 +3580,7 @@
                       "id": "hvilketSystem.pahengsfasader",
                       "type": "Text",
                       "heading": "",
-                      "text": "<p>For påhengsfasader er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=627&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 13830.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>' target='_blank'>lenke til Nando</a></p>",
+                      "text": "<p>For påhengsfasader er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=627&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 13830.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul></p>",
                       "show": { "field": "produktType", "operator": "eq", "value": "pahengsfasader" }
                     },
                     {
@@ -3727,7 +3727,7 @@
             {
               "id": "sjekklisteForYtelsese.9",
               "type": "Answer",
-              "heading": "Underskrift av produsenten eller dennes representant",
+              "heading": "Underskrift av produsenten eller en representant",
               "value": "9"
             }
           ]
@@ -3800,7 +3800,7 @@
           "property": "hasCE",
           "type": "Radio",
           "heading": "Har produktet CE-merke?",
-          "text": "<p>Produktet du har valgt krever CE-merking og det skal være festet på produktet. Der det ikke er mulig, skal det være festet på emballasjen eller framgå av papirer som følger med produktet.</p><p><a href=\"https://dibk.no/saksbehandling/kommunalt-tilsyn/temaveiledninger/veiledning-for-kommunalt-tilsyn-med-produktdokumentasjon/3.-regelverket-for-produktdokumentasjon-av-byggevarer/oversikt-over-regelverk-og-begreper/#produktdokumentasjon_av_CE\" target=\"_blank\">Mal for CE-merking</a>.</p>",
+          "text": "<p>Produktet du har valgt krever CE-merking og det skal være festet på produktet. Der det ikke er mulig, skal det være festet på emballasjen eller framgå av papirer som følger med produktet.</p><p><a href=\"https://dibk.no/saksbehandling/kommunalt-tilsyn/temaveiledninger/veiledning-for-kommunalt-tilsyn-med-produktdokumentasjon/3.-regelverket-for-produktdokumentasjon-av-byggevarer/oversikt-over-regelverk-og-begreper/#produktdokumentasjon_av_CE\" target=\"_blank\">Mal for CE-merking</a> (åpnes i nytt vindu).</p>",
           "options": [
             {
               "id": "hasCE.ja",
@@ -3919,7 +3919,7 @@
           "heading": "Har produktet en bruksanvisning?",
           "text": "<p>De fleste produkter må ha en bruksanvisning eller monteringsanvisning. Det må også kunne legges ved sikkerhetsinformasjon dersom produktet inneholder farlige stoffer. Hvis slike dokumenter mangler, kan det føre til byggfeil.</p><p>En slik dokumentasjon vil variere fra produkt til produkt. Denne veiviseren dekker ikke eventuelle krav til produktet etter Miljødirektoratet sitt regelverk.</p>",
           "summary": "Informasjon om forvaltning, drift og vedlikehold",
-          "details": "<p>Mange produsenter gir også utfyllende informasjon til byggverkets eier for å sørge for best mulig vedlikehold i driftsfasen av byggevarene. Slik forenklet forvaltning, drift og vedlikeholdsinformasjon (FDV-dokumentasjon), som kan omfatte råd om rengjøring og rengjøringsmetoder, fuktbestandighet, vedlikeholdsinstruks- og intervall, vilkår for garanti osv.</p>",
+          "details": "<p>Mange produsenter gir også utfyllende informasjon til byggverkets eier for å sørge for best mulig vedlikehold i driftsfasen av byggevarene. Slik forenklet forvaltning, drift og vedlikeholdsinformasjon (FDV), kan omfatte råd om rengjøring og rengjøringsmetoder, fuktbestandighet, vedlikeholdsinstruks- og intervall, vilkår for garanti osv.</p>",
           "options": [
             {
               "id": "hasBruksanvisning.ja",
