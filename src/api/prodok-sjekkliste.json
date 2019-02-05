@@ -216,7 +216,7 @@
                       {
                         "id": "hulldekkeelementer.cell.terningsfasthetValue",
                         "type": "Cell",
-                        "text": "Angis med en verdi. <br/><em>eks. fck,cube = 55 N/mm</em>"
+                        "text": "Angis med en verdi. <br/><em>eks. fck,cube = 55 N/mm<sup>2</sup></em>"
                       }
                     ],
                     [
@@ -288,7 +288,7 @@
                       {
                         "id": "hulldekkeelementer.cell.brannmotstandValue",
                         "type": "Cell",
-                        "text": "Hulldekkelementets evne til å motstå varme- og røykutvikling ved brann. Angis med en klasse. <br/><em>eks. NPD</em>"
+                        "text": "Hulldekkelementets evne til å motstå varme- og røykutvikling ved brann. Angis med en klasse. <br/><em>eks. EI 60</em>"
                       }
                     ]
                   ]
@@ -314,42 +314,6 @@
                     ],
                     [
                       {
-                        "id": "laminertglass.cell.brannmotstand",
-                        "type": "Cell",
-                        "text": "<strong>Brannmotstand</strong>"
-                      },
-                      {
-                        "id": "laminertglass.cell.brannmotstandValue",
-                        "type": "Cell",
-                        "text": "Glassets påvirkning til varme- og røykutvikling ved brann. Uttrykkes som en klasse. <br/><em>eks. EI 30</em>"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "laminertglass.cell.brannpåvirkning",
-                        "type": "Cell",
-                        "text": "<strong>Brannpåvirkning </strong>"
-                      },
-                      {
-                        "id": "laminertglass.cell.brannpåvirkningValue",
-                        "type": "Cell",
-                        "text": "Glassets evne til å motstå brann- og røykutvikling i en viss periode beregnet i minutter. Uttrykkes som en klasse. <br/><em>eks. B</em>"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "laminertglass.cell.ytreBrannegenskaper",
-                        "type": "Cell",
-                        "text": "<strong>Eksterne/ytre brannegenskaper (kun for laminert glass brukt for taktekning)</strong>"
-                      },
-                      {
-                        "id": "laminertglass.cell.ytreBrannegenskaperValue",
-                        "type": "Cell",
-                        "text": "Glassets påvirkning til varme- og røykutvikling som kommer utenfra. Uttrykkes som en klasse. <br/><em>eks. NPD</em>"
-                      }
-                    ],
-                    [
-                      {
                         "id": "laminertglass.cell.varmegjennomgang",
                         "type": "Cell",
                         "text": "<strong>Varmegjennomgang (u-verdi)</strong>"
@@ -362,18 +326,6 @@
                     ],
                     [
                       {
-                        "id": "laminertglass.cell.strålingsegenskaper",
-                        "type": "Cell",
-                        "text": "<strong>Strålingsegenskaper transmisjon og refleksjon. Solenergi karakteristikker</strong>"
-                      },
-                      {
-                        "id": "laminertglass.cell.strålingsegenskaperValue",
-                        "type": "Cell",
-                        "text": "Solens stråler består av solenergi/varme (g) og sollys (LT). Energiglass tar begge stråler inn (g-verdi + LT-verdi). Uttrykkes som en verdi. <br/><em>eks. 0,70 /0,13 0,55/0,11</em>"
-                      }
-                    ],
-                    [
-                      {
                         "id": "laminertglass.cell.motstandMotBråTempForskjeller",
                         "type": "Cell",
                         "text": "<strong>Motstand mot brå temperaturforskjeller</strong>"
@@ -381,7 +333,19 @@
                       {
                         "id": "laminertglass.cell.motstandMotBråTempForskjellerValue",
                         "type": "Cell",
-                        "text": "Motstand mot knusing pga. brå temperaturforskjeller. Uttrykkes som en verdi i °C. <br/><em>eks. 40 K</em>"
+                        "text": "Motstand mot knusing pga. brå temperaturforskjeller. Uttrykkes som en verdi i °C eller K."
+                      }
+                    ],
+                    [
+                      {
+                        "id": "laminertglass.cell.sikkerhetIBruk",
+                        "type": "Cell",
+                        "text": "<strong>Sikkerhet i bruk</strong>"
+                      },
+                      {
+                        "id": "laminertglass.cell.sikkerhetIBrukValue",
+                        "type": "Cell",
+                        "text": "Slagfasthet og sikkerhet mot sammenstøt. Uttrykkes som en klasse.<br/><em>eks. 1(C)2 og 1(B)2</em>"
                       }
                     ],
                     [
@@ -412,12 +376,12 @@
                       {
                         "id": "laminertglass.cell.motstandPermanentOgNyttelast",
                         "type": "Cell",
-                        "text": "<strong>Motstand mot permanent og nyttelast</strong>"
+                        "text": "<strong>Motstand mot permanent last og nyttelast</strong>"
                       },
                       {
                         "id": "laminertglass.cell.motstandPermanentOgNyttelastValue",
                         "type": "Cell",
-                        "text": "Kombinasjon av flere variable laster (nyttelast og permanent last) medfører redusert sannsynlighet for at variable laster vil opptre permanent på konstruksjonen. Uttrykkes som en verdi. <br/><em>eks. 7,0 mm</em>"
+                        "text": "Uttrykkes som en verdi. <br/><em>eks. 7,0 mm</em>"
                       }
                     ],
                     [
@@ -466,6 +430,30 @@
                         "id": "laminertglass.cell.motstandMotInnbruddValue",
                         "type": "Cell",
                         "text": "Sikring mot innbrudd. Uttrykkes som en klasse. <br/><em>eks. BR 2</em>"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "laminertglass.cell.brannmotstand",
+                        "type": "Cell",
+                        "text": "<strong>Brannmotstand</strong>"
+                      },
+                      {
+                        "id": "laminertglass.cell.brannmotstandValue",
+                        "type": "Cell",
+                        "text": "Glassets påvirkning til varme- og røykutvikling ved brann. Uttrykkes som en klasse. <br/><em>eks. EI 30</em>"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "laminertglass.cell.brannpåvirkning",
+                        "type": "Cell",
+                        "text": "<strong>Brannpåvirkning </strong>"
+                      },
+                      {
+                        "id": "laminertglass.cell.brannpåvirkningValue",
+                        "type": "Cell",
+                        "text": "Glassets evne til å motstå brann- og røykutvikling i en viss periode beregnet i minutter. Uttrykkes som en klasse. <br/><em>eks. B</em>"
                       }
                     ]
                   ]
@@ -676,7 +664,7 @@
                       {
                         "id": "prefabrikkerteStålkonstruksjoner.cell.toleranseValue",
                         "type": "Cell",
-                        "text": "Toleranser skal deklareres i samsvar med grensene for grunnleggende toleranser i NS-EN 1090-2. Uttrykkes som en beskrivelse. <br/><em>eks. I henhold til NS-EN 1090-2</em>"
+                        "text": "Toleranser skal deklareres i samsvar med grensene for grunnleggende toleranser i NS-EN 1090-2. Uttrykkes som en beskrivelse."
                       }
                     ],
                     [
@@ -700,7 +688,7 @@
                       {
                         "id": "prefabrikkerteStålkonstruksjoner.cell.bruddseighetValue",
                         "type": "Cell",
-                        "text": "Benyttes til å beregne kritiske sprekkstørrelser i konstruksjoner. Ved hjelp av bestanddelens bruddseighet kan man basere seg på egenskaper for slagseighet til materialer og komponenter, hvis det finnes en standard, eller ved hjelp av prøving. Uttrykkes som en beskrivelse. <br/><em>eks. NPD</em>"
+                        "text": "Benyttes til å beregne kritiske sprekkstørrelser i konstruksjoner. Ved hjelp av bestanddelens bruddseighet kan man basere seg på egenskaper for slagseighet til materialer og komponenter, hvis det finnes en standard, eller ved hjelp av prøving. Uttrykkes som en beskrivelse."
                       }
                     ],
                     [
@@ -736,7 +724,7 @@
                       {
                         "id": "prefabrikkerteStålkonstruksjoner.cell.utmattingsstyrkeValue",
                         "type": "Cell",
-                        "text": "Motstand mot sprekkdannelser som opptrer i et materiale når det utsettes for vekslende spenning, over en viss størrelse over lang tid. Da må konstruksjonens utmattingskapasitet kontrolleres og angis. Uttrykkes som en verdi. <br/><em>eks. NPD</em>"
+                        "text": "Motstand mot sprekkdannelser som opptrer i et materiale når det utsettes for vekslende spenning, over en viss størrelse over lang tid. Da må konstruksjonens utmattingskapasitet kontrolleres og angis. Uttrykkes som en verdi."
                       }
                     ],
                     [
@@ -748,7 +736,7 @@
                       {
                         "id": "prefabrikkerteStålkonstruksjoner.cell.deformasjonValue",
                         "type": "Cell",
-                        "text": "En endring som er forårsaket av en tilført kraft og som bestemmes ved å bruke en hensiktsmessig kombinasjon av påvirkninger. Uttrykkes som en verdi. <br/><em>eks. NPD</em>"
+                        "text": "En endring som er forårsaket av en tilført kraft og som bestemmes ved å bruke en hensiktsmessig kombinasjon av påvirkninger. Uttrykkes som en verdi."
                       }
                     ],
                     [
@@ -760,7 +748,7 @@
                       {
                         "id": "prefabrikkerteStålkonstruksjoner.cell.brannpåvirkningValue",
                         "type": "Cell",
-                        "text": "Hvor mye vil stålkonstruksjoner bidra til brann- og røykutvikling i tilfelle brann. Stål er klassifisert som A1 for ubelagte komponenter. For belagte komponenter gjelder klassifisering i samsvar med NS-EN 13501-1. Anodisering og galvanisering anses ikke som belegg. Uttrykkes som en klasse. <br/><em>eks. Materiale klassifisert A1</em>"
+                        "text": "Hvor mye vil stålkonstruksjoner bidra til brann- og røykutvikling i tilfelle brann. Stål er klassifisert som A1 for komponenter uten belegg. For komponenter med belegg gjelder klassifisering i samsvar med NS-EN 13501-1. Anodisering og galvanisering anses ikke som belegg. Uttrykkes som en klasse. <br/><em>eks. Materiale klassifisert A1</em>"
                       }
                     ],
                     [
@@ -772,7 +760,7 @@
                       {
                         "id": "prefabrikkerteStålkonstruksjoner.cell.brannmotstandValue",
                         "type": "Cell",
-                        "text": "Hvor mye en stålkonstruksjon vil motstå brann- og varmeutvikling i tilfelle brann. Brannmotstanden kan beregnes etter Eurokoder. Uttrykkes som en klasse. <br/><em>eks. NPD</em>"
+                        "text": "Hvor mye en stålkonstruksjon vil motstå brann- og varmeutvikling i tilfelle brann. Brannmotstanden kan beregnes etter Eurokoder. Uttrykkes som en klasse (EI + antall minutter)."
                       }
                     ],
                     [
@@ -1127,7 +1115,7 @@
                       {
                         "id": "påhengsfasader.cell.vindlastValue",
                         "type": "Cell",
-                        "text": "Påhengsfasadens evne til å motstå forskjellen mellom innvendig og utvendig lufttrykk, både positivt og negativt, uten varig deformasjon. Uttrykkes ved verdi i kN/m<sup>2</sup>. <br/><em>eks. ±1.2 kN/m<sup>2</em>"
+                        "text": "Påhengsfasadens evne til å motstå forskjellen mellom innvendig og utvendig lufttrykk, både positivt og negativt, uten varig deformasjon. Uttrykkes ved verdi i kN/m<sup>2</sup>. <br/><em>eks. positivt trykk 1.2 kN/m<sup>2</em> og eks. negativt trykk -1.2 kN/m<sup>2</sup>"
                       }
                     ],
                     [
@@ -1139,7 +1127,7 @@
                       {
                         "id": "påhengsfasader.cell.snølastValue",
                         "type": "Cell",
-                        "text": "Påhengsfasadens evne til å motstå snølast. Uttrykkes ved verdi i kN/m<sup>2</sup>. <br/><em>eks. 4H-14-33.1</em>"
+                        "text": "Påhengsfasadens evne til å motstå snølast. Uttrykkes ved verdi i kN/m<sup>2</sup>."
                       }
                     ],
                     [
@@ -1212,18 +1200,6 @@
                         "id": "påhengsfasader.cell.brannmotstandValue",
                         "type": "Cell",
                         "text": "Påhengsfasadens evne til å motstå varme- og røykutviklingen ved brann. Utrykkes som en klasse (EI) og antall minutter, hvor E er integritet og I er isolasjon. <br/><em>eks. EI30</em>"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "påhengsfasader.cell.brannspredning",
-                        "type": "Cell",
-                        "text": "<strong>Motstand mot brannspredning mot øvre deler</strong>"
-                      },
-                      {
-                        "id": "påhengsfasader.cell.brannspredningValue",
-                        "type": "Cell",
-                        "text": "Hvordan vil påhengsfasaden motstå varme- og røykutviklingen mot øve deler ved brann. Utrykkes som en klasse (EI) og antall minutter, hvor E er integritet og I er isolasjon. <br/><em>eks. EI30</em>"
                       }
                     ],
                     [
@@ -1550,19 +1526,19 @@
                       {
                         "id": "sandwitchelementer.cell.varmegjennomgangskoeffisientValue",
                         "type": "Cell",
-                        "text": "U-verdien angir den mengden varme som per tidsenhet passerer en kvadratmeter av konstruksjonen, ved en temperaturforskjell på én kelvin (eller én grad celsius) mellom konstruksjonens to sider. Uttrykkes ved en verdi. <br/><em>eks. 0,22</em>"
+                        "text": "U-verdien angir den mengden varme som per tidsenhet passerer en kvadratmeter av konstruksjonen, ved en temperaturforskjell på én kelvin (eller én grad celsius) mellom konstruksjonens to sider. U-verdien måles i W/(m<sup>2</sup>K) og utrykkes ved en verdi. <br/><em>eks. 1,1 W/(m<sup>2</sup>K)</em>"
                       }
                     ],
                     [
                       {
                         "id": "sandwitchelementer.cell.konduktivitet",
                         "type": "Cell",
-                        "text": "<strong>Termisk konduktivitet (varmeledningsevne)</strong>"
+                        "text": "<strong>Termisk konduktivitet av kjernematerialet (varmeledningsevne)</strong>"
                       },
                       {
                         "id": "sandwitchelementer.cell.konduktivitetValue",
                         "type": "Cell",
-                        "text": "Sandwichelementets evne til å lede varme ved termisk konduksjon. Uttrykkes ved en verdi. <br/><em>eks. 0.040 W/mK</em>"
+                        "text": "Kjernematerialets evne til å lede varme ved termisk konduktivitet. Uttrykkes ved en verdi. <br/><em>eks. 0.040 W/mK</em>"
                       }
                     ],
                     [
@@ -1629,12 +1605,12 @@
                       {
                         "id": "sandwitchelementer.cell.luftlydisolasjon",
                         "type": "Cell",
-                        "text": "<strong>Luftlydisolasjon R<sub>w</sub> (C; C<sub>tr</sub>)</strong>"
+                        "text": "<strong>Lydisolasjon</strong>"
                       },
                       {
                         "id": "sandwitchelementer.cell.luftlydisolasjonValue",
                         "type": "Cell",
-                        "text": "Evne til å isolere den innvendige delen mot direkte luftbårne ekstern støy. Uttrykkes ved en verdi. eks. 30 (-3;-5)"
+                        "text": "Evne til å isolere mot direkte luftbårne ekstern støy. Måles i dB. Uttrykkes med en verdi.<br/><em>eks. 47 (-2;5) dB</em>"
                       }
                     ],
                     [
@@ -1741,30 +1717,6 @@
                     ],
                     [
                       {
-                        "id": "takbelegg.cell.eksternBrann",
-                        "type": "Cell",
-                        "text": "<strong>Egenskap ved ekstern brannpåvirkning</strong>"
-                      },
-                      {
-                        "id": "takbelegg.cell.eksternBrannValue",
-                        "type": "Cell",
-                        "text": "Hvordan vil takbelegget reagere ved brann som kommer utenfra. Uttrykkes ved en klasse. <br/><em>eks. F<sub>roof</sub> (T2)</em>"
-                      }
-                    ],
-                    [
-                      {
-                        "id": "takbelegg.cell.stivhet",
-                        "type": "Cell",
-                        "text": "<strong>Brannpåvirkning</strong>"
-                      },
-                      {
-                        "id": "takbelegg.cell.stivhetValue",
-                        "type": "Cell",
-                        "text": "Takbeleggets påvirkning til varme- og røykutviklingen ved brann. Uttrykkes ved en klasse. <br/><em>eks. Klasse F</em>"
-                      }
-                    ],
-                    [
-                      {
                         "id": "takbelegg.cell.vanntetthet",
                         "type": "Cell",
                         "text": "<strong>Vanntetthet ved 10 kPa</strong>"
@@ -1772,7 +1724,7 @@
                       {
                         "id": "takbelegg.cell.vanntetthetValue",
                         "type": "Cell",
-                        "text": "Takbeleggets evne til å motstå at vann trenger inn gjennom takbelegget. Uttrykkes ved en verdi i N/50mm. <br/><em>eks. Bestått</em>"
+                        "text": "Takbeleggets evne til å motstå at vann trenger inn gjennom takbelegget. Uttrykkes ved bestått / ikke bestått <br/><em>eks. Bestått</em>"
                       }
                     ],
                     [
@@ -1882,6 +1834,30 @@
                         "type": "Cell",
                         "text": "Hvor mye beholder takbelegget smidighet ved kulde etter kunstig varmealdring. Uttrykkes ved en verdi i antall grader °C. <br/><em>eks. ≦ - 15 °C</em>"
                       }
+                    ],
+                    [
+                      {
+                        "id": "takbelegg.cell.eksternBrann",
+                        "type": "Cell",
+                        "text": "<strong>Egenskap ved ekstern branneksponering</strong>"
+                      },
+                      {
+                        "id": "takbelegg.cell.eksternBrannValue",
+                        "type": "Cell",
+                        "text": "Hvordan vil takbelegget reagere ved brann som kommer utenfra. Uttrykkes ved en klasse. <br/><em>eks. F<sub>roof</sub> (T2)</em>"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "takbelegg.cell.stivhet",
+                        "type": "Cell",
+                        "text": "<strong>Brannpåvirkning</strong>"
+                      },
+                      {
+                        "id": "takbelegg.cell.stivhetValue",
+                        "type": "Cell",
+                        "text": "Takbeleggets påvirkning til varme- og røykutviklingen ved brann. Uttrykkes ved en klasse. <br/><em>eks. Klasse F</em>"
+                      }
                     ]
                   ]
                 }
@@ -1966,18 +1942,6 @@
                     ],
                     [
                       {
-                        "id": "takstoler.cell.egenskapSpikerfast",
-                        "type": "Cell",
-                        "text": "<strong>Eller: Egenskaper spikerfast / til spikerfase</strong>"
-                      },
-                      {
-                        "id": "takstoler.cell.egenskapSpikerfastValue",
-                        "type": "Cell",
-                        "text": "Karakteristisk kapasitet ved tverrbelastning. Dokumenteres etter NS-EN 14545. Uttrykkes ved en verdi. <br/><em>eks. 1,50 kN</em>"
-                      }
-                    ],
-                    [
-                      {
                         "id": "takstoler.cell.biologiskeAngrep",
                         "type": "Cell",
                         "text": "<strong>Motstand mot biologiske angrep</strong>"
@@ -2030,7 +1994,7 @@
                       {
                         "id": "fasadekledningMetall.cell.egenskaperTilMetallplaterValue",
                         "type": "Cell",
-                        "text": "Beskrivelse av metallplaten som er brukt i fasadekledningen. Uttrykkes ved en beskrivelse av stålplatens kvalitet og dimensjoner. <br/><em>eks. Stålplater – 2 000 mm X 3 000 mm X 0,63 mm DX52D+Z275 (stålnummer) Polyester 25 ųm – NS-EN 505)</em>"
+                        "text": "Uttrykkes ved en beskrivelse av stålplatens kvalitet, dimensjon og profil. <br/><em>eks. Stålplater – 2 000 mm X 3 000 mm X 0,63 mm DX52D+Z275 (stålnummer) Polyester 25 ųm – NS-EN 505)</em>"
                       }
                     ],
                     [
@@ -2049,12 +2013,12 @@
                       {
                         "id": "fasadekledningMetall.cell.brannmotstand",
                         "type": "Cell",
-                        "text": "<strong>Ekstern brannegenskap (brannmotstand)</strong>"
+                        "text": "<strong>Brannklassifisering ved utvendig branneksponering</strong>"
                       },
                       {
                         "id": "fasadekledningMetall.cell.brannmotstandValue",
                         "type": "Cell",
-                        "text": "(Gjelder bruk for tak) Fasadekledningens brannegenskaper ved brann som kommer utenfra. Uttrykkes ved en klasse. <br/><em>eks. klasse B<sub>roof </sub>(t1)</em>"
+                        "text": "Fasadekledningens brannegenskaper ved brann som kommer utenfra. Uttrykkes ved en klasse. <br/><em>eks. ved bruk for tak: klasse B<sub>roof </sub>(t1)</em>"
                       }
                     ],
                     [
@@ -2140,18 +2104,6 @@
                     ],
                     [
                       {
-                        "id": "veggelement.cell.strekkspenning",
-                        "type": "Cell",
-                        "text": "<strong>Stålets strekkspenning (forspent armering)</strong>"
-                      },
-                      {
-                        "id": "veggelement.cell.strekkspenningValue",
-                        "type": "Cell",
-                        "text": "Verdi for spenning oppnådd ved første fall i bruddlast under strekkprøving. Uttrykkes ved en verdi. <br/><em>eks. fp0,tk = 1640 N/mm<sup>2</sup></em>"
-                      }
-                    ],
-                    [
-                      {
                         "id": "veggelement.cell.brannpåvirkning",
                         "type": "Cell",
                         "text": "<strong>Brannpåvirkning</strong>"
@@ -2171,7 +2123,7 @@
                       {
                         "id": "veggelement.cell.brannmotstandValue",
                         "type": "Cell",
-                        "text": "Veggelements evene til å motstå brann- og varmeutvikling ved brann. Uttrykkes ved en klasse. <br/><em>eks. Klasse E</em>"
+                        "text": "Veggelements evene til å motstå brann- og varmeutvikling ved brann. Uttrykkes ved en klasse. <br/><em>eks. EI 60</em>"
                       }
                     ]
                   ]
@@ -2345,7 +2297,7 @@
                       {
                         "id": "vindu.cell.uverdiValue",
                         "type": "Cell",
-                        "text": "Dette beskriver vinduets varmeisolerende evne. Måles i W/(m<sup>2</sup>K) og uttrykkes med en verdi <br/><em>eks. 1,1 W/(m<sup>2</sup>K)</em>"
+                        "text": "Dette beskriver vinduets varmeisolerende evne. U-verdien måles i W/(m<sup>2</sup>K) og uttrykkes med en verdi <br/><em>eks. 1,1 W/(m<sup>2</sup>K)</em>"
                       }
                     ],
                     [
