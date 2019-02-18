@@ -259,7 +259,7 @@
                       {
                         "id": "hulldekkeelementer.cell.strekkspenningForspentValue",
                         "type": "Cell",
-                        "text": "Verdi for spenning oppnådd ved første fall i bruddlast under strekkprøving. Angis med en verdi. <br/>eks. fp0,tk = 1640 N/mm<sup>2</sup></em>"
+                        "text": "Verdi for spenning oppnådd ved første fall i bruddlast under strekkprøving. Angis med en verdi. <br/><em>eks. fp0,tk = 1640 N/mm<sup>2</sup></em>"
                       }
                     ],
                     [
@@ -609,7 +609,7 @@
                       {
                         "id": "trapp.cell6",
                         "type": "Cell",
-                        "text": "<strong>Sikkerhet ved bruk - netto vertival åpning</strong>"
+                        "text": "<strong>Sikkerhet ved bruk - netto vertikal åpning</strong>"
                       },
                       {
                         "id": "trapp.cell6value",
@@ -707,7 +707,7 @@
                       {
                         "id": "prefabrikkerteStålkonstruksjoner.cell.bæreevneValue",
                         "type": "Cell",
-                        "text": "Benyttes for materialer som er ment å tåle en viss vektmessig belastning. Uttrykkes som en beskrivelse. eks. Prosjektert i samsvar med NS-En 1993-1, se vedlagt prosjekteringsgrunnlag og konstruksjonsberegningen"
+                        "text": "Benyttes for materialer som er ment å tåle en viss vektmessig belastning. Uttrykkes som en beskrivelse.<br><em>eks. Prosjektert i samsvar med NS-En 1993-1, se vedlagt prosjekteringsgrunnlag og konstruksjonsberegningen</em>"
                       }
                     ],
                     [
@@ -767,7 +767,7 @@
                       {
                         "id": "prefabrikkerteStålkonstruksjoner.cell.bestandighetValue",
                         "type": "Cell",
-                        "text": "Krav til korrosjonsbeskyttelse. Uttrykkes som en beskrivelse. eks. Overflatebehandling i samsvar med NS-EN 1090-2, rengjøringsgrad P3. Overflate malt i samsvar med NS-EN-ISO 12944-5"
+                        "text": "Krav til korrosjonsbeskyttelse. Uttrykkes som en beskrivelse.<br><em>eks. Overflatebehandling i samsvar med NS-EN 1090-2, rengjøringsgrad P3. Overflate malt i samsvar med NS-EN-ISO 12944-5</em>"
                       }
                     ]
                   ]
@@ -862,7 +862,7 @@
                       {
                         "id": "byggmodulerITre.cell6value",
                         "type": "Cell",
-                        "text": "Måler trykket. Uttrykkes med en klasse. eks. RA (150)"
+                        "text": "Måler trykket. Uttrykkes med en klasse.<br><em>eks. RA (150)</em>"
                       }
                     ],
                     [
@@ -874,7 +874,7 @@
                       {
                         "id": "byggmodulerITre.cell7value",
                         "type": "Cell",
-                        "text": "Hvor mye vann i gassform trenger inn vindsperren. Uttrykkes ved en verdi (SD-verdi) i m. eks. < 0,04"
+                        "text": "Hvor mye vann i gassform trenger inn vindsperren. Uttrykkes ved en verdi (SD-verdi) i m.<br><em>eks. < 0,04</em>"
                       }
                     ],
                     [
@@ -910,7 +910,7 @@
                       {
                         "id": "byggmodulerITre.cell10value",
                         "type": "Cell",
-                        "text": "Måler trykket (Pa). Uttrykkes med en klasse. eks. A1 (150)"
+                        "text": "Måler trykket (Pa). Uttrykkes med en klasse.<br><em>eks. A1 (150)</em>"
                       }
                     ],
                     [
@@ -1110,7 +1110,7 @@
                       {
                         "id": "påhengsfasader.cell.vindlastValue",
                         "type": "Cell",
-                        "text": "Påhengsfasadens evne til å motstå forskjellen mellom innvendig og utvendig lufttrykk, både positivt og negativt, uten varig deformasjon. Uttrykkes ved verdi i kN/m<sup>2</sup>. <br/><em>eks. positivt trykk 1.2 kN/m<sup>2</em> og eks. negativt trykk -1.2 kN/m<sup>2</sup>"
+                        "text": "Påhengsfasadens evne til å motstå forskjellen mellom innvendig og utvendig lufttrykk, både positivt og negativt, uten varig deformasjon. Uttrykkes ved verdi i kN/m<sup>2</sup>.<br/><em>eks. positivt trykk 1.2 kN/m<sup>2</sup> og eks. negativt trykk -1.2 kN/m<sup>2</sup></em>"
                       }
                     ],
                     [
@@ -1440,7 +1440,7 @@
                       {
                         "id": "ror.cell.holdbarhetValue",
                         "type": "Cell",
-                        "text": "Hvor lenge vil rør i betong beholde sine egenskaper uten forringelse. Uttykkes ved en beskrivelse. <br/><em>eks. Mer enn 100 års holdbarhet</em>"
+                        "text": "Hvor lenge vil rør i betong beholde sine egenskaper uten forringelse. Uttrykkes ved en beskrivelse. <br/><em>eks. Mer enn 100 års holdbarhet</em>"
                       }
                     ]
                   ]
@@ -1674,7 +1674,7 @@
                       {
                         "id": "konstruksjonsvirke.cell.brannmotstandValue",
                         "type": "Cell",
-                        "text": "(Gjelder bruk for tak:) Fasadekledningens brannegenskaper ved brann som kommer utenfra."
+                        "text": "(Gjelder bruk for tak) Fasadekledningens brannegenskaper ved brann som kommer utenfra."
                       }
                     ],
                     [
@@ -1743,7 +1743,7 @@
                       {
                         "id": "takbelegg.cell.forlengelseValue",
                         "type": "Cell",
-                        "text": "Økning av materiales lengde når strekkes. Hvor mye kan takbelegget strekkes uten å miste sin elastisitet. Uttykkes ved en verdi i %. <br/><em>eks. 40 / 40 ± 10</em>"
+                        "text": "Økning av materiales lengde når strekkes. Hvor mye kan takbelegget strekkes uten å miste sin elastisitet. Uttrykkes ved en verdi i %. <br/><em>eks. 40 / 40 ± 10</em>"
                       }
                     ],
                     [
