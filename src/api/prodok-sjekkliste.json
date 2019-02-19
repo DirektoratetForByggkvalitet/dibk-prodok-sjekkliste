@@ -1937,18 +1937,6 @@
                     ],
                     [
                       {
-                        "id": "takstoler.cell.biologiskeAngrep",
-                        "type": "Cell",
-                        "text": "<strong>Motstand mot biologiske angrep</strong>"
-                      },
-                      {
-                        "id": "takstoler.cell.biologiskeAngrepValue",
-                        "type": "Cell",
-                        "text": "Motstand mot biologiske angrep. Dokumenteres etter NS-EN 350-2. Uttrykkes ved en klasse. <br/><em>eks. Holdbarhetsklasse 5</em>"
-                      }
-                    ],
-                    [
-                      {
                         "id": "takstoler.cell.brannpåvirkning",
                         "type": "Cell",
                         "text": "<strong>Brannpåvirkning</strong>"
@@ -3152,7 +3140,7 @@
           "property": "frivilligCE",
           "type": "Radio",
           "heading": "Har produktet en ETA?",
-          "text": "<p>Det er ikke alle byggevarer som har krav om CE-merke. Dette gjelder byggevarer som ikke er omfattet av en såkalt harmonisert produktstandard for å dokumentere varens ytelser.</p><p>Da kan produsenten velge å CE-merke sine byggevarer ved å skaffe seg en europeisk teknisk godkjenning (ETA). Dette er helt frivillig. Fordelen er at produsenten fritt kan selge sitt produkt i hele EU/EØS-området.</p><h3>Hvordan skaffer jeg en ETA?</h3><ol><li>En produsent spør et <a href='https://www.eota.eu/en-GB/content/how-to-find-a-tab/55/' target='_blank'>teknisk bedømmelsesorgan</a> om de kan lage en europeisk teknisk bedømmelse (ETA) for produktet sitt.</li><li>En ETA utarbeides på grunnlag av et eksisterende <a href='https://www.eota.eu/en-GB/content/eads/56/' target='_blank'>europeisk bedømmelsesdokument</a> (EAD). Om en EAD ikke finnes fra før, må det tekniske bedømmelsesorganet utarbeide en ny. </li><li>Ytelseserklæring utarbeides på bakgrunn av ETA-en. </li></ol>",
+          "text": "<p>Det er ikke alle byggevarer som har krav om CE-merke. Dette gjelder byggevarer som ikke er omfattet av en såkalt harmonisert produktstandard for å dokumentere varens ytelser.</p><p>Da kan produsenten velge å CE-merke sine byggevarer ved å skaffe seg en europeisk teknisk godkjenning (ETA). Dette er helt frivillig. Fordelen er at produsenten fritt kan selge sitt produkt i hele EU/EØS-området.</p><h3>Hvordan skaffer jeg en ETA?</h3><ol><li>En produsent spør et <a href='https://www.eota.eu/en-GB/content/how-to-find-a-tab/55/' target='_blank'>teknisk bedømmelsesorgan</a> om de kan lage en europeisk teknisk bedømmelse (ETA) for produktet sitt.</li><li>En ETA utarbeides på grunnlag av et eksisterende <a href='https://www.eota.eu/en-GB/content/eads/56/' target='_blank'>europeisk bedømmelsesdokument</a> (EAD). Om en EAD ikke finnes fra før, må det tekniske bedømmelsesorganet utarbeide en ny. </li><li>Ytelseserklæring og CE-merke utarbeides på bakgrunn av ETA-en.</li></ol>",
           "show": {
             "type": "or",
             "clauses": [
@@ -3480,7 +3468,7 @@
           "property": "hasYtelseserklaering",
           "type": "Radio",
           "heading": "Har produktet en ytelseserklæring?",
-          "text": "<p>Ytelseserklæringen er et dokument som er laget og undertegnet av produsenten. Hovedformålet med dokumentet er at produsentene skal deklarere den viktigste informasjonen om sitt produkt, spesielt produktets viktigste egenskaper og ytelser.</p><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p><p><a href=\"https://dibk.no/globalassets/temaveiledninger/produktdokumentasjon/produktdokumentasjon_kortversjon/ytelseserklaring_generell_3-7.png\" target=\"_blank\">Mal for ytelseserklæring</a> (åpnes i nytt vindu).</p><p>Dokumentet kan ha flere ulike titler. På svensk heter dokumentet “prestandadeklaration”, på dansk “ydeevnedeklaration”, på tysk “Leistungserklärung” og på engelsk “Declaration of performance”.</p>",
+          "text": "<p>Ytelseserklæringen er et dokument som er laget og undertegnet av produsenten. Hovedformålet med dokumentet er at produsentene skal deklarere den viktigste informasjonen om sitt produkt, spesielt produktets viktigste egenskaper og ytelser.</p><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p><p><a href=\"https://dibk.no/globalassets/temaveiledninger/produktdokumentasjon/produktdokumentasjon_kortversjon/ytelseserklaring_generell_3-7.png\" target=\"_blank\">Eksempel på ytelseserklæring</a> (åpnes i nytt vindu).</p><p>Dokumentet kan ha flere ulike titler. På svensk heter dokumentet “prestandadeklaration”, på dansk “ydeevnedeklaration”, på tysk “Leistungserklärung” og på engelsk “Declaration of performance”.</p>",
           "options": [
             {
               "id": "hasYtelseserklaering.ja",
