@@ -65,7 +65,6 @@
         { "field": "produktType", "operator": "eq", "value": "fasadekledningMetall" },
         { "field": "produktType", "operator": "eq", "value": "veggelement" },
         { "field": "produktType", "operator": "eq", "value": "ror" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" },
         { "field": "produktType", "operator": "eq", "value": "element" },
         { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
@@ -3875,18 +3874,23 @@
         }
       ]
     },
-
     {
       "id": "bruksanvisning",
       "type": "Page",
       "heading": "Bruksanvisning",
       "show": {
-        "type": "or",
+        "type": "and",
         "clauses": [
-          { "field": "egenskaperBeskrevet", "operator": "required" },
-          { "field": "hasCE", "operator": "required" },
-          { "field": "egenskaperBeskrevetDokumentasjon", "operator": "required" },
-          { "field": "hasDokumentasjon", "operator": "eq", "value": false }
+          { "field": "produktType", "operator": "neq", "value": "styrkesortertKonstruksjonsvirke" },
+          {
+            "type": "or",
+            "clauses": [
+              { "field": "egenskaperBeskrevet", "operator": "required" },
+              { "field": "hasCE", "operator": "required" },
+              { "field": "egenskaperBeskrevetDokumentasjon", "operator": "required" },
+              { "field": "hasDokumentasjon", "operator": "eq", "value": false }
+            ]
+          }
         ]
       },
       "children": [
@@ -3965,6 +3969,29 @@
           "nodeId": "resultAltOK"
         }
       ]
+    },
+    {
+      "type": "Reference",
+      "nodeId": "resultAltOK",
+      "show": {
+        "type": "and",
+        "clauses": [
+          {
+            "field": "produktType",
+            "operator": "eq",
+            "value": "styrkesortertKonstruksjonsvirke"
+          },
+          {
+            "type": "or",
+            "clauses": [
+              { "field": "egenskaperBeskrevet", "operator": "required" },
+              { "field": "hasCE", "operator": "required" },
+              { "field": "egenskaperBeskrevetDokumentasjon", "operator": "required" },
+              { "field": "hasDokumentasjon", "operator": "eq", "value": false }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
