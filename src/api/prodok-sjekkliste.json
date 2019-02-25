@@ -86,7 +86,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.brannsikkerFugemasse",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om fugemassens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om fugemassens viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -179,7 +179,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.hulldekkeelementer",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om elementets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om elementets viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -296,7 +296,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.laminertglass",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om glassets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om glassets viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -461,7 +461,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.prefabrikkertBaderomsmodul",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om baderomsmodulens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om baderomsmodulens viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "summary": "Eksempler på komponenter (vil variere)",
                   "details": "<ul><li>Vegger</li><li>Tak</li><li>Gulv</li><li>Gulvmembran</li><li>Fleksible slanger</li><li>Tetting veggkassetter / gulvramme</li><li>Påstrykningsmembran</li><li>Rør-i-rør-system</li><li>Sluk</li><li>Slukmansjett</li><li>Tettebånd rundt gjennomføring i vegg</li><li>Fliser</li><li>Flislim</li><li>Fugemørtel</li><li>WC</li><li>WC siterne</li><li>Tappearmaturer</li></ul>",
                   "type": "Table",
@@ -532,7 +532,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.trapp",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om trappens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om trappens viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "summary": "Eksempler på komponenter (vil variere)",
                   "details": "<ul><li>Inntrinn</li><li>Opptrinn</li><li>Barnesikringslist</li><li>Midtstenger</li><li>Håndlist</li><li>Bolter</li><li>Festemidler</li><li>Glass</li></ul>",
                   "type": "Table",
@@ -639,7 +639,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.prefabrikkerteStålkonstruksjoner",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om stålkonstruksjonens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet. Det er opp til produsenten å velge egenskapene som skal deklareres.</p>",
+                  "text": "<p>Informasjon om stålkonstruksjonens viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet. Det er opp til produsenten å velge egenskapene som skal deklareres.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -780,7 +780,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.byggmodulerITre",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om den prefabrikkerte byggmodulens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet. Det er opp til produsenten å velge egenskapene som skal deklareres.</p>",
+                  "text": "<p>Informasjon om den prefabrikkerte byggmodulens viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet. Det er opp til produsenten å velge egenskapene som skal deklareres.</p>",
                   "summary": "Eksempler på komponenter (vil variere)",
                   "details": "<ul><li>Trevirke</li><li>Undergulv</li><li>Underlagsplater</li><li>Parkett</li><li>Vinyl</li><li>Innvendig underkledning </li><li>Modulskillevegger</li><li>Lydvegg, mot hulrom</li><li>Varmeisolasjon </li><li>Lydisolerende oppleggsklosser</li><li>Dampsperre</li><li>Vindsperre</li><li>Taktekning </li><li>Kledning under modul</li><li>Kledning mot overliggende modul</li></ul>",
                   "type": "Table",
@@ -935,7 +935,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.prefabrikkerteStålkonstruksjoner",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om den prefabrikkerte byggmodulens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet. Det er opp til produsenten å velge egenskapene som skal deklareres.</p>",
+                  "text": "<p>Informasjon om den prefabrikkerte byggmodulens viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet. Det er opp til produsenten å velge egenskapene som skal deklareres.</p>",
                   "summary": "Eksempler på komponenter (vil variere)",
                   "details": "<ul><li>Stålprofiler</li><li>Tynnplateprofiler</li><li>Trevirke</li><li>Undergulv</li><li>Varmeisolasjon</li><li>Brannisolering av stålprofiler</li><li>Dampsperre</li><li>Vindsperre</li><li>Fugetetting</li><li>Tetting av gjennom føringer i brannskiller</li><li>Innvendig kledning</li><li>Himling i etasjeskiller over fundament</li><li>Monteringslim</li><li>Spiker/skruer</li><li>Opplagersjikt mellom moduler</li><li>Geotekstil under isolasjon</li></ul>",
                   "type": "Table",
@@ -1090,7 +1090,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.påhengsfasader",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om påhengsfasadens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om påhengsfasadens viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1219,7 +1219,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.radonmembran",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om radonmembranens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om radonmembranens viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1372,7 +1372,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.ror",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om rørets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om rørets viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1453,7 +1453,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.sandwitchelementer",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om sandwichelementets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om sandwichelementets viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1630,7 +1630,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.konstruksjonsvirke",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om konstruksjonsvirkets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om konstruksjonsvirkets viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1699,7 +1699,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.takbelegg",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om takbeleggets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om takbeleggets viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1864,7 +1864,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.takstoler",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om takstolens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om takstolens viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1957,7 +1957,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.fasadekledningMetall",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om fasadekledningens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om fasadekledningens viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2026,7 +2026,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.veggelement",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om veggelementets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om veggelementets viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2119,7 +2119,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.vindsperre",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om vindsperrens viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om vindsperrens viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2260,7 +2260,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.vindu",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om vinduets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "text": "<p>Informasjon om vinduets viktigste egenskaper og ytelser skal inngå. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -3402,37 +3402,50 @@
           ]
         },
         {
-          "id": "egenskaperBeskrevetDokumentasjon",
-          "property": "egenskaperBeskrevetDokumentasjon",
-          "type": "Radio",
-          "heading": "Er de viktigste egenskapene beskrevet i erklæringen?",
+          "id": "egenskaperBeskrevetDokumentasjonGroup",
+          "type": "Group",
+          "simple": false,
+          "heading": "Noen av produktets viktigste egenskaper",
           "show": { "field": "hvilketSystemDokumentasjon", "operator": "required" },
-          "options": [
-            {
-              "id": "egenskaperBeskrevetDokumentasjon.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
-            },
-            {
-              "id": "egenskaperBeskrevetDokumentasjon.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
-        },
-        {
-          "id": "egenskaperBeskrevetDokumentasjon.error",
-          "type": "Error",
-          "show": { "field": "egenskaperBeskrevetDokumentasjon", "operator": "eq", "value": false },
           "children": [
             {
-              "id": "egenskaperBeskrevetDokumentasjon.msg",
-              "type": "Text",
-              "warning": true,
-              "heading": "Produktdokumentasjonen må beskrive de viktigste egenskapene",
-              "text": "<p>Produsenten må påse at de viktigste egenskapene til produktet står i produktdokumentasjonen.</p>"
+              "type": "Reference",
+              "nodeId": "ytelseserklaringTabell"
+            },
+            {
+              "id": "egenskaperBeskrevetDokumentasjon",
+              "property": "egenskaperBeskrevetDokumentasjon",
+              "type": "Radio",
+              "heading": "Er de viktigste egenskapene beskrevet i erklæringen?",
+              "show": { "field": "hvilketSystemDokumentasjon", "operator": "required" },
+              "options": [
+                {
+                  "id": "egenskaperBeskrevetDokumentasjon.ja",
+                  "type": "Answer",
+                  "heading": "Ja",
+                  "value": true
+                },
+                {
+                  "id": "egenskaperBeskrevetDokumentasjon.nei",
+                  "type": "Answer",
+                  "heading": "Nei",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": "egenskaperBeskrevetDokumentasjon.error",
+              "type": "Error",
+              "show": { "field": "egenskaperBeskrevetDokumentasjon", "operator": "eq", "value": false },
+              "children": [
+                {
+                  "id": "egenskaperBeskrevetDokumentasjon.msg",
+                  "type": "Text",
+                  "warning": true,
+                  "heading": "Produktdokumentasjonen må beskrive de viktigste egenskapene",
+                  "text": "<p>Produsenten må påse at de viktigste egenskapene til produktet står i produktdokumentasjonen.</p>"
+                }
+              ]
             }
           ]
         }
