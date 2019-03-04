@@ -81,6 +81,161 @@
           "type": "Branch",
           "branches": [
             {
+              "test": { "field": "produktType", "operator": "eq", "value": "element" },
+              "children": [
+                {
+                  "id": "ytelseserklaringTabell.element",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om elementets viktigste egenskaper og ytelser. Vi har listet opp <strong>eksempler på disse egenskapene</strong> under, men ikke alle. Det er opp til produsenten å velge egenskapene som skal deklareres.</p><p>NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
+                  "summary": "Eksempler på komponenter (vil variere)",
+                  "details": "<ul><li>Konstruksjonsvirke</li><li>Undergulv</li><li>Underlagsplater</li><li>Innvendig underkledning </li><li>Vinduer</li><li>Varmeisolasjon</li><li>Dampsperre</li><li>Vindsperre</li><li>Taktekning</li><li>Kledning</li></ul>",
+                  "type": "Table",
+                  "simple": true,
+                  "cells": [
+                    [
+                      {
+                        "id": "element.heading",
+                        "type": "Heading",
+                        "colSpan": 2,
+                        "text": "Produktegenskaper"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "element.cell.01",
+                        "type": "Cell",
+                        "text": "<strong>Bæreevne</strong>"
+                      },
+                      {
+                        "id": "element.cell.01Value",
+                        "type": "Cell",
+                        "text": "Dimensjonerende lastkapasitet."
+                      }
+                    ],
+                    [
+                      {
+                        "id": "element.cell.02",
+                        "type": "Cell",
+                        "text": "<strong>Nyttelastkapasiteten til etasjeskiller</strong>"
+                      },
+                      {
+                        "id": "element.cell.02Value",
+                        "type": "Cell",
+                        "text": "Nyttelasten er den belastningen en konstruksjon kan bli belastet med etter at konstruksjonens egenlast er trukket fra."
+                      }
+                    ],
+                    [
+                      {
+                        "id": "element.cell.03",
+                        "type": "Cell",
+                        "text": "<strong>Brannpåvirkning til de ulike komponentene</strong>"
+                      },
+                      {
+                        "id": "element.cell.03Value",
+                        "type": "Cell",
+                        "text": "Brannpåvirkning beskriver hvor mye en byggevare vil bidra til brann og røykutviklingen i tilfelle brann (uttrykkes i form av klasser). Egenskaper ved brannpåvirkning for de enkelte materialer og komponenter skal normalt være klassifisert i henhold NS-EN 13501-1."
+                      }
+                    ],
+                    [
+                      {
+                        "id": "element.cell.04",
+                        "type": "Cell",
+                        "text": "<strong>Brannmotstand</strong>"
+                      },
+                      {
+                        "id": "element.cell.04Value",
+                        "type": "Cell",
+                        "text": "Brannmotstand er byggevarens evne til å motstå brann i en viss periode beregnet i minutter (uttrykkes i form av klasser). Brannmotstanden til de aktuelle bygningsdelene skal være klassifisert i henhold til NS-EN 13501-2 på basis av prøving, eller beregnet i henhold til relevant beregningsstandard (NS-EN 1995-1-2 for trekonstruksjoner)."
+                      }
+                    ],
+                    [
+                      {
+                        "id": "element.cell.05",
+                        "type": "Cell",
+                        "text": "<strong>Ytre brannegenskaper for tak og fasade</strong>"
+                      },
+                      {
+                        "id": "element.cell.05Value",
+                        "type": "Cell",
+                        "text": "Brannpåvirkning (se beskrivelse over) fra ytre kilder herunder spredning av brann i fasade og tak."
+                      }
+                    ],
+                    [
+                      {
+                        "id": "element.cell.06",
+                        "type": "Cell",
+                        "text": "<strong>Vanntetthet</strong>"
+                      },
+                      {
+                        "id": "element.cell.06Value",
+                        "type": "Cell",
+                        "text": "Måler trykket. Uttrykkes med en klasse. eks. RA (150)."
+                      }
+                    ],
+                    [
+                      {
+                        "id": "element.cell.07",
+                        "type": "Cell",
+                        "text": "<strong>Vanndampmotstand til komponenter</strong>"
+                      },
+                      {
+                        "id": "element.cell.07Value",
+                        "type": "Cell",
+                        "text": "Hvor mye vann i gassform trenger inn vindsperren. Uttrykkes ved en verdi (SD-verdi) i m. eks. < 0,04."
+                      }
+                    ],
+                    [
+                      {
+                        "id": "element.cell.08",
+                        "type": "Cell",
+                        "text": "<strong>Emisjon av farlige stoffer fra komponentene</strong>"
+                      },
+                      {
+                        "id": "element.cell.08Value",
+                        "type": "Cell",
+                        "text": "Emisjon til inneluft."
+                      }
+                    ],
+                    [
+                      {
+                        "id": "element.cell.09",
+                        "type": "Cell",
+                        "text": "<strong>Termisk motstand til vegg, gulv, tak</strong>"
+                      },
+                      {
+                        "id": "element.cell.09Value",
+                        "type": "Cell",
+                        "text": "For eksempel U-verdi."
+                      }
+                    ],
+                    [
+                      {
+                        "id": "element.cell.10",
+                        "type": "Cell",
+                        "text": "<strong>Lufttetthet</strong>"
+                      },
+                      {
+                        "id": "element.cell.10Value",
+                        "type": "Cell",
+                        "text": "Måler trykket (Pa). Uttrykkes med en klasse. eks. A1 (150)."
+                      }
+                    ],
+                    [
+                      {
+                        "id": "element.cell.11",
+                        "type": "Cell",
+                        "text": "<strong>Luftlyd- og trinnlydisolasjon</strong>"
+                      },
+                      {
+                        "id": "element.cell.11Value",
+                        "type": "Cell",
+                        "text": "Det er viktig å tenkte på slike målinger mellom boligenheter. Spesielt for elementer som skal monteres i flere etasjer må det normalt foreligge målinger av trinnlyd- og luftlydisolasjon, f.eks. i form av feltmålinger i ferdig bygg eller i pilotbygg. Uttrykkes f.eks. som dB og Ln, w [dB]."
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
               "test": { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
               "children": [
                 {
@@ -2799,6 +2954,16 @@
               }
             },
             {
+              "id": "produktType.element",
+              "type": "Answer",
+              "heading": "Elementer i tre",
+              "value": "element",
+              "image": {
+                "url": "/images/element.png",
+                "alt": "Elementer i tre"
+              }
+            },
+            {
               "id": "produktType.hulldekkeelementer",
               "type": "Answer",
               "heading": "Hulldekkelementer",
@@ -2946,16 +3111,6 @@
               "image": {
                 "url": "/images/vindu_ce.png",
                 "alt": "Vindu med CE-merke"
-              }
-            },
-            {
-              "id": "produktType.element",
-              "type": "Answer",
-              "heading": "Element",
-              "value": "element",
-              "image": {
-                "url": "/images/element.jpg",
-                "alt": "Element"
               }
             },
             {
