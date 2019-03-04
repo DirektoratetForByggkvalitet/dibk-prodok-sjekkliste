@@ -2855,7 +2855,7 @@
                   "id": "hvilketSystem.element",
                   "type": "Text",
                   "heading": "",
-                  "text": "<p>For elementer er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=150597&cpr=Y' target='_blank'>Nando</a>.</p> <h3>For system 2+</h3> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul> <h3>For system 4</h3> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> </ul>",
+                  "text": "<p>For elementer er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=150597&cpr=Y' target='_blank'>Nando</a>.</p> <h3>For system 2+ (lukket element)</h3> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul> <h3>For system 4 (åpent element)</h3> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> </ul>",
                   "show": { "field": "produktType", "operator": "eq", "value": "element" }
                 },
                 {
@@ -3416,6 +3416,16 @@
               "show": { "field": "produktType", "operator": "eq", "value": "annet" }
             },
             {
+              "id": "hvilketSystemElementPreinfoDuplicate",
+              "property": "hvilketSystemElementPreinfoDuplicate",
+              "type": "Text",
+              "text": "<p>Et lukket bygningselement ligger i system 2+. For åpne elementer der alle delprodukter med letthet kan ses og inspiseres på byggeplass, er det tilstrekkelig at produktene dokumenteres hver for seg (system 4). Merk at et element ikke er åpent selv om det er laget mindre åpninger eller laget plass til kanaler og rør.</p>",
+              "show": {
+                "type": "or",
+                "clauses": [{ "field": "produktType", "operator": "eq", "value": "element" }]
+              }
+            },
+            {
               "id": "hvilketSystemDokumentasjon",
               "property": "hvilketSystemDokumentasjon",
               "type": "Radio",
@@ -3722,6 +3732,16 @@
               "heading": "",
               "text": "<p>Hvilket system som skal brukes for den konkrete byggevaren, står i den harmoniserte produktstandarden i vedlegget som heter ZA.2.</p>",
               "show": { "field": "produktType", "operator": "eq", "value": "annet" }
+            },
+            {
+              "id": "hvilketSystemElementPreinfo",
+              "property": "hvilketSystemElementPreinfo",
+              "type": "Text",
+              "text": "<p>Et lukket bygningselement ligger i system 2+. For åpne elementer der alle delprodukter med letthet kan ses og inspiseres på byggeplass, er det tilstrekkelig at produktene dokumenteres hver for seg (system 4). Merk at et element ikke er åpent selv om det er laget mindre åpninger eller laget plass til kanaler og rør.</p>",
+              "show": {
+                "type": "or",
+                "clauses": [{ "field": "produktType", "operator": "eq", "value": "element" }]
+              }
             },
             {
               "id": "hvilketSystem",
