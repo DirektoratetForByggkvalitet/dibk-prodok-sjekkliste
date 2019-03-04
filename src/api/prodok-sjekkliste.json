@@ -3964,7 +3964,7 @@
           "property": "hasCE",
           "type": "Radio",
           "heading": "Har produktet CE-merke?",
-          "text": "<p>Produktet du har valgt krever CE-merking og det skal være festet på produktet. Der det ikke er mulig, skal det være festet på emballasjen eller framgå av papirer som følger med produktet.</p><p><a href=\"https://dibk.no/saksbehandling/kommunalt-tilsyn/temaveiledninger/veiledning-for-kommunalt-tilsyn-med-produktdokumentasjon/3.-regelverket-for-produktdokumentasjon-av-byggevarer/oversikt-over-regelverk-og-begreper/#produktdokumentasjon_av_CE\" target=\"_blank\">Mal for CE-merking</a> (åpnes i nytt vindu).</p>",
+          "text": "<p>Produktet du har valgt krever CE-merking og det skal være festet på produktet. Der det ikke er mulig, skal det være festet på emballasjen eller framgå av papirer som følger med produktet.</p><p><a href=\"https://dibk.no/globalassets/temaveiledninger/produktdokumentasjon/produktdokumentasjon_kortversjon/ce-merking_eksempel_3-7.png\" target=\"_blank\">Mal for CE-merking</a> (åpnes i nytt vindu).</p>",
           "options": [
             {
               "id": "hasCE.ja",
