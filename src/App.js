@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Provider } from 'react-redux';
-import autobind from 'react-autobind';
 
 import { Wizard, StyleProvider, trackEvent, track } from 'losen';
 import data from './api/prodok-sjekkliste.json';
@@ -22,21 +21,17 @@ export default class App extends Component {
 		track(data.meta.name, 'intro', 'Prodok sjekkliste');
 	}
 
-	constructor(props) {
-		super(props);
-		this.state = {
-			intro: true,
-		};
-		autobind(this);
-	}
+  state = {
+    intro: true,
+  }
 
-	closeIntro() {
+	closeIntro = () => {
 		this.setState({ intro: false });
 		window.scrollTo(0, 0);
 		trackEvent('close-intro');
 	}
 
-	showIntro() {
+	showIntro = () => {
 		this.setState({ intro: true });
 		window.scrollTo(0, 0);
 	}
