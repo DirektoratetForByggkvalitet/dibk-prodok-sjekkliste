@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "dev": "npm start",
-    "build": "react-scripts build",
+    "build": "node ./scripts/build.js",
     "deploy": "npm run build && firebase deploy",
     "eject": "react-scripts eject"
   },
@@ -30,5 +30,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "rewire": "^4.0.1"
+  }
 }
