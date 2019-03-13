@@ -3333,7 +3333,7 @@
           "property": "hasDokumentasjon",
           "type": "Radio",
           "heading": "Har produktet dokumentasjon?",
-          "text": "<p>Produsenten skal lage og undertegne produktdokumentasjonen, og tar da ansvar for at produktet har egenskapene de har beskrevet. Det er ingen spesielle krav til navn på dokumentet eller rekkefølgen til informasjonen. Det er imidlertid krav til <em>hva</em> den inneholder.</p><p><a href=\"https://dibk.no/produkter-til-byggverk/byggevareinfo/dokumentasjon-av-byggevarer/dokumentasjonskrav-til-ikke-ce-merkede-byggevarer/\" target=\"_blank\">Mal for produktdokumentasjon</a> (åpnes i nytt vindu).</p>",
+          "text": "<p>Produsenten skal lage og undertegne produktdokumentasjonen, og tar da ansvar for at produktet har egenskapene de har beskrevet. Det er ingen spesielle krav til navn på dokumentet eller rekkefølgen til informasjonen. Det er imidlertid krav til <em>hva</em> den inneholder.</p><p><a href=\"https://dibk.no/byggevarer/krav-til-dokumentasjon/dokumentasjonskrav-til-ikke-ce-merkede-byggevarer/\" target=\"_blank\">Mal for produktdokumentasjon</a> (åpnes i nytt vindu).</p>",
           "options": [
             {
               "id": "hasDokumentasjon.ja",
