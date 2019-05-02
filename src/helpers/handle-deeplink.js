@@ -25,6 +25,11 @@ export default function handleDeeplink({ getState }) {
       produktType
     }).valid
 
+    // set page based on ceValgfri and produktType
+    const page = (ceValgfri || produktType === 'annet')
+      ? 'byggevareOgProdukter'
+      : 'ytelseserklæring';
+
     return next({
       ...action,
       payload: {
@@ -44,12 +49,8 @@ export default function handleDeeplink({ getState }) {
             enteredFromMagicLink: true,
           },
 
-          // set page based on ceValgfri and produktType
-          page: (
-            !ceValgfri
-            ? 'ytelseserklæring'
-            : 'byggevareOgProdukter'
-          )
+          // set page
+          page
         }
       }
     });
