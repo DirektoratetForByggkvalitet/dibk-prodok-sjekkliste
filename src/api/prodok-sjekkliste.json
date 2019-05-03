@@ -2543,40 +2543,6 @@
             ],
             [
               {
-                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell4-1",
-                "type": "Cell",
-                "text": "Åpne veggelementer i tre"
-              },
-              {
-                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell3-2",
-                "type": "Cell",
-                "text": "4"
-              },
-              {
-                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell3-3",
-                "type": "Cell",
-                "text": "ETAG 007"
-              }
-            ],
-            [
-              {
-                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell4-1",
-                "type": "Cell",
-                "text": "Lukkede veggelementer i tre"
-              },
-              {
-                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell4-2",
-                "type": "Cell",
-                "text": "2+"
-              },
-              {
-                "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell4-3",
-                "type": "Cell",
-                "text": "ETAG 007"
-              }
-            ],
-            [
-              {
                 "id": "eksempelTabellForIkkeSpesifikkeProdukter.cell5-1",
                 "type": "Cell",
                 "text": "Påstrykingsmembraner"
@@ -2750,7 +2716,7 @@
                   "id": "hvilketSystem.laminertGlass",
                   "type": "Text",
                   "heading": "",
-                  "text": "<p>For sikkerhetsglass er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=807&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 14449.</p> <h3>For system 1</h3> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul> <h3>For system 3</h3> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
+                  "text": "<p>For sikkerhetsglass er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=807&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 14449 og NS-EN 12150.</p> <h3>For system 1</h3> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul> <h3>For system 3</h3> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
                   "show": { "field": "produktType", "operator": "eq", "value": "laminertGlass" }
                 },
                 {
@@ -2813,7 +2779,7 @@
                   "id": "hvilketSystem.sandwichelementer",
                   "type": "Text",
                   "heading": "",
-                  "text": "<p>For sandwichelementer er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=153240&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 14509.</p><h4>Produsent skal:</h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
+                  "text": "<p>For sandwichelementer er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=153240&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 14509.</p><h4>Produsent skal:</h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
                   "show": { "field": "produktType", "operator": "eq", "value": "sandwichelementer" }
                 },
                 {
