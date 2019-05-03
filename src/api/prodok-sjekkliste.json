@@ -43,6 +43,7 @@
         { "field": "produktType", "operator": "eq", "value": "hulldekkeelementer" },
         { "field": "produktType", "operator": "eq", "value": "element" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" },
+                { "field": "produktType", "operator": "eq", "value": "takbelegg" },
         { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
@@ -51,7 +52,6 @@
       "clauses": [
         { "field": "produktType", "operator": "eq", "value": "vindu" },
         { "field": "produktType", "operator": "eq", "value": "vindsperre" },
-        { "field": "produktType", "operator": "eq", "value": "takbelegg" },
         { "field": "produktType", "operator": "eq", "value": "sandwichelementer" },
         { "field": "produktType", "operator": "eq", "value": "pahengsfasader" },
         { "field": "produktType", "operator": "eq", "value": "laminertGlass" },
@@ -2793,7 +2793,7 @@
                   "id": "hvilketSystem.takbelegg",
                   "type": "Text",
                   "heading": "",
-                  "text": "<p>For takbelegg med asfalt er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=139097&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 13707.</p> <h4>Produsent skal: </h4> <ul> <li>Produksjonskontrollere i fabrikken.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> </ul>",
+                  "text": "<p>For takbelegg med asfalt er det disse oppgavene produsenten og tredjepart har. Her er lenke til kompetente tredjepartsorganene i Europa: <a href='http://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=cp.nb_hs&hs_id=139097&cpr=Y' target='_blank'>Nando</a>. Standarden er NS-EN 13707.</p> <h4>Produsent skal: </h4> <ul> <li>Fastsette produktets ytelser med typeprøving, typeberegning, tabellverdier eller forklarende dokumentasjon for varen.</li> <li>Produksjonskontrollere i fabrikken.</li> <li>Gjøre flere stikkprøver på fabrikken ut fra en prøveplan.</li> </ul> <h4>Tredjepart skal:</h4> <ul> <li>Gjøre en førstegangsinspeksjon av produksjonsanlegget og -kontrollen i fabrikken.</li> <li>Gjøre fortløpende tilsyn, vurderinger og evaluering av produksjonskontrollen i fabrikken.</li> </ul>",
                   "show": { "field": "produktType", "operator": "eq", "value": "takbelegg" }
                 },
                 {
