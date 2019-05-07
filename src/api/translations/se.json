@@ -1,0 +1,12 @@
+{
+  "key": "se",
+  "name": "Svenska",
+  "meta": {
+    "title": "Försäljning av byggvaror"
+  },
+  "tags": {
+    "produktType": {
+      "heading": "Produkttyp"
+    }
+  }
+}

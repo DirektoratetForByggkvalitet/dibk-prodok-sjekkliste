@@ -1,0 +1,15 @@
+{
+  "key": "en",
+  "name": "English",
+  "meta": {
+    "title": "Selling building goods"
+  },
+  "tags": {
+    "produkt": {
+      "heading": "Product"
+    },
+    "produktType": {
+      "heading": "Type of building goods"
+    }
+  }
+}
